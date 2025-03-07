@@ -1,118 +1,143 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
-    "label": "Student",
-    "picture": "https://github.com/kambergjohnson.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2024.",
-    "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "name": "Eyan Documet",
+    "label": "Mechanical Engineering Student",
+    "picture": "https://github.com/eyandocumet.png",
+    "email": "eyan.documet@protonmail.com",
+    "phone": "+1 (310) 480-5366",
+    "website": "https://eyandocumet.xyz",
+    "summary": "Mechanical Engineering student well-versed in mechatronics, energy and electrical systems, programming, simulation, prototyping, and manufacturing. Proven leader and collaborator. Eager to contribute to impactful technologies.",
+    "location": { "address": "", "postalCode": "94703", "city": "Berkeley", "countryCode": "USA", "region": "California" },
     "profiles": [
-      { "network": "github", "username": "mmaluhia", "url": "http://github.com/changeme" },
-      { "network": "linkedin", "username": "mollymaluhia", "url": "http://linkedin.com/in/changeme" },
-      { "network": "twitter", "username": "mollymal", "url": "http://twitter.com/changeme" },
-      { "network": "instagram", "username": "molly", "url": "http://instagram.com/changeme" }
+      { "network": "github", "username": "eyandocumet", "url": "http://github.com/eyandocumet" },
+      { "network": "linkedin", "username": "/in/eyandocumet", "url": "http://linkedin.com/in/eyandocumet" },
+      { "network": "youtube", "username": "@eyandocumet", "url": "https://www.youtube.com/@eyandocumet" }
     ]
   },
   "interests": [
-    { "name": "Interactive media" },
-    { "name": "Neuromorphic Computing" },
-    { "name": "Quantum Computing" },
     { "name": "Robotics" },
-    { "name": "3D Graphics" }
+    { "name": "Green Energy" },
+    { "name": "Design" }
   ],
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly", "Common Lisp" ]
+      "keywords": [ "Python", "MATLAB", "LaTeX", "C", "C++", "Java" ]
     },
     {
-      "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad" ]
+      "name": "CAD/3D Design/Simulation",
+      "keywords": [ "SOLIDWORKS", "Fusion360", "Simulink", "Blender" ]
+    },
+    {
+      "name": "Engineering & Manufacturing",
+      "keywords": [ "Prototyping", "Circuit Design", "Arduino", "ESP32", "Soldering", "Additive Manufacturing", "Subtractive Manufacturing", "CNC" ]
+    },
+    {
+      "name": "Mathematics & Analysis",
+      "keywords": [ "Finite Element Analysis", "Controls Theory", "Dynamics" ]
+    },
+    {
+      "name": "Toolsets and Operating Systems",
+      "keywords": [ "macOS", "Linux", "Windows", "Git/GitHub", "jupyter" ]
     }
   ],
   "education": [
     {
-      "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
+      "institution": "University of California, Berkeley",
+      "area": "Mechanical Engineering",
       "studyType": "B.S.",
-      "startDate": "2013-09-01",
-      "endDate": "Present",
-      "courses": [
-      ]
+      "startDate": "2021-09-01",
+      "endDate": "2025-12-01",
+      "gpa": 3.31
+    },
+    {
+      "institution": "College of the Canyons",
+      "area": "Physics & Mathematics",
+      "studyType": "A.S. for Transfer",
+      "startDate": "2021-01-01",
+      "endDate": "2023-05-01",
+      "gpa": 3.88
     }
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
-      "website": "",
-      "startDate": "2015-08-01",
-      "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "company": "College of the Canyons",
+      "position": "MESA Tutor",
+      "startDate": "2022-04-01",
+      "endDate": "2023-05-01",
+      "summary": "Provided one-on-one tutoring for various STEM courses including calculus, physics, and engineering mechanics.",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
-      ]
-    },
-    {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
-      "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+        "Led biweekly review sessions, improving student understanding and grades in core STEM subjects.",
+        "Developed individualized study plans for students to enhance problem-solving skills and intuition."
       ]
     }
   ],
-  "volunteer": [
+  "extracurriculars": [
     {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
+      "organization": "CalSol",
+      "position": "Rear Suspension Team (Dynamics)",
+      "startDate": "2023-09-01",
       "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
+      "summary": "Design and optimization of rear suspension for solar-powered race car, focusing on dynamic analysis and suspension geometry.",
       "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
+        "Designed and implemented rear suspension systems using SolidWorks and Fusion360.",
+        "Conducted Finite Element Analysis (FEA) to validate structural integrity and minimize weight."
       ]
     },
     {
-      "organization": "",
-      "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
+      "organization": "College of the Canyons Chemistry Club",
+      "position": "Vice President",
+      "startDate": "2023-02-01",
+      "endDate": "2023-06-01",
+      "summary": "Co-led the execution of experimental designs, organized public scientific demonstrations, and managed club logistics.",
       "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
+        "Co-led experimental designs with faculty, ensuring safe and engaging science demos.",
+        "Optimized procurement processes for chemicals and equipment while adhering to safety regulations."
+      ]
+    },
+    {
+      "organization": "Jericho! Improv & Sketch Comedy",
+      "position": "Member",
+      "startDate": "2023-01-01",
+      "endDate": "Present",
+      "summary": "Performing in improv and sketch comedy shows as part of a student troupe.",
+      "highlights": [
+        "Collaborate with team members to write and perform sketches and improv scenes.",
+        "Participate in bi-weekly rehearsals and public performances."
       ]
     }
   ],
   "awards": [
     {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
+      "title": "MESA Outstanding Service Award",
+      "date": "Jun 2023",
+      "awardedBy": "Mathematics Engineering Science Achievement (MESA), College of the Canyons"
     },
     {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
+      "title": "College of the Canyons Honor Roll",
+      "date": "Jan 2023",
+      "awardedBy": "College of the Canyons"
+    },
+    {
+      "title": "ASG Exemplary Student Scholarship",
+      "date": "Jan 2022",
+      "awardedBy": "College of the Canyons Associated Student Government"
+    },
+    {
+      "title": "California State Seal of Biliteracy",
+      "date": "Jan 2021",
+      "awardedBy": "California Department of Education",
+      "summary": "Awarded for completing four years of French classes and passing both the AP French and AP Spanish exams."
     }
   ],
-  "references": [
+  "volunteer": [
     {
-      "name": "Available upon request"
+      "organization": "Santa Monica Family YMCA",
+      "position": "Volunteer",
+      "startDate": "Jul 2019",
+      "endDate": "Aug 2024",
+      "location": "Santa Monica, California, United States",
+      "summary": "Lead and facilitate daily activities as a camp counselor, creating a safe and engaging environment while promoting teamwork among participants. Managed conflicts and ensured compliance with safety regulations."
     }
   ]
 }
