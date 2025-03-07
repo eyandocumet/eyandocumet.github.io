@@ -15,11 +15,14 @@ summary: "An autonomous 3DoF robot designed for fire suppression in hazardous en
 
 <img class="img-fluid" src="../img/pyro/pyro_concept.jpg">
 
-πRo-Bot is an autonomous fire suppression and prevention system, which functions via a 3DoF robotic turret designed to prevent and extinguish fires in hazardous or remote environments. The robot operates in both manual and automatic modes, using a robotic arm to accurately aim and deploy fire retardant at sources of fire. In addition, πRo has the capability to autonomously pre-apply retardant to an area, preventing fires before they spread. The chassis of the robot is modeled in Fusion360, with NEMA17 motors controlling the movement of the arm for precise targeting. The system is powered by an ESP32 board, which uses event-driven programming to control scanning motions, assisted by an IR camera mounted on the barrel for fire detection.
+πRo-Bot is an autonomous fire suppression system featuring a 3DoF robotic turret designed to prevent and extinguish fires in hazardous or remote environments. It operates in both manual and automatic modes, with its arm precisely aiming and deploying fire retardant at fire sources. Additionally, πRo-Bot can autonomously pre-apply retardant to areas, preventing fire spread.
 
-The project's goals include successfully suppressing small fires at a distance of up to 6 meters, implementing fully functional scanning, suppression, and manual control modes, and designing a sleek, robust, and modular robot that can be adapted for various settings, such as vehicles or buildings. The project is still ongoing, with further developments expected to enhance its capabilities.
+The chassis is modeled in Fusion360, while NEMA17 motors handle the arm’s movement for accurate targeting. The system is powered by an ESP32, running event-driven code to control scanning motions, with an IR camera mounted on the turret for fire detection.
 
-After a first round of design iteration, my team has developed the following assembly:
+Key goals include successful suppression of small fires at distances of up to 6 meters, full functionality in scanning, suppression, and manual modes, and a sleek, modular design adaptable for vehicles or buildings. The project is ongoing, with further enhancements planned.
+
+After the first design iteration, my team has developed the following assembly:
+
 <div class="row">
   <div class="col-md-6">
     <img class="img-fluid" src="../img/pyro/pyro1_iso.png" alt="Pyro ISO View" style="width: 50%;">
@@ -38,4 +41,4 @@ After a first round of design iteration, my team has developed the following ass
   </div>
 </div>
 
-Next steps involve 3D printing and initial assembly. We're intended un using 3D printed PLA plastic for our structual components.
+Next steps involve 3D printing and initial assembly. We plan to use 3D-printed PLA plastic for structural components.
