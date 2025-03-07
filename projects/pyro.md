@@ -22,19 +22,19 @@ The project's goals include successfully suppressing small fires at a distance o
 After a first round of design iteration, my team has developed the following assembly:
 <div class="row">
   <div class="col-md-6">
-    <img class="img-fluid" src="img/pyro/pyro1_iso.png" alt="Pyro ISO View">
+    <img class="img-fluid" src="../img/pyro/pyro1_iso.png" alt="Pyro ISO View">
   </div>
   <div class="col-md-6">
-    <img class="img-fluid" src="img/pyro/pyro1_top.png" alt="Pyro Top View">
+    <img class="img-fluid" src="../img/pyro/pyro1_top.png" alt="Pyro Top View">
   </div>
 </div>
 
 <div class="row">
   <div class="col-md-6">
-    <img class="img-fluid" src="img/pyro/pyro1_bottom.png" alt="Pyro Bottom View">
+    <img class="img-fluid" src="../img/pyro/pyro1_bottom.png" alt="Pyro Bottom View">
   </div>
   <div class="col-md-6">
-    <img class="img-fluid" src="img/pyro/pyro_firing_assembly.png" alt="Pyro Firing Assembly">
+    <img class="img-fluid" src="../img/pyro/pyro_firing_assembly.png" alt="Pyro Firing Assembly">
   </div>
 </div>
 
