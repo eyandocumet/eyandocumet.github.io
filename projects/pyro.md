@@ -13,7 +13,9 @@ labels:
 summary: "An autonomous 3DoF robot designed for fire suppression in hazardous environments, featuring both manual and automatic control."
 ---
 
-<img class="img-fluid" src="../img/pyro/pyro_concept.jpg">
+<div class="text-center">
+  <img class="img-fluid" src="../img/pyro/pyro_concept.jpg" alt="πRo-Bot Concept">
+</div>
 
 πRo-Bot is an autonomous fire suppression system featuring a 3DoF robotic turret designed to prevent and extinguish fires in hazardous or remote environments. It operates in both manual and automatic modes, with its arm precisely aiming and deploying fire retardant at fire sources. Additionally, πRo-Bot can autonomously pre-apply retardant to areas, preventing fire spread.
 
