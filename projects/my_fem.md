@@ -8,6 +8,7 @@ published: true
 labels:
   - FEA
   - MATLAB
+  - Programming
 summary: "A custom-built FEM solver developed in MATLAB for structural mechanics and thermal simulations."
 ---
 <div class="text-center">
