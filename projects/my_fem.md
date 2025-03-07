@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/my_fem/plot_k_32.png
 title: "My FEM"
-date: 2023-03-07  # Ensure correct date format (YYYY-MM-DD)
+date: "Ongoing"
 published: true
 labels:
   - FEA
