@@ -24,23 +24,23 @@ The chassis is modeled in Fusion360, while NEMA17 motors handle the arm’s move
 Key goals include successful suppression of small fires at distances of up to 6 meters, full functionality in scanning, suppression, and manual modes, and a sleek, modular design adaptable for vehicles or buildings. The project is ongoing, with further enhancements planned.
 
 After the first design iteration, my team has developed the following assembly:
-
-<div class="row">
-  <div class="col-md-6">
-    <img class="img-fluid" src="../img/pyro/pyro1_iso.png" alt="Pyro ISO View" style="width: 50%;">
+<div class="text-center">
+  <div class="row">
+    <div class="col-md-6">
+      <img class="img-fluid" src="../img/pyro/pyro1_iso.png" alt="Pyro ISO View" style="width: 50%;">
+    </div>
+    <div class="col-md-6">
+      <img class="img-fluid" src="../img/pyro/pyro1_top.png" alt="Pyro Top View" style="width: 50%;">
+    </div>
   </div>
-  <div class="col-md-6">
-    <img class="img-fluid" src="../img/pyro/pyro1_top.png" alt="Pyro Top View" style="width: 50%;">
+  
+  <div class="row">
+    <div class="col-md-6">
+      <img class="img-fluid" src="../img/pyro/pyro1_bottom.png" alt="Pyro Bottom View" style="width: 50%;">
+    </div>
+    <div class="col-md-6">
+      <img class="img-fluid" src="../img/pyro/pyro_firing_assembly.png" alt="Pyro Firing Assembly" style="width: 50%;">
+    </div>
   </div>
 </div>
-
-<div class="row">
-  <div class="col-md-6">
-    <img class="img-fluid" src="../img/pyro/pyro1_bottom.png" alt="Pyro Bottom View" style="width: 50%;">
-  </div>
-  <div class="col-md-6">
-    <img class="img-fluid" src="../img/pyro/pyro_firing_assembly.png" alt="Pyro Firing Assembly" style="width: 50%;">
-  </div>
-</div>
-
 Next steps involve 3D printing and initial assembly. We plan to use 3D-printed PLA plastic for structural components.
