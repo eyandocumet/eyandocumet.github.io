@@ -12,7 +12,7 @@ labels:
 summary: "A custom-built FEM solver developed in MATLAB for structural mechanics and thermal simulations."
 ---
 <div class="text-center">
-<img class="img-fluid" src="../img/my_fem/plot_k_32.png" alt="My FEM Plot">
+<img class="img-fluid" src="../img/my_fem/plot_k_32.png" alt="My FEM Plot" style="width: 50%;">
 </div>
 My FEM is a repository that contains a home-made Finite Element Method (FEM) solver for structural mechanics simulations in 1D, 2D, and 3D. Developed as part of coursework for ME C180 at UC Berkeley, it tackles a variety of FEM problems.
 
