@@ -9,6 +9,7 @@ labels:
   - Manufacturing
   - Arduino
   - GD&T
+  - Project Management
 summary: "A prototype wearable personal safety device."
 ---
 <div class="text-center">
