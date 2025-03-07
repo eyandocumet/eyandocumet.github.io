@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/safety_thrower/chasis_render.jpg
 title: "Safety Thrower Personal Safety Device"
-date: 2024
+date: "Dec 2024"
 published: true
 labels:
   - Manufacturing
