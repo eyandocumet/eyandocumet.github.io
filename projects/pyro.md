@@ -7,8 +7,9 @@ date: 2025-03-07
 published: true
 labels:
   - Robotics
+  - Mechatronics
   - Automation
-  - Fire Suppression
+  - Event-Driven Programming
   - Embedded Systems
 summary: "An autonomous 3DoF robot designed for fire suppression in hazardous environments, featuring both manual and automatic control."
 ---
