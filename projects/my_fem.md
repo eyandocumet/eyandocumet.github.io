@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: img/my_fem/plot_k_32.png
-title: "My FEM"
+title: "\"My FEM\" MATLAB Finite Element Solver"
 date: 2025
 published: true
 labels:
