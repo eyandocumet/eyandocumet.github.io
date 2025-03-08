@@ -1,9 +1,10 @@
 /* Default theme. Simple, yet elegant. */
+/* Added dark mode! */
 
 /* Use Open Sans as the default sans serif font. */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,700|Source+Code+Pro:300,400,500,700");
 
-/* See https://getbootstrap.com/docs/5.2/customize/css-variables/#root-variables for variables to override. */
+/* Base light theme styles */
 :root {
   --bs-font-sans-serif: "Open Sans", sans-serif;
   --bs-link-color: var(--bs-blue);
@@ -13,6 +14,19 @@
   --tf-page-bg-color: var(--bs-white);
   --tf-footer-bg-color: var(--bs-gray-200);
   --tf-projects-bg-color: var(--bs-gray-100);
+}
+
+/* Dark mode theme */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bs-link-color: var(--bs-light);
+    --tf-pill-bg: var(--bs-dark);
+    --tf-icon-fill: var(--bs-light);
+    --tf-icon-hover: var(--bs-light);
+    --tf-page-bg-color: var(--bs-dark);
+    --tf-footer-bg-color: var(--bs-dark);
+    --tf-projects-bg-color: var(--bs-dark);
+  }
 }
 
 /* Format social media icons */
@@ -45,6 +59,6 @@ a {
 
 /* Simplify the styling of the bottom of Essay cards. */
 .card-footer {
-  background-color: var(--bs-white);
+  background-color: var(--tf-page-bg-color);
   border-top: none;
 }
