@@ -1,32 +1,18 @@
-/* Default theme. Simple, yet elegant. */
-/* Added dark mode! */
+/* Default theme. Dark, like my soul. */
 
 /* Use Open Sans as the default sans serif font. */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,700|Source+Code+Pro:300,400,500,700");
 
-/* Base light theme styles */
+/* Dark theme styles */
 :root {
   --bs-font-sans-serif: "Open Sans", sans-serif;
-  --bs-link-color: var(--bs-blue);
-  --tf-pill-bg: var(--bs-gray);
-  --tf-icon-fill: var(--bs-gray);
-  --tf-icon-hover: var(--bs-gray-500);
-  --tf-page-bg-color: var(--bs-white);
-  --tf-footer-bg-color: var(--bs-gray-200);
-  --tf-projects-bg-color: var(--bs-gray-100);
-}
-
-/* Dark mode theme */
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bs-link-color: var(--bs-light);
-    --tf-pill-bg: var(--bs-dark);
-    --tf-icon-fill: var(--bs-light);
-    --tf-icon-hover: var(--bs-light);
-    --tf-page-bg-color: var(--bs-dark);
-    --tf-footer-bg-color: var(--bs-dark);
-    --tf-projects-bg-color: var(--bs-dark);
-  }
+  --bs-link-color: var(--bs-light);
+  --tf-pill-bg: var(--bs-dark);
+  --tf-icon-fill: var(--bs-light);
+  --tf-icon-hover: var(--bs-light);
+  --tf-page-bg-color: var(--bs-dark);
+  --tf-footer-bg-color: var(--bs-dark);
+  --tf-projects-bg-color: var(--bs-dark);
 }
 
 /* Format social media icons */
