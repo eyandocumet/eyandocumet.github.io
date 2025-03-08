@@ -4,6 +4,12 @@ layout: home
 ---
 
 {% include about/about.html %}
+---
+title: Home
+layout: home
+---
+
+{% include about/about.html %}
 
 <div style="background-color: var(--tf-projects-bg-color)" class="bg-gradient py-3" id="projects">
   <div class="container">
@@ -19,22 +25,17 @@ layout: home
     
     <!-- Chemistry Club Image -->
     <div class="text-center">
-      <img src="https://media.licdn.com/dms/image/v2/D4D2DAQHh3PhE8lV2sA/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1730025383461?e=1742083200&v=beta&t=xk-Xa90D8FBsD1Xf1JNv5NFRDMyx2xE0SK6kQ123uQ4" class="img-fluid" alt="Leading Chemistry Club" style="max-width: 80%; height: auto;">
-    </div>
-
-    <p>My extracurricular involvement, including directing an improv comedy troupe and volunteering as a summer camp counselor, has further strengthened my ability to foster collaboration, motivate teams, and adapt quickly to changing circumstances. At the summer camp, I helped create engaging activities and led groups of campers in team-building exercises, fostering leadership and resilience in others.</p>
-
-    <!-- Summer Camp Volunteer Image -->
-    <div class="text-center">
-      <img src="https://media.licdn.com/dms/image/v2/D4D2DAQFs5IeM653Wtw/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1738806929846?e=1742083200&v=beta&t=CXuOrBFm-bu05PN44AO-Wl2dH4iAJ9qHoOvjcS5lmfU" class="img-fluid" alt="Summer Camp Volunteer" style="max-width: 80%; height: auto;">
+      <img src="/img/chem_club.jpg" class="img-fluid" alt="Leading Chemistry Club" style="max-width: 80%; height: auto;">
     </div>
 
     <p>I am committed to driving innovation, sustainability, and teamwork, and I bring these qualities to every project I undertake—making me a valuable asset to any engineering team or organization.</p>
 
     <p>Proud to be part of the UC Berkeley community. Go Bears! 🐻</p>
+
+    <p>If you're interested, check out some projects I've worked on recently!:</p>
   </div>
 </div>
-
-Here's some of the things I've worked on recently!
+ 
+{% include projects/projects.html %}
  
 {% include projects/projects.html %}
