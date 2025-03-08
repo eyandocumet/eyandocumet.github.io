@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: img/pyro/pyro_square.png
-title: "πRo-Bot Autonomous Fire Suppression"
+title: "\"πRo-Bot\" Autonomous Fire Suppression"
 date: 2025
 published: true
 labels:
