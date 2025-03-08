@@ -11,10 +11,10 @@ labels:
   - Automation
   - Event-Driven Programming
   - Embedded Systems
-summary: "An autonomous 3DoF robot designed for fire suppression in hazardous environments, featuring both manual and automatic control."
+summary: "An autonomous 2DoF robot designed for fire suppression in hazardous environments, featuring both manual and automatic control."
 ---
 
-πRo-Bot is an autonomous fire suppression system featuring a 3DoF robotic turret designed to prevent and extinguish fires in hazardous or remote environments. It operates in both manual and automatic modes, with its arm precisely aiming and deploying fire retardant at fire sources. Additionally, πRo-Bot can autonomously pre-apply retardant to areas, preventing fire spread.
+πRo-Bot is an autonomous fire suppression system featuring a 2DoF robotic turret designed to prevent and extinguish fires in hazardous or remote environments. It operates in both manual and automatic modes, with its arm precisely aiming and deploying fire retardant at fire sources. Additionally, πRo-Bot can autonomously pre-apply retardant to areas, preventing fire spread.
 
 The chassis is modeled in Fusion360, while NEMA17 motors handle the arm’s movement for accurate targeting. The system is powered by an ESP32, running event-driven code to control scanning motions, with an IR camera mounted on the turret for fire detection. Here is my team's initial concept sketch:
 
