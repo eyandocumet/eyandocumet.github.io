@@ -2,7 +2,7 @@
 
 Welcome to my personal portfolio and homepage! This site is built using HTML and CSS, showcasing my work, skills, and projects.
 
-![Website screenshot](../img/meta.png)
+![Website screenshot](/img/meta.png)
 
 ## Overview
 
