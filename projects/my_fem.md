@@ -24,7 +24,7 @@ The projects completed so far include:
 - Automatic h-refinement using the Principle of Minimum Potential Energy (PMPE).
 
 <div class="text-center">
-<img class="img-fluid" src="../img/my_fem/adaptive_mesh.png" alt="My FEM Plot" style="width: 50%;">
+<img class="img-fluid" src="../img/my_fem/adaptive_mesh.png" alt="Adaptive meshing!" style="width: 50%;">
 </div>
 
 Up next, I'm tackling:
