@@ -21,8 +21,13 @@ The solver is designed for high efficiency and capable of running on standard la
 The projects completed so far include:
 - Initial set-up for 1D stick problems and error calculation for benchmarks.
 - Higher order nodes (p-refinement) and remeshing for visual appeal.
+- Automatic h-refinement using the Principle of Minimum Potential Energy (PMPE).
+
+<div class="text-center">
+<img class="img-fluid" src="../img/my_fem/adaptive_mesh.png" alt="My FEM Plot" style="width: 50%;">
+</div>
 
 Up next, I'm tackling:
-- Automatic mesh refinement (h-refinement).
+- Optimizing solution and storage efficiency. (Mainly eliminating all the extra zero's in my stiffness matrix.)
 
 Over the course of eight distinct projects, it is being iteratively enhanced with various techniques like h-refinement, p-refinement, and even machine learning integration to improve its performance. The project successfully implemented 1D stick problem simulations, and 2D and 3D problem setups are currently in progress. The completed work is available for review on my [GitHub](https://github.com/eyandocumet/my-fem/).
