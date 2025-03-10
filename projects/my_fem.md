@@ -18,10 +18,12 @@ My FEM is a repository that contains a home-made Finite Element Method (FEM) sol
 
 The solver is designed for high efficiency and capable of running on standard laptops and even smartphones. The solver was systematically analyzed and compared against benchmark problems to validate its accuracy.
 
-The projects completed so far include:
-- Initial set-up for 1D stick problems and error calculation for benchmarks.
-- Higher order nodes (p-refinement) and remeshing for visual appeal.
-- Automatic h-refinement using the Principle of Minimum Potential Energy (PMPE).
+The implemented features so far include:
+- 1D Stick Problems and Error Estimation of Benchmarks ODE's.
+- Higher order nodes and p-refinement (up to 3rd order)
+- Remeshing
+- Adaptive h-refinement
+- Principle of Minimum Potential Energy (PMPE) (Error approximation)
 
 <div class="text-center">
 <img class="img-fluid" src="../img/my_fem/adaptive_mesh.png" alt="Adaptive meshing!" style="width: 50%;">
