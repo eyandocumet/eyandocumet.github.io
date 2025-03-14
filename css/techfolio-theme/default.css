@@ -8,6 +8,7 @@
 :root {
   --bs-font-sans-serif: "Atkinson Hyperlegible", sans-serif;
   --bs-link-color: var(--bs-blue);
+  --bs-text-color: var(--bs-black); /* Set default text color for light mode */
   --tf-pill-bg: var(--bs-gray);
   --tf-icon-fill: var(--bs-gray);
   --tf-icon-hover: var(--bs-gray-500);
@@ -16,10 +17,15 @@
   --tf-projects-bg-color: var(--bs-gray-100);
 }
 
-/* Dark mode adaptation, overrides. */
+/* Apply default text color */
+body, p, h1, h2, h3, h4, h5, h6 {
+  color: var(--bs-text-color);
+}
+
+/* Dark mode adaptation */
 @media (prefers-color-scheme: dark) {
   :root {
-    --bs-text-color: var(--bs-white);
+    --bs-text-color: var(--bs-white); /* Set text color to white in dark mode */
     --bs-link-color: var(--bs-light-blue);
     --tf-pill-bg: var(--bs-dark-gray);
     --tf-icon-fill: var(--bs-light-gray);
@@ -28,6 +34,13 @@
     --tf-footer-bg-color: var(--bs-gray-800);
     --tf-projects-bg-color: var(--bs-gray-900);
   }
+
+  /* Apply dark mode text color */
+  body, p, h1, h2, h3, h4, h5, h6 {
+    color: var(--bs-text-color);
+  }
+}
+
 
   /* Format social media icons */
 .tf-social {
