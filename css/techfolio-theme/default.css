@@ -17,8 +17,8 @@
   --tf-projects-bg-color: var(--bs-gray-100);
 }
 
-/* Dark mode adaptation, overrides. */
-@media (prefers-color-scheme: dark) {
+/* Dark mode adaptation, overrides. DOES NOT WORK YET. */
+/*@media (prefers-color-scheme: dark) {
   :root {
     --bs-text-color: var(--bs-white);
     --bs-link-color: var(--bs-light-blue);
@@ -28,7 +28,7 @@
     --tf-page-bg-color: var(--bs-black);
     --tf-footer-bg-color: var(--bs-gray-800);
     --tf-projects-bg-color: var(--bs-gray-900);
-  }
+  }*/
 
   /* Format social media icons */
 .tf-social {
