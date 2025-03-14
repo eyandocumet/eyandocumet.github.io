@@ -7,7 +7,6 @@
 /* Light Mode */
 :root {
   --bs-font-sans-serif: "Atkinson Hyperlegible", sans-serif;
-  --bs-text-color: var(--bs-black);
   --bs-link-color: var(--bs-blue);
   --tf-pill-bg: var(--bs-gray);
   --tf-icon-fill: var(--bs-gray);
