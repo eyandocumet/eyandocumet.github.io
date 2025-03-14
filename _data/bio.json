@@ -1,10 +1,10 @@
 {
   "basics": {
     "name": "Eyan Documet",
-    "label": "Mechanical Engineering Student",
+    "label": "See bio.",
     "picture": "https://github.com/eyandocumet.png",
     "email": "eyan.documet@protonmail.com",
-    "phone": "+1 (310) 480-5366",
+    "phone": "See resume.",
     "website": "https://eyandocumet.xyz",
     "summary": "Hello, my name is Eyan. I'm an engineering student at UC Berkeley. I'm well-versed in mechatronics, energy and electrical systems, programming, simulation, prototyping, and manufacturing.",
     "location": { "address": "", "postalCode": "94703", "city": "Berkeley", "countryCode": "USA", "region": "California" },
