@@ -8,7 +8,6 @@
 :root {
   --bs-font-sans-serif: "Atkinson Hyperlegible", sans-serif;
   --bs-link-color: var(--bs-blue);
-  --bs-text-color: var(--bs-black); /* Set default text color for light mode */
   --tf-pill-bg: var(--bs-gray);
   --tf-icon-fill: var(--bs-gray);
   --tf-icon-hover: var(--bs-gray-500);
