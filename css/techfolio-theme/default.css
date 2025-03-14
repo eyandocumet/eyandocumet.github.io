@@ -6,7 +6,8 @@
 /* See https://getbootstrap.com/docs/5.2/customize/css-variables/#root-variables for variables to override. */
 /* Light Mode */
 :root {
-  --bs-font-sans-serif: "Open Sans", sans-serif;
+  --bs-font-sans-serif: "Atkinson Hyperlegible", sans-serif;
+  --bs-text-color: var(--bs-black);
   --bs-link-color: var(--bs-blue);
   --tf-pill-bg: var(--bs-gray);
   --tf-icon-fill: var(--bs-gray);
@@ -16,9 +17,10 @@
   --tf-projects-bg-color: var(--bs-gray-100);
 }
 
-/* Dark mode adaptations */
+/* Dark mode adaptation, overrides. */
 @media (prefers-color-scheme: dark) {
   :root {
+    --bs-text-color: var(--bs-white);
     --bs-link-color: var(--bs-light-blue);
     --tf-pill-bg: var(--bs-dark-gray);
     --tf-icon-fill: var(--bs-light-gray);
