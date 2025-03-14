@@ -22,7 +22,8 @@ body, p, h1, h2, h3, h4, h5, h6 {
   color: var(--bs-text-color);
 }
 
-/* Dark mode adaptation */
+/* Dark mode adaptation (Does not work) */
+/*
 @media (prefers-color-scheme: dark) {
   :root {
     --bs-text-color: var(--bs-white); /* Set text color to white in dark mode */
@@ -40,6 +41,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
     color: var(--bs-text-color);
   }
 }
+*/
 
 
   /* Format social media icons */
