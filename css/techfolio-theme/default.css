@@ -1,9 +1,10 @@
-/* Default theme. Simple, yet elegant. */
+/* Eyan's theme. Beautiful and Legible. */
 
 /* Use Open Sans as the default sans serif font. */
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,700|Source+Code+Pro:300,400,500,700");
+@import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap");
 
 /* See https://getbootstrap.com/docs/5.2/customize/css-variables/#root-variables for variables to override. */
+/* Light Mode */
 :root {
   --bs-font-sans-serif: "Open Sans", sans-serif;
   --bs-link-color: var(--bs-blue);
@@ -15,7 +16,19 @@
   --tf-projects-bg-color: var(--bs-gray-100);
 }
 
-/* Format social media icons */
+/* Dark mode adaptations */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bs-link-color: var(--bs-light-blue);
+    --tf-pill-bg: var(--bs-dark-gray);
+    --tf-icon-fill: var(--bs-light-gray);
+    --tf-icon-hover: var(--bs-gray-400);
+    --tf-page-bg-color: var(--bs-black);
+    --tf-footer-bg-color: var(--bs-gray-800);
+    --tf-projects-bg-color: var(--bs-gray-900);
+  }
+
+  /* Format social media icons */
 .tf-social {
   display: inline-block;
   fill: var(--tf-icon-fill);
