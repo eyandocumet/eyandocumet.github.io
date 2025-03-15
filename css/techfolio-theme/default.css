@@ -6,15 +6,15 @@
 /* See https://getbootstrap.com/docs/5.2/customize/css-variables/#root-variables for variables to override. */
 /* Light Mode */
 :root {
-  --bs-font-sans-serif: "Atkinson Hyperlegible", sans-serif;
-  --bs-link-color: #2C3E50;
-  --tf-pill-bg: #BDC3C7;
-  --tf-text-color: #BDC3C7;
-  --tf-icon-fill: #BDC3C7;
-  --tf-icon-hover: #7F8C8D;
-  --tf-page-bg-color: #BDC3C7;
-  --tf-footer-bg-color: #BDC3C7;
-  --tf-projects-bg-color: #BDC3C7;
+  --bs-font-sans-serif: "Inter", sans-serif;
+  --bs-link-color: #0077B6;
+  --tf-pill-bg: #4A4A4A;
+  --tf-text-color: #F5F5F5;
+  --tf-icon-fill: #E1E1E1;
+  --tf-icon-hover: #00B4D8;
+  --tf-page-bg-color: #1A202C;
+  --tf-footer-bg-color: #2D3748;
+  --tf-projects-bg-color: #121B28;
 }
 
 /* Format social media icons */
