@@ -1,6 +1,6 @@
 # Portfolio & Personal Homepage
 
-Welcome to my personal portfolio and homepage! This site is built using HTML and CSS, showcasing my work, skills, and projects. This is a heavily re-factored fork of Techfolios, by the [University of Hawaii's Collaborative Technology Lab](https://csdl.ics.hawaii.edu/)
+Welcome to my personal portfolio and homepage! This site is meant to showcase my work, skills, and projects, as well as act as a personal website and blog. This is a heavily re-factored fork of Techfolios, by the [University of Hawaii's Collaborative Technology Lab](https://csdl.ics.hawaii.edu/)
 
 ![A screenshot of the website, how meta\!](/img/meta.png)
 
