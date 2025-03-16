@@ -33,7 +33,6 @@ After the first design iteration, my team has developed the following assembly:
     <div class="col-md-6">
       <img class="img-fluid" src="../img/pyro/pyro1_top.png" alt="Pyro Top View" style="width: 50%;">
     </div>
-  </div>
   
   <div class="row">
     <div class="col-md-6">
@@ -43,5 +42,13 @@ After the first design iteration, my team has developed the following assembly:
       <img class="img-fluid" src="../img/pyro/pyro_firing_assembly.png" alt="Pyro Firing Assembly" style="width: 50%;">
     </div>
   </div>
-</div>
-Next steps involve 3D printing and initial assembly. We plan to use 3D-printed PLA plastic for structural components.
+
+Here's a preview of the device in motion:
+
+  <div class="row">
+    <div class="col-md-6">
+      <img class="img-fluid" src="../img/pyro/pyro_moves.gif" alt="Pyro In Motion" style="width: 50%;">
+    </div>
+  </div>
+  
+Next steps involve a shop consult, 3D printing, and initial assembly. We plan to use 3D-printed PLA plastic for structural components.
