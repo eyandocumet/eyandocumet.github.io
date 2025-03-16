@@ -46,6 +46,7 @@ After the first design iteration, my team has developed the following assembly:
 </div>
 
 Here's a preview of the device in motion, and the IR camera:
+
 <div class="text-center">
   <div class="row">
     <div class="col-md-6">
