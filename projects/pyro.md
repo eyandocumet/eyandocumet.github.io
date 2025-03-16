@@ -28,26 +28,26 @@ After the first design iteration, my team has developed the following assembly:
 <div class="text-center">
   <div class="row">
     <div class="col-md-6">
-      <img class="img-fluid" src="../img/pyro/pyro1_iso.png" alt="Pyro ISO View" style="width: 100%;">
+      <img class="img-fluid" src="../img/pyro/pyro1_iso.png" alt="Pyro ISO View" style="width: 75%;">
     </div>
     <div class="col-md-6">
-      <img class="img-fluid" src="../img/pyro/pyro1_top.png" alt="Pyro Top View" style="width: 100%;">
+      <img class="img-fluid" src="../img/pyro/pyro1_top.png" alt="Pyro Top View" style="width: 75%;">
     </div>
   </div>
 
   <div class="row">
     <div class="col-md-6">
-      <img class="img-fluid" src="../img/pyro/pyro1_bottom.png" alt="Pyro Bottom View" style="width: 100%;">
+      <img class="img-fluid" src="../img/pyro/pyro1_bottom.png" alt="Pyro Bottom View" style="width: 75%;">
     </div>
     <div class="col-md-6">
-      <img class="img-fluid" src="../img/pyro/pyro_firing_assembly.png" alt="Pyro Firing Assembly" style="width: 100%;">
+      <img class="img-fluid" src="../img/pyro/pyro_firing_assembly.png" alt="Pyro Firing Assembly" style="width: 75%;">
     </div>
   </div>
 </div>
 
 Here's a preview of the device in motion:
 <div class="text-center">
-  <img class="img-fluid" src="../img/pyro/pyro_moves.gif" alt="Pyro In Motion" style="width: 50%;">
+  <img class="img-fluid" src="../img/pyro/pyro_moves.gif" alt="Pyro In Motion" style="width: 30%;">
 </div>
 
 Next steps involve a shop consult, 3D printing, and initial assembly. We plan to use 3D-printed PLA plastic for structural components.
