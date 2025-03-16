@@ -50,10 +50,10 @@ Here's a preview of the device in motion, and the IR camera:
 <div class="text-center">
   <div class="row">
     <div class="col-md-6">
-      <img class="img-fluid" src="../img/pyro/pyro_moves.gif" alt="Pyro ISO View" style="width: 75%;">
+      <img class="img-fluid" src="../img/pyro/pyro_moves.gif" alt="Pyro in Motion">
     </div>
     <div class="col-md-6">
-      <img class="img-fluid" src="../img/pyro/thermal.gif" alt="Thermal Camera initial testing." style="width: 75%;">
+      <img class="img-fluid" src="../img/pyro/thermal.gif" alt="Thermal Camera initial testing.">
     </div>
   </div>
 </div>
