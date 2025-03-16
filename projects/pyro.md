@@ -48,11 +48,11 @@ After the first design iteration, my team has developed the following assembly:
 Here's a preview of the device in motion, and the IR camera:
 
 <div class="text-center">
-  <img class="img-fluid" src="../img/pyro/pyro_moves.gif" alt="Pyro in Motion">
+  <img class="img-fluid" src="../img/pyro/pyro_moves.gif" alt="Pyro in Motion" style="width: 50%;">
 </div>
 
 <div class="text-center">
-  <img class="img-fluid" src="../img/pyro/thermal.gif" alt="Thermal Camera initial testing.">
+  <img class="img-fluid" src="../img/pyro/thermal.gif" alt="Thermal Camera initial testing." style="width: 50%;">
 </div>
 
 Next steps involve a shop consult, 3D printing, and initial assembly. We plan to use 3D-printed PLA plastic for structural components.
