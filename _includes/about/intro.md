@@ -8,7 +8,7 @@ As an undergraduate Mechanical Engineering student at UC Berkeley, I bring a uni
 Beyond my technical achievments, my leadership roles have sharpened my ability to communicate and solve problems effectively. As Vice President of the Chemistry Club, I co-led experimental design and public outreach programs. I also actively volunteer as a leader at the Santa Monica Family YMCA’s Camp Big Bear, and contribute creatively as a member of jericho! Improv & Sketch Comedy. In my free time, I love cooking, the outdoors, and tabletop gaming.</p>
     
 <div class="text-center" style="padding-top: 20px; padding-bottom: 20px; display: flex; justify-content: center; gap: 20px;">
-    <img src="/img/chem_club.jpg" class="img-fluid" alt="Me at Star Party 2023!" style="height: 30%; width: auto;">
+    <img src="/img/chem_club.jpg" class="img-fluid" alt="Me at Star Party 2023!" style="height: 5%; width: auto;">
     <img src="/img/hiking.jpg" class="img-fluid" alt="Hiking through King's Canyon, Summer 2024." style="height: 30%; width: auto;">
 </div>
 
