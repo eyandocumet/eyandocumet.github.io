@@ -32,6 +32,6 @@ The implemented features so far include:
 Up next, I'm tackling:
 - Optimizing solution and storage efficiency. (Mainly eliminating all the extra zero's in my stiffness matrix.)
 
-Over the course of eight distinct projects, it is being iteratively enhanced with various techniques like h-refinement, p-refinement, and even machine learning integration to improve its performance. The project successfully implemented 1D stick problem simulations, and 2D and 3D problem setups are currently in progress. The completed work is available for review on my [GitHub](https://github.com/eyandocumet/my-fem/).
+Over the course of eight distinct projects, it is being iteratively enhanced with various techniques like h-refinement, p-refinement, and even machine learning integration to improve its performance. The project successfully implemented 1D stick problem simulations, and 2D and 3D problem setups are currently in progress.
 
 Most of this work is derived from _The Basics_, by Tarek Zhodi, a comprehensive primer on the mathematics of FEM, which is [available from Springer Nature](https://link.springer.com/book/10.1007/978-3-319-70428-9).
