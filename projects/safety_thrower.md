@@ -28,7 +28,7 @@ As a Project Manager and Circuitry Lead to this project of four, I was responsib
 The design process required several iterations, and each component’s fit was carefully tested. The final prototype successfully showcased our team's design and was praised during the live demo presented to a panel of faculty and GSIs. Below is one of the design drawings created during the documentation phase:
 
 <div class="text-center">
-  <img class="img-fluid" src="../img/safety_thrower/drawing.jpg" alt="One of several drawings I created for the device during documentation." style="width: 25%;>
+  <img class="img-fluid" src="../img/safety_thrower/drawing.jpg" alt="One of several drawings I created for the device during documentation." style="width: 50%;>
 </div>
 
 # Manufacturing Plan
