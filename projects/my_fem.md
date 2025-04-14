@@ -5,13 +5,6 @@ image: img/my_fem/plot_k_32.png
 title: "\"My FEM\" MATLAB Finite Element Solver"
 date: 2025
 published: true
-labels:
-  - FEA
-  - MATLAB
-  - Programming
-  - Simulation
-  - Structural Analysis
-  - Thermal Analysis
 summary: "A custom-built FEM solver developed in MATLAB for 1D structural and thermal simulations using Galerkin’s method."
 ---
 
