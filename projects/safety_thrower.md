@@ -5,11 +5,6 @@ image: img/safety_thrower/chasis_render.jpg
 title: "\"Safety Grenade\" Personal Safety Device"
 date: 2024
 published: true
-labels:
-  - Manufacturing
-  - Arduino
-  - GD&T
-  - Project Management
 summary: "A prototype wearable personal safety device."
 ---
 
