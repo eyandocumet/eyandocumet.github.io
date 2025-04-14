@@ -71,9 +71,12 @@ After meeting with a panel of machinists, we shared our design, as well as preli
 Key modifications from the previous design mainly include relocating most electronic components from the gun platform to the base of the system. This improves weight distribution and simplifies maintenance and installation for our prototype. 
 
 <div class="text-center">
-  <img class="img-fluid" src="../img/pyro/fea.png" alt="Our armature passing FEA testing." style="width: 50%;">
-</div>
-
-<div class="text-center">
-  <img class="img-fluid" src="../img/pyro/thermal.gif" alt="Thermal Camera initial testing." style="width: 50%;">
+  <div class="row">
+    <div class="col-md-6">
+      <img class="img-fluid" src="../img/pyro/fea.png" alt="Our armature passing FEA testing." style="width: 100%;">
+    </div>
+    <div class="col-md-6">
+      <img class="img-fluid" src="../img/pyro/thermal.gif" alt="Thermal Camera initial testing." style="width: 100%;">
+    </div>
+  </div>
 </div>
