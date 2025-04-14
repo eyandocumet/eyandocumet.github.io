@@ -5,12 +5,6 @@ image: img/pyro/pyro_moves.gif
 title: "\"πRo-Bot\" Autonomous Fire Suppression"
 date: 2025
 published: true
-labels:
-  - Robotics
-  - Mechatronics
-  - Mechanical Design
-  - Event-Driven Programming
-  - Embedded Systems
 summary: "An autonomous 2DoF robot designed for fire suppression in hazardous environments, featuring both manual and automatic control."
 ---
 
