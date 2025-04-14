@@ -14,6 +14,10 @@ labels:
 summary: "An autonomous 2DoF robot designed for fire suppression in hazardous environments, featuring both manual and automatic control."
 ---
 
+<div class="text-center">
+  <img class="img-fluid" src="../img/pyro/final_design.jpg" alt="πRo-Bot Concept">
+</div>
+
 πRo-Bot is a prototype, semi-autonomous fire suppression system engineered for operation in hazardous or remote environments. It consists of a 2.5DoF robotic turret, capable of detecting flames and delivering retardant (water in our case). The system supports both autonomous and manual operation modes and is also capable of preemptively applying retardant to mitigate fire spread.
 
 As the Mechanical Lead for the project, I was tasked with creating our custom-designed chassis and turret assembly, which I modeled in Fusion 360. The turret is actuated using NEMA 17 stepper motors for precise directional control, while structural integrity has been rigorously validated using built-in finite element analysis (FEA). Our simulations confirmed that the design withstands operational loads with acceptable deflection and safety margins.
