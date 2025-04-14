@@ -50,18 +50,12 @@ Key goals include successful suppression of small fires at distances of up to 6 
   </div>
 </div>
 
-Here's a preview of our draft design in motion, and the IR camera:
+After meeting with a panel of machinists, we were given some feedback and the green-light to manufacture our device. After some final design adjustments and structural validation (completed via Fusion 360’s FEA solver), we are currently proceeding to 3D printing of PLA components. At this point, we also recieved a Maker Grant from UC Berkeley's Chapter of the ASME. We've also begun implementing our code, which includes the IR Sensor mentioned previously.
 
 <div class="text-center">
-  <img class="img-fluid" src="../img/pyro/pyro_moves.gif" alt="Pyro in Motion" style="width: 50%;">
+  <img class="img-fluid" src="../img/pyro/fea.png" alt="Our armature passing FEA testing." style="width: 50%;">
 </div>
 
 <div class="text-center">
   <img class="img-fluid" src="../img/pyro/thermal.gif" alt="Thermal Camera initial testing." style="width: 50%;">
-</div>
-
-After meeting with a panel of machinists, we were given some feedback and the green-light to manufacture our device. After some final design adjustments and structural validation (completed via Fusion 360’s FEA solver), we are currently proceeding to 3D printing of PLA components. At this point, we also recieved a Maker Grant from UC Berkeley's Chapter of the ASME.
-
-<div class="text-center">
-  <img class="img-fluid" src="../img/pyro/fea.png" alt="Our armature passing FEA testing." style="width: 50%;">
 </div>
