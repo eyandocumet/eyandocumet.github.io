@@ -14,7 +14,7 @@ summary: "A prototype wearable personal safety device."
 ---
 
 <div class="text-center">
-  <img class="img-fluid" src="../img/safety_thrower/exploded.jpg" alt="An exploded view of the device.">
+  <img class="img-fluid" src="../img/safety_thrower/exploded.jpg" alt="An exploded view of the device." style="width: 50%;">
 </div>
 
 # Overview
