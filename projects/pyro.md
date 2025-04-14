@@ -8,19 +8,23 @@ published: true
 labels:
   - Robotics
   - Mechatronics
-  - Automation
+  - Mechanical Design
   - Event-Driven Programming
   - Embedded Systems
 summary: "An autonomous 2DoF robot designed for fire suppression in hazardous environments, featuring both manual and automatic control."
 ---
 
 <div class="text-center">
-  <img class="img-fluid" src="../img/pyro/final_design.png" alt="Our Final design plan, ready to print!" style="width: 30%;">
+  <img class="img-fluid" src="../img/pyro/final_design.png" alt="Our Final design plan, ready to print!" style="width: 45%;">
 </div>
+
+# Overview
 
 πRo-Bot is a prototype, semi-autonomous fire suppression system engineered for operation in hazardous or remote environments. It consists of a 2.5DoF robotic turret, capable of detecting flames and delivering retardant (water in our case). The system supports both autonomous and manual operation modes and is also capable of preemptively applying retardant to mitigate fire spread.
 
-As the Mechanical Lead for the project, I was tasked with creating our custom-designed chassis and turret assembly, which I modeled in Fusion 360. I also selected much of hardware, including the transmission components and NEMA 17 stepper motors for precise directional control, while structural integrity has been rigorously validated using built-in finite element analysis (FEA). Our simulations confirmed that the design withstands operational loads with acceptable deflection and safety margins.
+# Mechanical Design, Goals
+
+As the Mechanical Lead for the project, I was tasked with creating our custom-designed chassis and turret assembly, which I modeled in Fusion 360. I also selected much of the hardware, including the transmission components and NEMA 17 stepper motors for precise directional control, while structural integrity has been rigorously validated using built-in finite element analysis (FEA). Our simulations confirmed that the design withstands operational loads with acceptable deflection and safety margins. I coordinated directly with the programming and circuitry leads to ensure seamless integration across all subsystems.
 
 Motion control and fire detection are handled by an ESP32 microcontroller running an event-driven architecture. The turret integrates an IR camera module for thermal targeting, feeding data to the onboard system to autonomously track and suppress heat signatures. Below is our original concept sketch, which guided our mechanical layout and subsystem integration:
 
@@ -28,7 +32,7 @@ Motion control and fire detection are handled by an ESP32 microcontroller runnin
   <img class="img-fluid" src="../img/pyro/pyro_concept.jpg" alt="πRo-Bot Concept">
 </div>
 
-To simplify the overhead and reduce lead time, our team begun the design process by acquiring a commercial electric water gun and disassembling it. We cannibilized its parts to serve as our water delivery system.
+To simplify the overhead and reduce lead time, our team begun the design process by acquiring a commercial electric water gun and disassembling it. We cannibalized its parts to serve as our water delivery system.
 
 <div class="text-center">
   <img class="img-fluid" src="../img/pyro/water_gun.jpeg" alt="The FunWee water gun. Fun to play with!" style="width: 40%">
@@ -56,7 +60,15 @@ Key goals include successful suppression of small fires at distances of up to 6 
   </div>
 </div>
 
-After meeting with a panel of machinists, we were given some feedback and the green-light to manufacture our device. After some final design adjustments and structural validation (completed via Fusion 360’s FEA solver), we are currently proceeding to 3D printing of PLA components. At this point, we also recieved a Maker Grant from UC Berkeley's Chapter of the ASME. We've also begun implementing our code, which includes the IR Sensor mentioned previously.
+All critical mates in our design are metal-to-metal, utilizing off-the-shelf coupling flanges along with standardized washers, nuts, and bolts. We used ASME-standard fasteners, as they are readily available in bulk at our local hardware supplier, simplifying procurement. Specifically, we selected M3 ASME B18.22M washers, ASME B18.2.4.1M nuts, and ASME B18.3.4M bolts. Standardization reduced the need for custom tolerancing and mating analysis.
+
+Clearance holes in 3D-printed components were designed to approximate an ISO H13 fit, allowing reliable bolt insertion while accounting for FDM print variation. Hole diameters in the CAD model were slightly oversized (3.2–3.4 mm) relative to the nominal M3 bolt to compensate for shrinkage and ensure interference-free fastening. Referencing established standards ensured dimensional compatibility and reliable performance under load.
+
+# Manufacturing & Assembly
+
+After meeting with a panel of machinists, we shared our design, as well as back-of-the-napkin calculations for motor performance and reliability. We were given some feedback and the green-light to manufacture our device. After some final design adjustments and structural validation (completed via Fusion 360’s FEA solver), we are currently proceeding to 3D printing of PLA components. At this point, we also received a Maker Grant from UC Berkeley's Chapter of the ASME. We've also began implementing our code, which includes the IR Sensor mentioned previously.
+
+Key modifications from the previous design mainly include relocating most electronic components from the gun-platform to the base of the system. This improves weight distribution and simplifies maintenance/installation for our prototype. 
 
 <div class="text-center">
   <img class="img-fluid" src="../img/pyro/fea.png" alt="Our armature passing FEA testing." style="width: 50%;">
