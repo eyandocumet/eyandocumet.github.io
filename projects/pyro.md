@@ -33,19 +33,19 @@ Key goals include successful suppression of small fires at distances of up to 6 
 <div class="text-center">
   <div class="row">
     <div class="col-md-6">
-      <img class="img-fluid" src="../img/pyro/pyro1_iso.png" alt="Pyro ISO View" style="width: 75%;">
+      <img class="img-fluid" src="../img/pyro/pyro1_iso.png" alt="Pyro ISO View" style="width: 50%;">
     </div>
     <div class="col-md-6">
-      <img class="img-fluid" src="../img/pyro/pyro1_top.png" alt="Pyro Top View" style="width: 75%;">
+      <img class="img-fluid" src="../img/pyro/pyro1_top.png" alt="Pyro Top View" style="width: 50%;">
     </div>
   </div>
 
   <div class="row">
     <div class="col-md-6">
-      <img class="img-fluid" src="../img/pyro/pyro1_bottom.png" alt="Pyro Bottom View" style="width: 75%;">
+      <img class="img-fluid" src="../img/pyro/pyro1_bottom.png" alt="Pyro Bottom View" style="width: 50%;">
     </div>
     <div class="col-md-6">
-      <img class="img-fluid" src="../img/pyro/pyro_firing_assembly.png" alt="Pyro Firing Assembly" style="width: 75%;">
+      <img class="img-fluid" src="../img/pyro/pyro_firing_assembly.png" alt="Pyro Firing Assembly" style="width: 50%;">
     </div>
   </div>
 </div>
