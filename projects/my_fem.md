@@ -11,27 +11,31 @@ labels:
   - Programming
   - Simulation
   - Structural Analysis
-summary: "A custom-built FEM solver developed in MATLAB for structural mechanics and thermal simulations."
+  - Thermal Analysis
+summary: "A custom-built FEM solver developed in MATLAB for 1D structural and thermal simulations using Galerkin’s method."
 ---
+
 <div class="d-flex justify-content-center">
   <img class="img-fluid" src="../img/my_fem/plot_k_32.png" alt="My FEM Plot" style="width: 45%; margin-right: 5%;">
   <img class="img-fluid" src="../img/my_fem/adaptive_mesh.png" alt="Adaptive meshing!" style="width: 45%;">
 </div>
 
-My FEM is a repository that contains a home-made Finite Element Method (FEM) solver for structural mechanics simulations in 1D, 2D, and 3D. Developed as part of coursework for ME C180 at UC Berkeley, it tackles a variety of FEM problems.
+# Overview
 
-The solver is designed for high efficiency and capable of running on standard laptops and even smartphones. The solver was systematically analyzed and compared against benchmark problems to validate its accuracy.
+This project marks the first half of a comprehensive MATLAB-based FEM solver, developed for ME C180 at UC Berkeley. It implements 1D Galerkin finite elements to solve structural and thermal boundary value problems. 
 
-The implemented features so far include:
-- 1D Stick Problems and Error Estimation of Benchmarks ODE's.
-- Higher order nodes and p-refinement (up to 3rd order)
-- Remeshing
-- Adaptive h-refinement
-- Principle of Minimum Potential Energy (PMPE) (Error approximation)
+# Discussion
 
-Up next, I'm tackling:
-- Optimizing solution and storage efficiency. (Mainly eliminating all the extra zero's in my stiffness matrix.)
+The solver handles both Dirichlet and Neumann boundary conditions and is capable of:
+- Discretizing 1D domains using linear, quadratic, and cubic shape functions
+- Assembling global stiffness matrices and force vectors efficiently
+- Solving systems using sparse linear algebra routines
+- Performing error estimation via the Principle of Minimum Potential Energy (PMPE)
+- Executing adaptive h-refinement based on residual error
+- Remeshing non-uniform domains to improve convergence
 
-Over the course of eight distinct projects, it is being iteratively enhanced with various techniques like h-refinement, p-refinement, and even machine learning integration to improve its performance. The project successfully implemented 1D stick problem simulations, and 2D and 3D problem setups are currently in progress.
+The code is modular, scalable, and runs on resource-constrained hardware without performance loss. It is designed to be runnable on weak hardware, including laptops and mobile phones.
 
-Most of this work is derived from _The Basics_, by Tarek Zhodi, a comprehensive primer on the mathematics of FEM, which is [available from Springer Nature](https://link.springer.com/book/10.1007/978-3-319-70428-9).
+Developing this solver required deep integration of mathematical theory with software engineering practices. Each feature from p-refinement, to adaptive meshing was implemented by hand, and validated through benchmark problems to confirm correctness and stability.
+
+Core methods are based on _The Basics_, by Tarek Zohdi ([SpringerLink](https://link.springer.com/book/10.1007/978-3-319-70428-9)), a rigorous treatment of finite element fundamentals.
