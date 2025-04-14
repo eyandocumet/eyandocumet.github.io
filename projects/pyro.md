@@ -31,7 +31,7 @@ Motion control and fire detection are handled by an ESP32 microcontroller runnin
 To simplify the overhead and reduce lead time, our team begun the design process by acquiring a commercial electric water gun and disassembling it. We cannibilized its parts to serve as our water delivery system.
 
 <div class="text-center">
-  <img class="img-fluid" src="../img/pyro/water_gun.jpeg" alt="The FunWee water gun. Fun to play with!" style="width: 60%">
+  <img class="img-fluid" src="../img/pyro/water_gun.jpeg" alt="The FunWee water gun. Fun to play with!" style="width: 40%">
 </div>
 
 Key goals include successful suppression of small fires at distances of up to 6 meters, full functionality in scanning, suppression, and manual modes, and a sleek, modular design adaptable for vehicles or buildings. After the first design iteration, my team has developed the following assembly:
