@@ -14,17 +14,18 @@ labels:
 summary: "An autonomous 2DoF robot designed for fire suppression in hazardous environments, featuring both manual and automatic control."
 ---
 
-πRo-Bot is an autonomous fire suppression system featuring a 2DoF robotic turret designed to prevent and extinguish fires in hazardous or remote environments. It operates in both manual and automatic modes, with its arm precisely aiming and deploying fire retardant at fire sources. Additionally, πRo-Bot can autonomously pre-apply retardant to areas, preventing fire spread.
+πRo-Bot is a prototype, semi-autonomous fire suppression system engineered for operation in hazardous or remote environments. It consists of a 2.5DoF robotic turret, capable of detecting flames and delivering retardant (water in our case). The system supports both autonomous and manual operation modes and is also capable of preemptively applying retardant to mitigate fire spread.
 
-The chassis is modeled in Fusion360, while NEMA17 motors handle the arm’s movement for accurate targeting. The system is powered by an ESP32, running event-driven code to control scanning motions, with an IR camera mounted on the turret for fire detection. Here is my team's initial concept sketch:
+As the Mechanical Lead for the project, I was tasked with creating our custom-designed chassis and turret assembly, which I modeled in Fusion 360. The turret is actuated using NEMA 17 stepper motors for precise directional control, while structural integrity has been rigorously validated using built-in finite element analysis (FEA). Our simulations confirmed that the design withstands operational loads with acceptable deflection and safety margins.
+
+Motion control and fire detection are handled by an ESP32 microcontroller running an event-driven architecture. The turret integrates an IR camera module for thermal targeting, feeding data to the onboard system to autonomously track and suppress heat signatures. Below is our original concept sketch, which guided our mechanical layout and subsystem integration:
 
 <div class="text-center">
   <img class="img-fluid" src="../img/pyro/pyro_concept.jpg" alt="πRo-Bot Concept">
 </div>
 
-Key goals include successful suppression of small fires at distances of up to 6 meters, full functionality in scanning, suppression, and manual modes, and a sleek, modular design adaptable for vehicles or buildings. The project is ongoing, with further enhancements planned.
+Key goals include successful suppression of small fires at distances of up to 6 meters, full functionality in scanning, suppression, and manual modes, and a sleek, modular design adaptable for vehicles or buildings. After the first design iteration, my team has developed the following assembly:
 
-After the first design iteration, my team has developed the following assembly:
 <div class="text-center">
   <div class="row">
     <div class="col-md-6">
@@ -55,4 +56,8 @@ Here's a preview of the device in motion, and the IR camera:
   <img class="img-fluid" src="../img/pyro/thermal.gif" alt="Thermal Camera initial testing." style="width: 50%;">
 </div>
 
-Next steps involve a shop consult, 3D printing, and initial assembly. We plan to use 3D-printed PLA plastic for structural components.
+After meeting with a panel of machinists, we were given the green-light to manufacture our device. After some final design adjustments and structural validation (completed via Fusion 360’s FEA solver), we are currently proceeding to 3D printing of PLA components. At this point, we also recieved a Maker Grant from UC Berkeley's Chapter of the ASME.
+
+<div class="text-center">
+  <img class="img-fluid" src="../img/pyro/fea.png" alt="Our armature passing FEA testing." style="width: 50%;">
+</div>
