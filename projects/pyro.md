@@ -43,7 +43,7 @@ Fire response in hazardous or remote environments often places human lives at ri
   </div>
 </div>
 
-To reduce development time and simplify fabrication, I disassembled and cannibalized a commercial electric water gun as our suppression mechanism. This allowed us to focus on system integration and targeting, rather than pump design. We presented our finalized design to a machinist review panel and received approval to proceed with fabrication. Following that, we secured a Maker Grant from the ASME UC Berkeley Chapter to fund manufacturing and testing.
+To reduce development time and simplify fabrication, I disassembled and cannibalized a toy electric water gun as our delivery mechanism. This allowed us to focus on system integration and targeting, rather than pump design. We presented our finalized design to a machinist review panel and received approval to proceed with fabrication. Following that, we secured a Maker Grant from the ASME UC Berkeley Chapter to fund manufacturing and testing.
 
 <div class="text-center">
   <img class="img-fluid" src="../img/pyro/water_gun.jpeg" alt="The FunWee water gun. Fun to play with!" style="width: 40%">
