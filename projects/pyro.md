@@ -32,6 +32,17 @@ Fire response in hazardous or remote environments often places human lives at ri
   <img class="img-fluid" src="../img/pyro/pyro_concept.jpg" alt="πRo-Bot Concept">
 </div>
 
+<div class="text-center">
+  <div class="row">
+    <div class="col-md-6">
+      <img class="img-fluid" src="../img/pyro/fea.png" alt="Our armature passing FEA testing." style="width: 30%;">
+    </div>
+    <div class="col-md-6">
+      <img class="img-fluid" src="../img/pyro/thermal.gif" alt="Thermal Camera initial testing." style="width: 30%;">
+    </div>
+  </div>
+</div>
+
 To reduce development time and simplify fabrication, I disassembled and cannabalized a commercial electric water gun as our suppression mechanism. This allowed us to focus on system integration and targeting, rather than pump design. We presented our finalized design to a machinist review panel and received approval to proceed with fabrication. Following that, we secured a Maker Grant from the ASME UC Berkeley Chapter to fund manufacturing and testing.
 
 <div class="text-center">
@@ -61,14 +72,3 @@ At present, we are in the final manufacturing phase, fabricating and assembling 
 - Verified mechanical performance under expected operational loads via FEA, with acceptable deflection and safety margins.
 - Successful thermal detection and event-driven suppression response tested under controlled conditions.
 - Streamlined mechanical-electrical integration, enabling efficient maintenance, modular upgrades, and clear subsystem interfacing.
-
-<div class="text-center">
-  <div class="row">
-    <div class="col-md-6">
-      <img class="img-fluid" src="../img/pyro/fea.png" alt="Our armature passing FEA testing." style="width: 100%;">
-    </div>
-    <div class="col-md-6">
-      <img class="img-fluid" src="../img/pyro/thermal.gif" alt="Thermal Camera initial testing." style="width: 100%;">
-    </div>
-  </div>
-</div>
