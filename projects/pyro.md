@@ -64,8 +64,6 @@ Key goals included successful suppression of small fires at distances of up to 6
 
 All critical mates in our design are metal-to-metal, utilizing off-the-shelf coupling flanges along with standardized washers, nuts, and bolts. We used ASME-standard fasteners, as they are readily available in bulk at our local hardware supplier, simplifying procurement. Specifically, we selected M3 ASME B18.22M washers, ASME B18.2.4.1M nuts, and ASME B18.3.4M bolts. Standardization reduced the need for custom tolerancing and mating analysis.
 
-Clearance holes in 3D-printed components were designed to approximate an ISO H13 fit, allowing reliable bolt insertion while accounting for FDM print variation. Hole diameters in the CAD model were slightly oversized (3.2–3.4 mm) relative to the nominal M3 bolt to compensate for shrinkage and ensure interference-free fastening. Referencing established standards ensured dimensional compatibility and reliable performance under load.
-
 # Manufacturing & Assembly
 
 After meeting with a panel of machinists, we shared our design, as well as preliminary calculations for motor performance and reliability. We received feedback and the green light to manufacture our device. After some final design adjustments and structural validation (completed via Fusion 360’s FEA solver), we are currently proceeding to 3D printing of PLA components. At this point, we also received a Maker Grant from UC Berkeley's Chapter of the ASME. Additionally, we've begun implementing our code, which includes the IR sensor mentioned previously.
