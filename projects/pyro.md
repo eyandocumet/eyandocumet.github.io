@@ -24,7 +24,7 @@ summary: "An autonomous 2DoF robot designed for fire suppression in hazardous en
 - **Embedded Systems** - Implemented control architecture on an ESP32 microcontroller, integrating sensor input and actuator control for autonomous operation.
 - **Event Driven Programming** – Developed non-blocking firmware to coordinate scanning, targeting, and suppression behaviors based on real-time IR sensor data.
 
-# Discussion
+# Mechanical Design
 
 Fire response in hazardous or remote environments often places human lives at risk. My team sought to prototype an affordable, semi-autonomous robotic system capable of detecting and suppressing small fires in constrained or inaccessible locations. We aimed to combine embedded intelligence, precise mechanical control, and modular design into a compact solution suitable for further development in vehicular or building-based applications.
 
