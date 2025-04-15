@@ -28,8 +28,6 @@ summary: "An autonomous 2DoF robot designed for fire suppression in hazardous en
 
 Fire response in hazardous or remote environments often places human lives at risk. My team sought to prototype an affordable, semi-autonomous robotic system capable of detecting and suppressing small fires in constrained or inaccessible locations. We aimed to combine embedded intelligence, precise mechanical control, and modular design into a compact solution suitable for further development in vehicular or building-based applications.
 
-As Mechanical Lead, I was responsible for the structural architecture, manufacturability, and subsystem integration of πRo-Bot’s physical platform. I designed the custom chassis and turret assembly using *Fusion 360*, implementing a 2.5-degree-of-freedom motion system. Finite Element Analysis (FEA) was used to validate mechanical strength, confirm deflection limits, and ensure safe operation under expected loading conditions. I specified all hardware and transmission components, including NEMA 17 stepper motors and ASME-standard M3 fasteners (B18.3.4M bolts, B18.2.4.1M nuts, B18.22M washers). Design choices were guided by availability, ease of assembly, and tolerance control for 3D-printed PLA parts.
-
 To reduce development time and simplify fabrication, I disassembled and cannabalized a commercial electric water gun as our suppression mechanism. This allowed us to focus on system integration and targeting, rather than pump design. We presented our finalized design to a machinist review panel and received approval to proceed with fabrication. Following that, we secured a Maker Grant from the ASME UC Berkeley Chapter to fund manufacturing and testing.
 
 <div class="text-center">
@@ -40,24 +38,22 @@ To reduce development time and simplify fabrication, I disassembled and cannabal
   <img class="img-fluid" src="../img/pyro/water_gun.jpeg" alt="The FunWee water gun. Fun to play with!" style="width: 40%">
 </div>
 
-<div class="text-center">
-  <div class="row">
-    <div class="col-md-6">
-      <img class="img-fluid" src="../img/pyro/pyro1_iso.png" alt="Pyro ISO View" style="width: 50%;">
-    </div>
-    <div class="col-md-6">
-      <img class="img-fluid" src="../img/pyro/pyro1_top.png" alt="Pyro Top View" style="width: 50%;">
-    </div>
-  </div>
+As Mechanical Lead, I was responsible for the structural architecture, manufacturability, and subsystem integration of πRo-Bot’s physical platform. I designed the custom chassis and turret assembly using *Fusion 360*, implementing a 2.5-degree-of-freedom motion system. Finite Element Analysis (FEA) was used to validate mechanical strength, confirm deflection limits, and ensure safe operation under expected loading conditions. I specified all hardware and transmission components, including NEMA 17 stepper motors and ASME-standard M3 fasteners (B18.3.4M bolts, B18.2.4.1M nuts, B18.22M washers). Design choices were guided by availability, ease of assembly, and tolerance control for 3D-printed PLA parts. The three main components I designed were the base, the armature, and the firing assembly.
 
-  <div class="row">
-    <div class="col-md-6">
-      <img class="img-fluid" src="../img/pyro/pyro1_bottom.png" alt="Pyro Bottom View" style="width: 50%;">
-    </div>
-    <div class="col-md-6">
-      <img class="img-fluid" src="../img/pyro/pyro_firing_assembly.png" alt="Pyro Firing Assembly" style="width: 50%;">
-    </div>
-  </div>
+<div class="text-center">
+  <img class="img-fluid" src="../img/pyro/platform_drawing.png" alt="πRo-Bot Concept" style="width: 40%">
+</div>
+
+<div class="text-center">
+  <img class="img-fluid" src="../img/pyro/arm_drawing.png" alt="The FunWee water gun. Fun to play with!" style="width: 40%">
+</div>
+
+<div class="text-center">
+  <img class="img-fluid" src="../img/pyro/base_drawing.png" alt="πRo-Bot Concept" style="width: 40%">
+</div>
+
+<div class="text-center">
+  <img class="img-fluid" src="../img/pyro/water_gun.jpeg" alt="The FunWee water gun. Fun to play with!" style="width: 40%">
 </div>
 
 All critical mates in our design are metal-to-metal, utilizing off-the-shelf coupling flanges along with standardized washers, nuts, and bolts. We used ASME-standard fasteners, as they are readily available in bulk at our local hardware supplier, simplifying procurement. Specifically, we selected M3 ASME B18.22M washers, ASME B18.2.4.1M nuts, and ASME B18.3.4M bolts. Standardization reduced the need for custom tolerancing and mating analysis.
