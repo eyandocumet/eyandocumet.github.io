@@ -35,10 +35,10 @@ Fire response in hazardous or remote environments often places human lives at ri
 <div class="text-center">
   <div class="row">
     <div class="col-md-6">
-      <img class="img-fluid" src="../img/pyro/fea.png" alt="Our armature passing FEA testing." style="width: 30%;">
+      <img class="img-fluid" src="../img/pyro/fea.png" alt="Our armature passing FEA testing." style="width: 80%;">
     </div>
     <div class="col-md-6">
-      <img class="img-fluid" src="../img/pyro/thermal.gif" alt="Thermal Camera initial testing." style="width: 30%;">
+      <img class="img-fluid" src="../img/pyro/thermal.gif" alt="Thermal Camera initial testing." style="width: 80%;">
     </div>
   </div>
 </div>
