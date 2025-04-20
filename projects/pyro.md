@@ -9,7 +9,7 @@ summary: "An autonomous 2DoF robot designed for fire suppression in hazardous en
 ---
 
 <div class="text-center">
-  <img class="img-fluid" src="../img/pyro/final_design.png" alt="Our Final design plan, ready to print!" style="width: 45%;">
+  <img class="img-fluid" src="../img/pyro/final_design.png" alt="Our Final design plan, ready to print!" style="width: 30%;">
 </div>
 
 # Overview
