@@ -14,7 +14,7 @@ summary: "An autonomous 2DoF robot designed for fire suppression in hazardous en
 
 # Overview
 
-πRo-Bot is a prototype, semi-autonomous fire suppression system engineered for operation in hazardous or remote environments. It consists of a 2.5DoF robotic turret, capable of detecting flames and delivering retardant (water in our case). The system supports both autonomous and manual operation modes and is also capable of preemptively applying retardant to mitigate fire spread.
+πRo-Bot is a prototype fire suppression system engineered for operation in hazardous or remote environments. It consists of a 2.5DoF robotic turret, capable of detecting flames and delivering retardant (water in our case). The system supports both autonomous and manual operation modes and is also capable of preemptively applying retardant to mitigate fire spread.
 
 # Skills Demonstrated
 - **Computer Aided Design** – Parametric mechanical design using *Fusion 360*, including assemblies, joints, and toleranced components.  
@@ -32,13 +32,13 @@ Fire response in hazardous or remote environments often places human lives at ri
   <img class="img-fluid" src="../img/pyro/pyro_concept.jpg" alt="πRo-Bot Concept">
 </div>
 
-To reduce development time and simplify fabrication, I disassembled and cannibalized a toy electric water gun as our delivery mechanism. This allowed us to focus on system integration and targeting, rather than pump design. We presented our finalized design to a machinist review panel and received approval to proceed with fabrication. Following that, we secured a Maker Grant from the ASME UC Berkeley Chapter to fund manufacturing and testing.
+To reduce development time and simplify fabrication, my team disassembled and cannibalized a toy electric water gun as our delivery mechanism. This allowed us to focus on system integration and targeting, rather than pump design. We presented our finalized design to a machinist review panel and received approval to proceed with fabrication. Following that, we secured a Maker Grant from the ASME UC Berkeley Chapter to fund manufacturing and testing.
 
 <div class="text-center">
   <img class="img-fluid" src="../img/pyro/water_gun.jpeg" alt="The FunWee water gun. Fun to play with!" style="width: 40%">
 </div>
 
-As Mechanical Lead, I was responsible for the structural architecture, manufacturability, and subsystem integration of πRo-Bot’s physical platform. I designed the custom chassis and turret assembly using *Fusion 360*, implementing a 2.5-degree-of-freedom motion system. Hand-calculations were used to confirm deflection limits, and ensure safe operation under expected loading conditions. Since our loads were going to be so low compared to our motor's maximum specifications, we opted to not use moer advanced modeling techniques like FEA. I specified all hardware and transmission components, including NEMA 17 stepper motors and ASME-standard M3 fasteners (B18.3.4M bolts, B18.2.4.1M nuts, B18.22M washers). Design choices were guided by availability, ease of assembly, and tolerance control for 3D-printed PLA parts. The three main components I designed were the base, the armature, and the firing assembly.
+As Mechanical Lead, I was responsible for the structural architecture, manufacturability, and subsystem integration of πRo-Bot’s physical platform. I designed the custom chassis and turret assembly using *Fusion 360*. Hand-calculations were used to confirm deflection limits, and ensure safe operation under expected loading conditions. Since our loads were going to be low (less than half) compared to our motor's maximum specifications (holding and dynamic torque), we opted to not use moer advanced validation techniques like FEA. I specified all hardware and transmission components, including NEMA 17 stepper motors and ASME-standard M3 fasteners. Design choices were guided by availability, ease of assembly, and tolerance control for 3D-printed PLA parts.
 
 <div class="text-center">
   <img class="img-fluid" src="../img/pyro/platform_drawing.png" alt="Gun platform drawing" style="width: 40%">
