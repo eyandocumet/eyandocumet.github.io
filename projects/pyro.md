@@ -33,14 +33,7 @@ Fire response in hazardous or remote environments often places human lives at ri
 </div>
 
 <div class="text-center">
-  <div class="row">
-    <div class="col-md-6">
-      <img class="img-fluid" src="../img/pyro/fea.png" alt="Our armature passing FEA testing." style="width: 80%;">
-    </div>
-    <div class="col-md-6">
-      <img class="img-fluid" src="../img/pyro/thermal.gif" alt="Thermal Camera initial testing." style="width: 80%;">
-    </div>
-  </div>
+  <img class="img-fluid" src="../img/pyro/thermal.gif" alt="Thermal Camera initial testing." style="width: 80%;">
 </div>
 
 To reduce development time and simplify fabrication, I disassembled and cannibalized a toy electric water gun as our delivery mechanism. This allowed us to focus on system integration and targeting, rather than pump design. We presented our finalized design to a machinist review panel and received approval to proceed with fabrication. Following that, we secured a Maker Grant from the ASME UC Berkeley Chapter to fund manufacturing and testing.
@@ -49,7 +42,7 @@ To reduce development time and simplify fabrication, I disassembled and cannibal
   <img class="img-fluid" src="../img/pyro/water_gun.jpeg" alt="The FunWee water gun. Fun to play with!" style="width: 40%">
 </div>
 
-As Mechanical Lead, I was responsible for the structural architecture, manufacturability, and subsystem integration of πRo-Bot’s physical platform. I designed the custom chassis and turret assembly using *Fusion 360*, implementing a 2.5-degree-of-freedom motion system. Finite Element Analysis (FEA) was used to validate mechanical strength, confirm deflection limits, and ensure safe operation under expected loading conditions. I specified all hardware and transmission components, including NEMA 17 stepper motors and ASME-standard M3 fasteners (B18.3.4M bolts, B18.2.4.1M nuts, B18.22M washers). Design choices were guided by availability, ease of assembly, and tolerance control for 3D-printed PLA parts. The three main components I designed were the base, the armature, and the firing assembly.
+As Mechanical Lead, I was responsible for the structural architecture, manufacturability, and subsystem integration of πRo-Bot’s physical platform. I designed the custom chassis and turret assembly using *Fusion 360*, implementing a 2.5-degree-of-freedom motion system. Hand-calculations were used to confirm deflection limits, and ensure safe operation under expected loading conditions. Since our loads were going to be so low compared to our motor's maximum specifications, we opted to not use moer advanced modeling techniques like FEA. I specified all hardware and transmission components, including NEMA 17 stepper motors and ASME-standard M3 fasteners (B18.3.4M bolts, B18.2.4.1M nuts, B18.22M washers). Design choices were guided by availability, ease of assembly, and tolerance control for 3D-printed PLA parts. The three main components I designed were the base, the armature, and the firing assembly.
 
 <div class="text-center">
   <img class="img-fluid" src="../img/pyro/platform_drawing.png" alt="Gun platform drawing" style="width: 40%">
@@ -69,6 +62,6 @@ All critical mates in our design are metal-to-metal, utilizing off-the-shelf cou
 
 At present, we are in the final manufacturing phase, fabricating and assembling components for full system integration. Our design has passed structural validation and subsystem testing, and we are on track to demonstrate the fully functional prototype at our capstone showcase later this month. Current outcomes include:
 - Completion of a fully integrated, semi-autonomous fire suppression prototype with both manual and autonomous control modes.
-- Verified mechanical performance under expected operational loads via FEA, with acceptable deflection and safety margins.
+- Verified mechanical performance under expected operational loads via hand-calculations, with acceptable deflection and safety margins.
 - Successful thermal detection and event-driven suppression response tested under controlled conditions.
 - Streamlined mechanical-electrical integration, enabling efficient maintenance, modular upgrades, and clear subsystem interfacing.
