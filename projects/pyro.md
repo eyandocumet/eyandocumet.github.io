@@ -28,15 +28,15 @@ summary: "An autonomous 2DoF robot designed for fire suppression in hazardous en
 Fire response in hazardous or remote environments often places human lives at risk. My team sought to prototype an affordable, semi-autonomous robotic system capable of detecting and suppressing small fires in constrained or inaccessible locations. We aimed to combine embedded intelligence, precise mechanical control, and modular design into a compact solution suitable for further development in vehicular or building-based applications.
 
 <div class="text-center">
-  <img class="img-fluid" src="../img/pyro/platform_drawing.png" alt="Gun platform drawing" style="width: 40%">
+  <img class="img-fluid" src="../img/pyro/platform_drawing.png" alt="Gun platform drawing" style="width: 20%">
 </div>
 
 <div class="text-center">
-  <img class="img-fluid" src="../img/pyro/arm_drawing.png" alt="Armature (wrist, waist) drawing" style="width: 40%">
+  <img class="img-fluid" src="../img/pyro/arm_drawing.png" alt="Armature (wrist, waist) drawing" style="width: 20%">
 </div>
 
 <div class="text-center">
-  <img class="img-fluid" src="../img/pyro/base_drawing.png" alt="Base" style="width: 40%">
+  <img class="img-fluid" src="../img/pyro/base_drawing.png" alt="Base" style="width: 20%">
 </div>
 
 As Mechanical Lead, I was responsible for the structural architecture, manufacturability, and subsystem integration of πRo-Bot’s physical platform. I designed the custom chassis and turret assembly using Fusion 360. Hand-calculations were used to confirm deflection limits, and ensure safe operation under expected loading conditions.
