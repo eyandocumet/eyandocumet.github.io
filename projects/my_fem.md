@@ -15,18 +15,15 @@ summary: "A custom-built FEM solver developed in MATLAB for 1D structural and th
 
 # Overview
 
-This project marks the first half of a comprehensive MATLAB-based FEM solver, developed for ME C180 at UC Berkeley. It implements 1D Galerkin finite elements to solve structural and thermal boundary value problems. 
+MyFEM is a comprehensive, MATLAB-based FEM solver, developed for ME C180 at UC Berkeley. It implements finite element analysis to solve structural and thermal boundary value problems. 
 
 ## Skills Demonstrated
-- **Finite Element Method (FEM)** – Implemented 1D Galerkin FEM for structural and thermal problems from first principles.  
-- **Numerical Linear Algebra** – Constructed and solved large sparse systems using MATLAB’s built-in solvers and custom routines.  
+- **Finite Element Method/Analysis (FEM/FEA)** – Implemented Galerkin's Method FEM for structural and thermal problems from first principles.  
+- **Numerical Linear Algebra** – Constructed and solved large systems using MATLAB’s built-in solvers and custom optimized routines.  
 - **Error Estimation & Adaptivity** – Applied PMPE for error quantification and built an adaptive h-refinement algorithm for mesh convergence.  
 - **MATLAB Programming** – Developed modular, vectorized code optimized for readability and performance on low-spec hardware.  
-- **Software Engineering Principles** – Structured code for scalability, with reusable components for shape functions, element assembly, and boundary condition enforcement.  
-- **Applied Mathematical Modeling** – Translated differential equations and boundary conditions into discrete numerical frameworks using variational methods.
 
 # Software Engineering
-
 The Finite Element Method (FEM) is a numerical technique for solving complex physical problems (differential equations). These include how heat spreads through a material or how a beam bends under load. For a class at UC Berkeley, I undertook the project of creating my own FEM code from scratch. This project demanded a rigorous, ground-up implementation of the finite element method, emphasizing both analytical understanding and practical execution. The result is a fully functional solver capable of handling nontrivial physical systems with minimal computational overhead. The code is modular, scalable, and runs on resource-constrained hardware without performance loss. It is designed to be runnable on weak hardware, including laptops and mobile phones.
 
 The solver handles both Dirichlet and Neumann boundary conditions and is capable of:
