@@ -17,11 +17,10 @@ summary: "A prototype wearable personal safety device."
 The "Safety Grenade" is a wearable, throwable personal safety device designed to enhance communication during emergencies. Worn as a necklace, it amplifies the human voice and activates an alarm when pulled during an attack, drawing attention and signaling distress.
 
 # Skills Demonstrated
-- **Geometric Dimensioning & Tolerancing (GD&T)** – Applied GD&T principles for precise technical drawings and ensuring dimensional accuracy across components.  
-- **Arduino & Electronics Design** – Developed the device's electronics using Arduino IDE, selecting components like the Arduino Nano and designing circuit schematics with KiCAD.  
-- **Project Management** – Managed the project timeline, coordinated team tasks, and implemented an asynchronous work model to optimize efficiency for a team of four.  
-- **Prototyping & Manufacturing** – Led the manufacturing of components, including 3D printing the chassis and integrating off-the-shelf parts for assembly.  
-- **Iterative Design Process** – Led the team through several design iterations, testing and refining the prototype for optimal functionality and performance.
+- **Geometric Dimensioning & Tolerancing (GD&T)** – Applied GD&T principles for precise technical drawings and dimensional accuracy across components.  
+- **Arduino & Electronics Design** – Developed the device's electronics using Arduino IDE and an ESP32. Implemented circuit design in KiCAD
+- **Project Management** – Managed project timeline, coordinated team tasks, and implemented an asynchronous work model to optimize efficiency.
+- **Iterative Design Process** – Used SPRINT development method to quickly develop a product.
 
 # Design & Development
 
