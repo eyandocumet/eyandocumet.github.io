@@ -31,10 +31,6 @@ Fire response in hazardous or remote environments often places human lives at ri
   <img class="img-fluid" src="../img/pyro/pyro_concept.jpg" alt="πRo-Bot Concept">
 </div>
 
-<div class="text-center">
-  <img class="img-fluid" src="../img/pyro/water_gun.jpeg" alt="The FunWee water gun. Fun to play with!" style="width: 40%">
-</div>
-
 As Mechanical Lead, I was responsible for the structural architecture, manufacturability, and subsystem integration of πRo-Bot’s physical platform. I designed the custom chassis and turret assembly using Fusion 360. Hand-calculations were used to confirm deflection limits, and ensure safe operation under expected loading conditions.
 
 <div class="text-center">
@@ -47,6 +43,10 @@ As Mechanical Lead, I was responsible for the structural architecture, manufactu
 
 <div class="text-center">
   <img class="img-fluid" src="../img/pyro/base_drawing.png" alt="Base" style="width: 40%">
+</div>
+
+<div class="text-center">
+  <img class="img-fluid" src="../img/pyro/water_gun.jpeg" alt="The FunWee water gun. Fun to play with!" style="width: 40%">
 </div>
 
 # Outcomes
