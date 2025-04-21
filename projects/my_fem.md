@@ -25,7 +25,7 @@ This project marks the first half of a comprehensive MATLAB-based FEM solver, de
 - **Software Engineering Principles** – Structured code for scalability, with reusable components for shape functions, element assembly, and boundary condition enforcement.  
 - **Applied Mathematical Modeling** – Translated differential equations and boundary conditions into discrete numerical frameworks using variational methods.
 
-# Mechanical Design
+# Software Engineering
 
 The Finite Element Method (FEM) is a numerical technique for solving complex physical problems (differential equations). These include how heat spreads through a material or how a beam bends under load. For a class at UC Berkeley, I undertook the project of creating my own FEM code from scratch. This project demanded a rigorous, ground-up implementation of the finite element method, emphasizing both analytical understanding and practical execution. The result is a fully functional solver capable of handling nontrivial physical systems with minimal computational overhead. The code is modular, scalable, and runs on resource-constrained hardware without performance loss. It is designed to be runnable on weak hardware, including laptops and mobile phones.
 
