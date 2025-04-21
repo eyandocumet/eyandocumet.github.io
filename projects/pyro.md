@@ -31,8 +31,6 @@ Fire response in hazardous or remote environments often places human lives at ri
   <img class="img-fluid" src="../img/pyro/pyro_concept.jpg" alt="πRo-Bot Concept">
 </div>
 
-To reduce development time and simplify fabrication, my team disassembled and cannibalized a toy electric water gun as our delivery mechanism. This allowed us to focus on system integration and targeting, rather than pump design. We presented our finalized design to a machinist review panel and received approval to proceed with fabrication. Following that, we secured a Maker Grant from the ASME UC Berkeley Chapter to fund manufacturing and testing.
-
 <div class="text-center">
   <img class="img-fluid" src="../img/pyro/water_gun.jpeg" alt="The FunWee water gun. Fun to play with!" style="width: 40%">
 </div>
@@ -50,8 +48,6 @@ As Mechanical Lead, I was responsible for the structural architecture, manufactu
 <div class="text-center">
   <img class="img-fluid" src="../img/pyro/base_drawing.png" alt="Base" style="width: 40%">
 </div>
-
-All critical mates in our design are metal-to-metal, utilizing off-the-shelf coupling flanges along with standardized washers, nuts, and bolts. We used ASME-standard fasteners, as they are readily available in bulk at our local hardware supplier, simplifying procurement. Specifically, we selected M3 ASME B18.22M washers, ASME B18.2.4.1M nuts, and ASME B18.3.4M bolts. Standardization reduced the need for custom tolerancing and mating analysis.
 
 # Outcomes
 
