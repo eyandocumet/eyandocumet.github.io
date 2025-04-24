@@ -42,9 +42,11 @@ As Mechanical Lead, I was responsible for the structural architecture, manufactu
   </div>
 </div>
 
+Several components required iterative redesign—most notably, the gear coupling our Pololu motor to the rack gear on the firing assembly, which was optimized through successive prototypes before converging on a shaft-collar mounting scheme and interference fit for secure power transmission.
 
-
-Several components required redesigns—namely, the gear linking the Pololu motor to the firing assembly, which underwent multiple iterations before settling on a shaft-collar mount and interference fit with the motor shaft.
+<div class="text-center">
+  <img class="img-fluid" src="../img/pyro/gear_evolution.jpeg" alt="Gun platform drawing" style="height: 400px;">
+</div>
 
 # Outcomes
 
