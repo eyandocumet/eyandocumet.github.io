@@ -39,9 +39,12 @@ As Mechanical Lead, I was responsible for the structural architecture, manufactu
   <img class="img-fluid" src="../img/pyro/base_drawing.png" alt="Base" style="width: 20%">
 </div>
 
+Several components required redesigns—namely, the gear linking the Pololu motor to the firing assembly, which underwent multiple iterations before settling on a shaft-collar mount and interference fit with the motor shaft.
+
 # Outcomes
 
-At present, we are in the final manufacturing phase, fabricating and assembling components for full system integration. Our design has passed structural validation and subsystem testing, and we are on track to demonstrate the fully functional prototype at our capstone showcase later this month. Current outcomes include:
+At present, we are in the final integration phase, finishing up our event-driven code and implementing our software goals. Our design has passed structural validation and subsystem testing, and we are on track to demonstrate the fully functional prototype at our capstone showcase later this month. Current outcomes include:
+
 - Completion of a fully integrated, semi-autonomous fire suppression prototype with both manual and autonomous control modes.
 - Verified mechanical performance under expected operational loads via hand-calculations, with acceptable deflection and safety margins.
 - Successful thermal detection and event-driven suppression response tested under controlled conditions.
