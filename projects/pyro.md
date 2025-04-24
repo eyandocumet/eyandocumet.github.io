@@ -8,9 +8,8 @@ published: true
 summary: "An autonomous 2DoF robot designed for fire suppression in hazardous environments, featuring both manual and automatic control."
 ---
 
-<div class="d-flex justify-content-center align-items-start">
-  <img class="img-fluid mx-2" src="../img/pyro/final_design.png" alt="Final design plan" style="height: 400px; object-fit: contain;">
-  <img class="img-fluid mx-2" src="../img/pyro/Pyro_Final.png" alt="Final assembly" style="height: 400px; object-fit: contain;">
+<div class="text-center">
+  <img class="img-fluid" src="../img/pyro/Pyro_Final.png" alt="Gun platform drawing" style="width: 20%">
 </div>
 
 # Overview
@@ -28,17 +27,26 @@ Fire response in hazardous or remote environments often places human lives at ri
 
 As Mechanical Lead, I was responsible for the structural architecture, manufacturability, and subsystem integration of πRo-Bot’s physical platform. I designed the custom chassis and turret assembly using Fusion 360. Hand-calculations were used to confirm deflection limits, and ensure safe operation under expected loading conditions.
 
-<div class="text-center">
-  <img class="img-fluid" src="../img/pyro/platform_drawing.png" alt="Gun platform drawing" style="width: 20%">
+<div class="d-grid" style="grid-template-columns: 1fr 1fr; gap: 20px;">
+
+  <div class="text-center">
+    <img class="img-fluid" src="../img/pyro/platform_drawing.png" alt="Gun platform drawing" style="width: 100%;">
+  </div>
+
+  <div class="text-center">
+    <img class="img-fluid" src="../img/pyro/arm_drawing.png" alt="Armature (wrist, waist) drawing" style="width: 100%;">
+  </div>
+
+  <div class="text-center">
+    <img class="img-fluid" src="../img/pyro/base_drawing.png" alt="Base" style="width: 100%;">
+  </div>
+
+  <div class="d-flex justify-content-center align-items-start" style="grid-row: span 3;">
+    <img class="img-fluid" src="../img/pyro/final_design.png" alt="Final design plan" style="height: 400px; object-fit: contain;">
+  </div>
+
 </div>
 
-<div class="text-center">
-  <img class="img-fluid" src="../img/pyro/arm_drawing.png" alt="Armature (wrist, waist) drawing" style="width: 20%">
-</div>
-
-<div class="text-center">
-  <img class="img-fluid" src="../img/pyro/base_drawing.png" alt="Base" style="width: 20%">
-</div>
 
 Several components required redesigns—namely, the gear linking the Pololu motor to the firing assembly, which underwent multiple iterations before settling on a shaft-collar mount and interference fit with the motor shaft.
 
