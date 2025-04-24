@@ -29,9 +29,6 @@ As Mechanical Lead, I was responsible for the structural architecture, manufactu
 
 <div class="d-grid" style="grid-template-columns: 1fr 1fr; gap: 10px;">
   <div class="d-flex justify-content-center align-items-start">
-    <img class="img-fluid" src="../img/pyro/final_design.png" alt="Final design plan" style="height: 200px; object-fit: contain;">
-  </div>
-  <div class="text-center">
     <img class="img-fluid" src="../img/pyro/platform_drawing.png" alt="Gun platform drawing" style="height: 200px;">
   </div>
   <div class="text-center">
@@ -39,6 +36,9 @@ As Mechanical Lead, I was responsible for the structural architecture, manufactu
   </div>
   <div class="text-center">
     <img class="img-fluid" src="../img/pyro/base_drawing.png" alt="Base" style="height: 200px;">
+  </div>
+  <div class="text-center">
+    <img class="img-fluid" src="../img/pyro/final_design.png" alt="Final design plan" style="height: 200px; object-fit: contain;">
   </div>
 </div>
 
