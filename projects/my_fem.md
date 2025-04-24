@@ -9,8 +9,8 @@ summary: "A custom-built FEM solver developed in MATLAB for 1D structural and th
 ---
 
 <div class="d-flex justify-content-center">
-  <img class="img-fluid" src="../img/my_fem/plot_k_32.png" alt="My FEM Plot" style="height: 250px; object-fit: contain; margin-right: 5%;">
-  <img class="img-fluid" src="../img/my_fem/adaptive_mesh.png" alt="Adaptive meshing!" style="height: 250px; object-fit: contain;">
+  <img class="img-fluid" src="../img/my_fem/plot_k_32.png" alt="My FEM Plot" style="height: 400px; object-fit: contain; margin-right: 5%;">
+  <img class="img-fluid" src="../img/my_fem/adaptive_mesh.png" alt="Adaptive meshing!" style="height: 400px; object-fit: contain;">
 </div>
 
 # Overview
