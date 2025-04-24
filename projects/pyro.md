@@ -27,25 +27,21 @@ Fire response in hazardous or remote environments often places human lives at ri
 
 As Mechanical Lead, I was responsible for the structural architecture, manufacturability, and subsystem integration of πRo-Bot’s physical platform. I designed the custom chassis and turret assembly using Fusion 360. Hand-calculations were used to confirm deflection limits, and ensure safe operation under expected loading conditions.
 
-<div class="d-grid" style="grid-template-columns: 1fr 1fr; gap: 20px;">
-
-  <div class="text-center">
-    <img class="img-fluid" src="../img/pyro/platform_drawing.png" alt="Gun platform drawing" style="height: 113px;">
-  </div>
-
-  <div class="text-center">
-    <img class="img-fluid" src="../img/pyro/arm_drawing.png" alt="Armature (wrist, waist) drawing" style="height: 113px;">
-  </div>
-
-  <div class="text-center">
-    <img class="img-fluid" src="../img/pyro/base_drawing.png" alt="Base" style="height: 113px;">
-  </div>
-
-  <div class="d-flex justify-content-center align-items-start" style="grid-row: span 3;">
+<div class="d-grid" style="grid-template-columns: 1fr 1fr; gap: 10px;">
+  <div class="d-flex justify-content-center align-items-start">
     <img class="img-fluid" src="../img/pyro/final_design.png" alt="Final design plan" style="height: 400px; object-fit: contain;">
   </div>
-
+  <div class="text-center">
+    <img class="img-fluid" src="../img/pyro/platform_drawing.png" alt="Gun platform drawing" style="width: 100%;">
+  </div>
+  <div class="text-center">
+    <img class="img-fluid" src="../img/pyro/arm_drawing.png" alt="Armature (wrist, waist) drawing" style="width: 100%;">
+  </div>
+  <div class="text-center">
+    <img class="img-fluid" src="../img/pyro/base_drawing.png" alt="Base" style="width: 100%;">
+  </div>
 </div>
+
 
 
 Several components required redesigns—namely, the gear linking the Pololu motor to the firing assembly, which underwent multiple iterations before settling on a shaft-collar mount and interference fit with the motor shaft.
