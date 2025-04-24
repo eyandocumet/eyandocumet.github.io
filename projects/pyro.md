@@ -19,7 +19,7 @@ summary: "An autonomous 2DoF robot designed for fire suppression in hazardous en
 # Skills Demonstrated
 - **Computer Aided Design** – Created maintainable parametric design using Fusion 360. Integrated top-down and bottom-up assembly.
 - **Mechanical Design for Manufacturing (DFM)** – Optimized design for manufacturing on an FDM 3D printer. Minimized part count. Use of standardized ASME fasteners.
-- **Embedded Systems** - Implemented even-driven architecture on an ESP32 microcontroller. Integrated sensor input and actuator control for autonomous operation.
+- **Embedded Systems** - Implemented event-driven architecture on an ESP32 microcontroller. Integrated sensor input and actuator control for autonomous operation.
 - **Reverse Engineering** - Dissasembled an off-the-shelf device and created a "virtual twin" in CAD. Designed new subsystems around existing components.
 
 # Mechanical Design
