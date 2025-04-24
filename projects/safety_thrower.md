@@ -18,7 +18,7 @@ The "Safety Grenade" is a wearable, throwable personal safety device designed to
 
 # Skills Demonstrated
 - **Geometric Dimensioning & Tolerancing (GD&T)** – Applied GD&T principles for precise technical drawings and dimensional accuracy across components.  
-- **Arduino & Electronics Design** – Developed the device's electronics using Arduino IDE and an ESP32. Implemented circuit design in KiCAD
+- **Arduino & Electronics Design** – Developed the device's electronics using Arduino IDE and a Teensy Microcontroller.
 - **Project Management** – Managed project timeline, coordinated team tasks, and implemented an asynchronous work model to optimize efficiency.
 - **Iterative Design Process** – Used SPRINT development method to quickly develop a product.
 
