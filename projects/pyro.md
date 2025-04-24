@@ -30,15 +30,15 @@ As Mechanical Lead, I was responsible for the structural architecture, manufactu
 <div class="d-grid" style="grid-template-columns: 1fr 1fr; gap: 20px;">
 
   <div class="text-center">
-    <img class="img-fluid" src="../img/pyro/platform_drawing.png" alt="Gun platform drawing" style="width: 100%;">
+    <img class="img-fluid" src="../img/pyro/platform_drawing.png" alt="Gun platform drawing" style="height: 113px;">
   </div>
 
   <div class="text-center">
-    <img class="img-fluid" src="../img/pyro/arm_drawing.png" alt="Armature (wrist, waist) drawing" style="width: 100%;">
+    <img class="img-fluid" src="../img/pyro/arm_drawing.png" alt="Armature (wrist, waist) drawing" style="height: 113px;">
   </div>
 
   <div class="text-center">
-    <img class="img-fluid" src="../img/pyro/base_drawing.png" alt="Base" style="width: 100%;">
+    <img class="img-fluid" src="../img/pyro/base_drawing.png" alt="Base" style="height: 113px;">
   </div>
 
   <div class="d-flex justify-content-center align-items-start" style="grid-row: span 3;">
