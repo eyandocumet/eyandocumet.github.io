@@ -12,17 +12,17 @@ summary: "A prototype wearable personal safety device."
   <img class="img-fluid" src="../img/safety_thrower/exploded.jpg" alt="An exploded view of the device.">
 </div>
 
-# Overview
+## Overview
 
 The "Safety Grenade" is a wearable, throwable personal safety device designed to enhance communication during emergencies. Worn as a necklace, it amplifies the human voice and activates an alarm when pulled during an attack, drawing attention and signaling distress.
 
-# Skills Demonstrated
+## Skills Demonstrated
 - **Geometric Dimensioning & Tolerancing (GD&T)** – Applied GD&T principles for precise technical drawings and dimensional accuracy across components.  
 - **Arduino & Electronics Design** – Developed the device's electronics using Arduino IDE and a Teensy Microcontroller.
 - **Project Management** – Managed project timeline, coordinated team tasks, and implemented an asynchronous work model to optimize efficiency.
 - **Iterative Design Process** – Used SPRINT development method to quickly develop a product.
 
-# Design & Development
+## Design & Development
 
 As a Project Manager and Circuitry Lead to this project of four, I was responsible for ensuring compliance with project requirements, and designing the electronics using Arduino IDE and KiCAD. A significant part of the design process involved creating technical drawings of our components with Geometric Dimensioning and Tolerancing (GD&T) principles, ensuring each of the 8 components met strict dimensional and functional standards. I created detailed technical drawings for each component to ensure clarity in design communication and to facilitate assembly.
 
@@ -32,7 +32,7 @@ The design process required several iterations, and each component’s fit was c
   <img class="img-fluid" src="../img/safety_thrower/drawing.jpg" alt="One of several drawings I created for the device during documentation." style="width: 20%;">
 </div>
 
-# Manufacturing Plan
+## Manufacturing Plan
 
 The fabrication process for the "Safety Grenade" involved the assembly of two main components: the chasis and the circuitry. The body of the device was comsisted of two FDM-printed (PLA) shells, mated together with a snap-fit.
 
@@ -44,6 +44,6 @@ The rest of the components consisted of:
 - Limit Switch (Off-The-Shelf)
 - Lanyard (Custom Made)
 
-# Reflection
+## Reflection
 
 This semester-long project was an excellent opportunity for me to demonstrate leadership and foster collaboration within my team. Although we faced some initial challenges during the ideation and coordination stages, I was able to guide the team through these hurdles with strategic decision-making and a focus on collaboration. As project manager, I took the initiative to implement an asynchronous work model, which helped our team of four busy college students remained aligned on deadlines and responsibilities.
