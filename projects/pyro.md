@@ -12,17 +12,17 @@ summary: "An autonomous 2DoF robot designed for fire suppression in hazardous en
   <img class="img-fluid" src="../img/pyro/Pyro_Final.png" alt="Gun platform drawing" style="height: 400px;">
 </div>
 
-# Overview
+## Overview
 
 πRo-Bot is a prototype fire suppression system engineered for operation in hazardous or remote environments. It consists of a 2.5DoF robotic turret, capable of detecting flames and delivering retardant (water in our case). The system supports both autonomous and manual operation modes and is also capable of preemptively applying retardant to mitigate fire spread.
 
-# Skills Demonstrated
+## Skills Demonstrated
 - **Computer Aided Design** – Created maintainable parametric design using Fusion 360. Integrated top-down and bottom-up assembly.
 - **Mechanical Design for Manufacturing (DFM)** – Optimized design for manufacturing on an FDM 3D printer. Minimized part count. Use of standardized ASME fasteners.
 - **Embedded Systems** - Implemented event-driven architecture on an ESP32 microcontroller. Integrated sensor input and actuator control for autonomous operation.
 - **Reverse Engineering** - Dissasembled an off-the-shelf device and created a "virtual twin" in CAD. Designed new subsystems around existing components.
 
-# Mechanical Design
+## Mechanical Design
 Fire response in hazardous or remote environments often places human lives at risk. My team sought to prototype an affordable, semi-autonomous robotic system capable of detecting and suppressing small fires in constrained or inaccessible locations. We aimed to combine embedded intelligence, precise mechanical control, and modular design into a compact solution suitable for further development in vehicular or building-based applications. 
 
 As Mechanical Lead, I was responsible for the structural architecture, manufacturability, and subsystem integration of πRo-Bot’s physical platform. I designed the custom chassis and turret assembly using Fusion 360. Hand-calculations were used to confirm deflection limits, and ensure safe operation under expected loading conditions.
@@ -48,7 +48,7 @@ Several components required iterative redesign—most notably, the gear coupling
   <img class="img-fluid" src="../img/pyro/gear_evolution.jpeg" alt="Gun platform drawing" style="height: 400px;">
 </div>
 
-# Outcomes
+## Outcomes
 
 At present, we are in the final integration phase, finishing up our event-driven code and implementing our software goals. Our design has passed structural validation and subsystem testing, and we are on track to demonstrate the fully functional prototype at our capstone showcase later this month. Current outcomes include:
 
