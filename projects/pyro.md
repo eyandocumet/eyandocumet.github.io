@@ -49,10 +49,8 @@ Several components required iterative redesign—most notably, the gear coupling
 </div>
 
 ## Outcomes
-
-At present, we are in the final integration phase, finishing up our event-driven code and implementing our software goals. Our design has passed structural validation and subsystem testing, and we are on track to demonstrate the fully functional prototype at our capstone showcase later this month. Current outcomes include:
-
 - Completion of a fully integrated, semi-autonomous fire suppression prototype with both manual and autonomous control modes.
 - Verified mechanical performance under expected operational loads via hand-calculations, with acceptable deflection and safety margins.
 - Successful thermal detection and event-driven suppression response tested under controlled conditions.
 - Streamlined mechanical-electrical integration, enabling efficient maintenance, modular upgrades, and clear subsystem interfacing.
+- Successful demo at semi-annual Jacobs Hall design showcase.
