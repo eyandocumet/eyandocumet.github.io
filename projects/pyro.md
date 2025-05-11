@@ -12,11 +12,10 @@ summary: "An autonomous 2DoF robot designed for fire suppression in hazardous en
   <img src="../img/pyro/hero_shot.jpg" width="640" alt="Hero Shot">
 </div>
 
+## Overview
 <div align="center">
   <video src="../img/pyro/pyro_demo.mp4" width="640" height="360" controls></video>
 </div>
-
-## Overview
 
 πRo-Bot is a prototype fire suppression system engineered for operation in hazardous or remote environments. It consists of a 2.5DoF robotic turret, capable of detecting flames and delivering retardant (water in our case). The system supports both autonomous and manual operation modes and is also capable of preemptively applying retardant to mitigate fire spread.
 
