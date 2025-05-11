@@ -8,8 +8,8 @@ published: true
 summary: "An autonomous 2DoF robot designed for fire suppression in hazardous environments, featuring both manual and automatic control."
 ---
 
-<div class="text-center">
-  <video class="img-fluid" src="../img/pyro/pyro_demo.mp4" style="height: 400px;" controls></video>
+<div align="center">
+  <video src="../img/pyro/pyro_demo.mp4" width="640" height="360" controls></video>
 </div>
 
 ## Overview
