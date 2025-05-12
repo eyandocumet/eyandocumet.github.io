@@ -54,9 +54,9 @@ Several components required iterative redesign—most notably, the gear coupling
 
 ## Outcomes
 - Completion of a fully integrated, semi-autonomous fire suppression prototype with both manual and autonomous control modes.
-- Verified mechanical performance under expected operational loads via hand-calculations, with acceptable deflection and safety margins.
 - Successful thermal detection and event-driven suppression response tested under controlled conditions.
 - Streamlined mechanical-electrical integration, enabling efficient maintenance, modular upgrades, and clear subsystem interfacing.
 - Successful demo at semi-annual Jacobs Hall design showcase.
+- Comprehensive reporting. [Available online](https://eyandocumet.xyz/img/pyro/ME102B_Final_Report_Group8.pdf).
 
 \* *Special thanks to teammate Menooa Avrand for the creation of the demonstration video.*
