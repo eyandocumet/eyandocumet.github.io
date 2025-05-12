@@ -57,6 +57,6 @@ Several components required iterative redesign—most notably, the gear coupling
 - Successful thermal detection and event-driven suppression response tested under controlled conditions.
 - Streamlined mechanical-electrical integration, enabling efficient maintenance, modular upgrades, and clear subsystem interfacing.
 - Successful demo at semi-annual Jacobs Hall design showcase.
-- Comprehensive reporting. [Available online](https://eyandocumet.xyz/img/pyro/ME102B_Final_Report_Group8.pdf).
+- Published a [comprehensive final report (PDF)](https://eyandocumet.xyz/img/pyro/ME102B_Final_Report_Group8.pdf).
 
 \* *Special thanks to teammate Menooa Avrand for the creation of the demonstration video.*
