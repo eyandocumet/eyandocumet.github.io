@@ -10,8 +10,8 @@ This portfolio highlights my academic and professional achievements, along with 
 
 ## Credits
 
-- **Template**: Originlly built using a template from [Techfolios](https://techfolios.github.io) (MIT License)
-- **Favicon**: 🤖 by [Twemoji](https://github.com/twitter/twemoji) (CC-BY 4.0)
+- **Template**: Originally built using a template from [Techfolios](https://techfolios.github.io) (MIT License)
+- **Favicon**: "🤖" Icon by [Twemoji](https://github.com/twitter/twemoji) (CC-BY 4.0)
 
 ## License
 
