@@ -5,11 +5,107 @@
     <meta content="width=device-width, initial-scale=1" name="viewport"/>
     <title>Eyan Documet</title>
     <link href="styles.css" rel="stylesheet">
+    <style>
+        /* Scroll reveal */
+        .js .reveal {
+            opacity: 0;
+            transform: translateY(18px);
+            transition: opacity 500ms ease, transform 500ms ease;
+            will-change: opacity, transform;
+        }
+
+        .js .reveal.is-visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            .js .reveal {
+                opacity: 1;
+                transform: none;
+                transition: none;
+            }
+        }
+
+        /* Subtle hover */
+        .project-thumb img {
+            transition: transform 250ms ease;
+        }
+
+        .project-thumb:hover img {
+            transform: scale(1.03);
+        }
+
+        /* Projects */
+        #projects { margin-top: 48px; }
+
+        .projects-list {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .project-card {
+            display: flex;
+            gap: 16px;
+            align-items: flex-start;
+        }
+
+        .project-thumb {
+            flex: 0 0 auto;
+            width: 250px;
+            aspect-ratio: 3 / 2;
+            border-radius: 5%;
+            overflow: hidden;
+            display: block;
+        }
+
+        .project-thumb img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+
+        .project-meta h3 {
+            margin: 0 0 6px;
+        }
+
+        .project-meta p {
+            margin: 0;
+            line-height: 1.4;
+        }
+
+        .project-tags {
+            margin-top: 8px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            font-size: 0.95em;
+            opacity: 0.85;
+            font-weight: 700;
+        }
+
+        .project-tags span {
+            white-space: nowrap;
+        }
+
+        .project-tags span + span::before {
+            content: "•";
+            margin: 0 10px;
+            opacity: 0.7;
+        }
+
+        @media (max-width: 600px) {
+            .project-card { flex-direction: column; }
+            .project-thumb { width: 100%; max-width: 420px; }
+        }
+    </style>
 
 </head>
 <body>
 <main>
-    <div class="row">
+    <div class="row reveal">
         <img alt="Photo of Eyan" src="mugshot.png"/>
         <div>
             <h1>👋 Hi, my name's Eyan</h1>
@@ -27,8 +123,83 @@
             <a href="https://www.linkedin.com/in/eyandocumet" rel="noreferrer" target="_blank">↗ LinkedIn</a>
             <a href="mailto:eyan.documet@protonmail.com">↗ Email</a>
             <a download="Eyan_Documet_Resume.pdf" href="Eyan_Documet_Resume.pdf">↗ Resume (Download)</a>
+
         </div>
     </div>
+
+    <section id="projects">
+        <h2 class="reveal">Selected Projects</h2>
+
+        <div class="projects-list">
+            <article class="project-card reveal">
+                <a class="project-thumb" href="https://docs.google.com/presentation/d/1NMTWOrZb7CKttdrMldJ-HxmLvYHDBqyXQE6oyDg6PSg/edit?usp=sharing" aria-label="Gyroid Optimization Experiment">
+                    <img src="/assets/projects/inchworm/inchworm_hero.gif" alt="Inchworm robot hero gif" loading="lazy">
+                </a>
+
+                <div class="project-meta">
+                    <h3>Gyroid Optimization Experiment</h3>
+                    <p>A scientific experiment exploring the optimal energy absorption of gyroid structures within a design space.</p>
+                    <div class="project-tags" aria-label="Skills demonstrated">
+                        <span>Test Engineering</span>
+                        <span>Experimental Design</span>
+                        <span>Data Processing</span>
+                        <span>MATLAB</span>
+                    </div>
+                </div>
+            </article>
+
+        <div class="projects-list">
+            <article class="project-card reveal">
+                <a class="project-thumb" download="/assets/projects/gyroid/Optimization_of_Gyroids.pdf" href="/assets/projects/gyroid/Optimization_of_Gyroids.pdf" aria-label="Gyroid Optimization Experiment">
+                    <img src="/assets/projects/gyroid/gyroid_hero.png" alt="Gyroid project hero image" loading="lazy">
+                </a>
+
+                <div class="project-meta">
+                    <h3>Gyroid Optimization Experiment</h3>
+                    <p>A scientific experiment exploring the optimal energy absorption of gyroid structures within a design space.</p>
+                    <div class="project-tags" aria-label="Skills demonstrated">
+                        <span>Test Engineering</span>
+                        <span>Experimental Design</span>
+                        <span>Data Processing</span>
+                        <span>MATLAB</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="project-card reveal">
+                <a class="project-thumb" href="https://www.linkedin.com/feed/update/urn:li:activity:7327778041391157248/" rel="noreferrer" target="_blank">
+                    <img alt="PyroBot Hero Shot" src="assets/projects/pyrobot/pyro_hero.gif" loading="lazy"/>
+                </a>
+                <div class="project-meta">
+                    <h3>"πRo-Bot" Autonomous Fire Suppression</h3>
+                    <p>An autonomous 2DoF robot designed for fire suppression in hazardous environments, featuring both manual and automatic control.</p>
+                    <div class="project-tags" aria-label="Skills demonstrated">
+                        <span>Embedded Systems</span>
+                        <span>DFMA</span>
+                        <span>CAD</span>
+                        <span>Mechanical Design</span>
+                        <span>Computer Vision</span>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
 </main>
+<script>
+    document.documentElement.classList.add('js');
+
+    window.addEventListener('DOMContentLoaded', () => {
+        const revealEls = Array.from(document.querySelectorAll('.reveal'));
+
+        // Stagger
+        revealEls.forEach((el, i) => {
+            el.style.transitionDelay = `${Math.min(i * 60, 360)}ms`;
+        });
+
+        requestAnimationFrame(() => {
+            revealEls.forEach(el => el.classList.add('is-visible'));
+        });
+    });
+</script>
 </body>
 </html>
