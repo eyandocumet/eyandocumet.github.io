@@ -1,1 +1,51 @@
-Hello, World!
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Eyan Documet</title>
+    <style>
+        body{margin:0;background:#0b0b0b;color:#fff;font:18px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Arial}
+        main{max-width:980px;margin:0 auto;padding:clamp(28px,6vw,72px) 24px}
+
+        .row{display:flex;gap:28px;align-items:flex-start}
+        .row > div{flex:1;min-width:0}
+
+        img{width:clamp(80px,28vw,250px);aspect-ratio:1/1;height:auto;object-fit:cover;border-radius:10px;flex:0 0 auto}
+
+        h1{margin:0 0 16px;font-size:clamp(28px,5vw,48px);font-weight:700}
+        p{margin:0 0 24px;color:#d0d0d0}
+        a{color:#fff;text-decoration:none;margin-right:18px;display:inline-block}
+        a:hover{text-decoration:underline}
+
+        @media (max-width: 640px){
+            .row{flex-direction:column;gap:18px}
+            img{width:min(320px,100%)}
+        }
+    </style>
+</head>
+<body>
+<main>
+    <div class="row">
+        <img src="mugshot.png" alt="Photo of Eyan" />
+        <div>
+            <h1>👋 Hello, my name is Eyan</h1>
+
+            <p>
+                I’m a Mechanical Engineer (UC Berkeley ’25) with experience across applied research,
+                simulation, and product development, including national-lab R&amp;D on experimental hardware,
+                prototyping, modeling, and technical documentation, and I’m focused on research-driven,
+                highly technical engineering roles.
+            </p>
+
+            <p>
+                I'm actively looking for work! If you're a recruiter or hiring manager, feel free to <a href="mailto:eyan.documet@protonmail.com">contact me!</a>
+            </p>
+            <a href="https://www.linkedin.com/in/eyandocumet" target="_blank" rel="noreferrer">↗ linkedin</a>
+            <a href="mailto:eyan.documet@protonmail.com">↗ email</a>
+            <a href="Eyan_Documet_Resume.pdf">↗ resume</a>
+        </div>
+    </div>
+</main>
+</body>
+</html>
