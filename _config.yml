@@ -6,7 +6,7 @@ plugins:
 # Configuration / Settings
 show_downloads: false
 title: "Eyan's Digital Portfolio"
-description: "Generalist Mechanical Engineer, former Intern @ LBNL"
+description: "Mechanical Engineer, former Intern @ LBNL"
 color-scheme: auto
 logo: /assets/img/mugshot.png
 favicon: true
