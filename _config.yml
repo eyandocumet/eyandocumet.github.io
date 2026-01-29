@@ -1,5 +1,5 @@
-# Theme - Minimalistic by vaibhavvikas
-remote_theme: vaibhavvikas/jekyll-theme-minimalistic
+# Theme - Minimal
+theme: jekyll-theme-minimal
 plugins:
   - jekyll-remote-theme
 
@@ -10,12 +10,3 @@ description: 'Generalist Mechanical Engineer'
 color-scheme: auto
 logo: /assets/img/mugshot.png
 favicon: true
-
-# Sidebar
-platforms:
-  - name: LinkedIn
-    icon: <i class="fa-brands fa-linkedin"></i>
-    link: https://www.linkedin.com/in/eyandocumet
-  - name: GitHub
-    icon: <i class="fa-brands fa-github"></i>
-    link: https://github.com/eyandocumet
