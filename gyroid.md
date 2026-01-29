@@ -11,7 +11,7 @@ This project explores the optimization of 3D-printed gyroid structures for enhan
 The Triply-Periodic Minimal Surface (aka a gyroid) is a solid whose surface is defined by the following equation: 
 
 <div style="text-align:center">
-_sin(x) cos(y) + sin(y) cos(z) + sin(z) cos(x) = T_
+sin(x) cos(y) + sin(y) cos(z) + sin(z) cos(x) = T
 </div>
 Where:
 - _T_ is the “isovalue” of the surface (can be thought of as similar to volume fraction)
