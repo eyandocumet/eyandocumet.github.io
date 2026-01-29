@@ -6,8 +6,7 @@ layout: default
 Pyrobot is an autonomous fire suppression system engineered for operation in hazardous or remote environments. It consists of a 2.5-DoF robotic turret, capable of detecting flames and delivering retardant (water in our case). The system supports both autonomous and manual operation modes and is also capable of preemptively applying retardant to mitigate fire spread.
 
 <video controls>
-  <source src="/assets/pyro/pyro_vid.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+  <source src="/assets/pyro/pyro_demo.mp4" type="video/mp4">
 </video>
 
 ## Outcomes
