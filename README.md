@@ -9,17 +9,17 @@ Below is a list some relevant projects I've worked on in the past.
 
 Autonomous robotic turret for flame detection and retardant delivery in hazardous environments.
 
-_Mechatronics • CAD • Arduino_
+_**Mechatronics • CAD • Arduino**_
 
 ## Gyroid Measurement Experiment
 
 Optimized 3D-printed gyroid structures for energy absorption using experimental design and MATLAB analysis.
 
-_Metrology • Data Analysis • Scripting_
+_**Metrology • Data Analysis • Scripting**_
 
 ## Inchworm Robot Climber
 
 Engineered a 2-link robotic climber with MATLAB motion planning and plug-and-play assembly design.
 
-_Robotics • Simulation • Validation_
+_**Robotics • Simulation • Validation**_
 
