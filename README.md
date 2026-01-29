@@ -10,7 +10,7 @@ Below is a list some relevant projects I've worked on in the past.
 <tr>
 <td><img src="/assets/img/pyrobot.jpg" width="300"></td>
 <td>
-Pyrobot is an autonomous fire suppression system engineered for operation in hazardous or remote environments. It consists of a 2.5-DoF robotic turret, capable of detecting flames and delivering retardant (water in our case). The system supports both autonomous and manual operation modes and is also capable of preemptively applying retardant to mitigate fire spread.
+Pyrobot is an autonomous fire suppression system engineered for operation in hazardous or remote environments. It consists of a 2.5-DoF robotic turret, capable of detecting flames and delivering retardant (water in our case).
 </td>
 </tr>
 </table>
@@ -21,7 +21,7 @@ _**Mechatronics • CAD • Arduino**_
 <tr>
 <td><img src="/assets/img/gyroid.png" width="300"></td>
 <td>
-This project explores the optimization of 3D-printed gyroid structures for enhanced energy absorption through a full-factorial experimental design. We systematically varied two key variables within the design space to predict energy absorption. Utilizing FDM 3D printing, Instron compression testing, and MATLAB analysis, we generated force-displacement data and fit a quadratic regression model to quantify energy absorption.
+This project explores the optimization of 3D-printed gyroid structures for enhanced energy absorption through a full-factorial experimental design. We systematically varied two key variables within the design space to predict energy absorption.
 </td>
 </tr>
 </table>
