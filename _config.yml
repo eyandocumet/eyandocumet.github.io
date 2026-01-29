@@ -1,14 +1,21 @@
-# Basics
-title: "Eyan's Digital Portfolio"
-description: "Generalist Mechanical Engineer - UC Berkeley BSME Grad - Former Intern @ Lawrence Berkeley National Lab"
-logo: /assets/img/mugshot.png
-
-# Theme - TODO: Implement more sophisticated theme
+# Theme - Minimalistic by vaibhavvikas
 remote_theme: vaibhavvikas/jekyll-theme-minimalistic
 plugins:
   - jekyll-remote-theme
-  
-# Analyitics stuff
-show_downloads: false
-# google_analytics: [Your Google Analytics tracking ID]
 
+# Configuration - Basics
+show_downloads: false
+title: 'Eyan Documet'
+description: 'Generalist Mechanical Engineer'
+color-scheme: auto
+logo: /assets/img/mugshot.png
+favicon: true
+
+# Sidebar
+platforms:
+  - name: LinkedIn
+    icon: <i class="fa-brands fa-linkedin"></i>
+    link: https://www.linkedin.com/in/eyandocumet
+  - name: GitHub
+    icon: <i class="fa-brands fa-github"></i>
+    link: https://github.com/eyandocumet
