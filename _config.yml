@@ -5,8 +5,8 @@ plugins:
 
 # Configuration - Basics
 show_downloads: false
-title: 'Eyan Documet'
-description: 'Generalist Mechanical Engineer'
+title: "Eyan's Digital Portfolio"
+description: "Generalist Mechanical Engineer, former Intern at Lawrence Berkeley National Lab"
 color-scheme: auto
 logo: /assets/img/mugshot.png
 favicon: true
