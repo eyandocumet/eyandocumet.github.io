@@ -6,9 +6,9 @@ layout: default
 
 I’m a Mechanical Engineer (UC Berkeley ’25) with experience across applied research, simulation, and product development. I'm passionate about local manufacturing and solving highly-complex problems. I’m focused on research-adjacent and/or very technical engineering roles.
 
-Below is a list some relevant projects I've worked on in the past.
+**I am actively looking for work! Recruiter or hiring manager? Feel free to [contact me](mailto:eyan.documet@protonmail.com).**
 
-# Portfolio Projects
+# Selected Portfolio Projects
 ## PyroBot Fire Prevention Robot
 <table>
 <tr>
