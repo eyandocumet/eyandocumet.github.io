@@ -27,7 +27,7 @@ platforms:
 
 # Navigation
 navigation:
-  - name: Home
+  - name: Portfolio
     link: ./index.html
     sublist:
     - name: PyroBot
@@ -36,3 +36,5 @@ navigation:
       link: ./gyroid.html
     - name: Inchworm Robot
       link: ./inchworm.html
+  - name: Resume (PDF)
+    link: ./resume.html
