@@ -8,10 +8,6 @@ PyroBot is an autonomous fire suppression system engineered for operation in haz
 
 ![PyroBot Demo Video](assets/pyrobot/pyro_demo.mp4)
 
-<video width="640">
-    <source src="https://raw.githubusercontent.com/eyandocumet/eyandocumet.github.io/refs/heads/main/assets/pyrobot/pyro_demo.mp4" />
-</video>
-
 As **Mechanical Lead**, I owned all electromechanical systems on the robot, and worked closely with the electronics lead to create the low-level computer vision required for the autonomous operation.
 
 ## Outcomes
