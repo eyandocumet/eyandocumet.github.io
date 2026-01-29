@@ -9,7 +9,7 @@ I’m a Mechanical Engineer (UC Berkeley ’25) with experience across applied r
 **I'm looking for work! Recruiter or hiring manager? [Contact me!](mailto:eyan.documet@protonmail.com)**
 
 # Selected Portfolio Projects
-## [PyroBot Fire Prevention Robot](https://eyandocumet.xyz/pyrobot.html)
+## [PyroBot Fire Prevention Robot](./pyrobot.html)
 <table>
 <tr>
 <td><img src="/assets/img/pyrobot.jpg" width="900"></td>
@@ -19,7 +19,7 @@ Pyrobot is an autonomous fire suppression system engineered for operation in haz
 </tr>
 </table>
 
-## Gyroid Measurement Experiment
+## [Gyroid Measurement Experiment](./gyroid.html)
 <table>
 <tr>
 <td><img src="/assets/img/gyroid.png" width="900"></td>
@@ -29,7 +29,7 @@ This project explores the optimization of 3D-printed gyroid structures for enhan
 </tr>
 </table>
 
-## Inchworm Robot Climber
+## [Inchworm Robot Climber](./inchworm.html)
 <table>
 <tr>
 <td><img src="/assets/img/inchworm.png" width="900"></td>
