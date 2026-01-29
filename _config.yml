@@ -1,6 +1,7 @@
 # Basics
 title: Eyan Documet
 description: Personal Website & Portfolio
+logo: /assets/img/headshot_circle.png
 
 # Theme - TODO: Implement more sophisticated theme
 theme: jekyll-theme-minimal
