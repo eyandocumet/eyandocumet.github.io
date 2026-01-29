@@ -20,7 +20,7 @@ Where:
 
 Our group chose to create a 3-level, 2-factor full factorial experiment where we vary isovalue and cell density, with the following hypothesis: Structural modification of the gyroid will yield a non-trivial optimum in energy absorption when undergoing crushing. (i.e. one that is not only proportional to "amount of material") Our analysis indeed confirmed a non-trivial optimum in energy absorption, as detailed in the full report and summary slides. 
 
-My primary contributions to this project involved scripting (STL generation, plotting, and data analysis) and designing the experimental framework. I strategically chose the design variables and hypothesis testing to guide our outcome analysis.
+**My primary contributions to this project involved scripting (STL generation, plotting, and data analysis) and designing the experimental framework. I strategically chose the design variables and hypothesis testing to guide our outcome analysis.**
 
 ## Outcomes
 - Successfully tested 27 gyroid specimens across nine geometric configurations with controlled FDM printing and Instron compression.
