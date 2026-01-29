@@ -3,7 +3,7 @@ layout: default
 ---
 
 # Eyan Documet
-[(Download as PDF)](https://raw.githubusercontent.com/eyandocumet/eyandocumet.github.io/refs/heads/main/assets/Eyan_Documet_Resume.pdf)
+[(Download as PDF)](assets/Eyan_Documet_Resume.pdf)
 
 ## 🎓 Education
 ### University of California, Berkeley, B.S. in Mechanical Engineering 
