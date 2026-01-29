@@ -3,7 +3,7 @@ remote_theme: vaibhavvikas/jekyll-theme-minimalistic
 plugins:
   - jekyll-remote-theme
 
-# Configuration - Basics
+# Configuration / Settings
 show_downloads: false
 title: "Eyan's Digital Portfolio"
 description: "Generalist Mechanical Engineer, former Intern at Lawrence Berkeley National Lab"
@@ -11,7 +11,9 @@ color-scheme: auto
 logo: /assets/img/mugshot.png
 favicon: true
 hide_project_page: true
+favicon: true
 
+# Sidebar
 platforms:
   - name: LinkedIn
     icon: <i class="fa-brands fa-linkedin"></i>
