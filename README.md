@@ -7,7 +7,7 @@ Below is a list some relevant projects I've worked on in the past.
 # Portfolio Projects
 <table>
 <tr>
-<td><img src="/assets/img/thumb/pyrobot.png" width="150"></td>
+<td><img src="/assets/img/pyrobot.png" width="150"></td>
 <td>
 ## PyroBot Fire Prevention Robot
 
@@ -17,7 +17,7 @@ _**Mechatronics • CAD • Arduino**_
 </td>
 </tr>
 <tr>
-<td><img src="/assets/img/thumb/gyroid.png" width="150"></td>
+<td><img src="/assets/img/gyroid.png" width="150"></td>
 <td>
 ## Gyroid Measurement Experiment
 
@@ -27,7 +27,7 @@ _**Metrology • Data Analysis • Scripting**_
 </td>
 </tr>
 <tr>
-<td><img src="/assets/img/thumb/inchworm.png" width="150"></td>
+<td><img src="/assets/img/inchworm.png" width="150"></td>
 <td>
 ## Inchworm Robot Climber
 
