@@ -7,7 +7,7 @@ Below is a list some relevant projects I've worked on in the past.
 # Portfolio Projects
 <table>
 <tr>
-<td><img src="/assets/img/pyrobot.png" width="150"></td>
+<td><img src="/assets/img/pyrobot.jpg" width="150"></td>
 <td>
 ## PyroBot Fire Prevention Robot
 
