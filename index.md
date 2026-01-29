@@ -9,7 +9,7 @@ I’m a Mechanical Engineer (UC Berkeley ’25) with experience across applied r
 **I am actively looking for work! Recruiter or hiring manager? Feel free to [contact me](mailto:eyan.documet@protonmail.com).**
 
 # Selected Portfolio Projects
-## PyroBot Fire Prevention Robot
+## [PyroBot Fire Prevention Robot](https://eyandocumet.xyz/pyrobot.html)
 <table>
 <tr>
 <td><img src="/assets/img/pyrobot.jpg" width="900"></td>
