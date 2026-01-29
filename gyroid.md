@@ -13,6 +13,7 @@ The Triply-Periodic Minimal Surface (aka a gyroid) is a solid whose surface is d
 <div style="text-align:center">
 sin(x) cos(y) + sin(y) cos(z) + sin(z) cos(x) = T
 </div>
+
 Where:
 - _T_ is the “isovalue” of the surface (can be thought of as similar to volume fraction)
 - “Density” is the number of identical unit cells per unit length
