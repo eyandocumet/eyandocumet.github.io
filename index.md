@@ -13,7 +13,7 @@ I’m a Mechanical Engineer (UC Berkeley ’25) with experience across applied r
 <table>
 <tr>
 <td><img src="/assets/img/pyrobot.jpg" width="300"></td>
-<td>
+<td valign="top">
 An autonomous turret for fire detection and water-based suppression in hazardous environments.
 </td>
 </tr>
@@ -23,7 +23,7 @@ An autonomous turret for fire detection and water-based suppression in hazardous
 <table>
 <tr>
 <td><img src="/assets/img/gyroid.png" width="300"></td>
-<td>
+<td valign="top">
 An experiment testing 3D-printed structures engineered for maximum energy absorption via experimental design.
 </td>
 </tr>
@@ -33,7 +33,7 @@ An experiment testing 3D-printed structures engineered for maximum energy absorp
 <table>
 <tr>
 <td><img src="/assets/img/inchworm.png" width="300"></td>
-<td>
+<td valign="top">
 Design project for a two-link robotic climber with plug-and-play assembly and MATLAB motion planning.
 </td>
 </tr>
