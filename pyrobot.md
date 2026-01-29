@@ -13,7 +13,7 @@ Pyrobot is an autonomous fire suppression system engineered for operation in haz
 - Completion of a fully integrated, semi-autonomous fire suppression prototype with both manual and autonomous control modes.
 - Successful thermal detection and event-driven suppression response tested under controlled conditions.
 - Streamlined mechanical-electrical integration, enabling efficient maintenance, modular upgrades, and clear subsystem interfacing.
-- Published a comprehensive [final report (PDF)](/assets/Pyrobot_Report.pdf).
+- Published a comprehensive [final report (PDF)](/assets/pyrobot/Pyrobot_Final_Report.pdf).
 
 ## Skills Demonstrated
 - **Computer Aided Design (CAD).** Created stylish and functional 3D design using Autodesk Fusion. Integrated top-down and bottom-up assembly.
