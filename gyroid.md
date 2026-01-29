@@ -6,21 +6,9 @@ layout: default
 
 This project explores the optimization of 3D-printed gyroid structures for enhanced energy absorption through a full-factorial experimental design. We systematically varied two key variables within the design space to predict energy absorption. Utilizing FDM 3D printing, Instron compression testing, and MATLAB analysis, we generated force-displacement data and fit a quadratic regression model to quantify energy absorption.
 
-![Gyroid Hero Shot](assets/gyroid/gyroid_hero.png)
-
-The Triply-Periodic Minimal Surface (aka a gyroid) is a solid whose surface is defined by the following equation: 
-
-<div style="text-align:center">
-sin(x) cos(y) + sin(y) cos(z) + sin(z) cos(x) = T
-</div>
-
-Where:
-- _T_ is the “isovalue” of the surface (can be thought of as similar to volume fraction)
-- “Density” is the number of identical unit cells per unit length
-
-Our group chose to create a 3-level, 2-factor full factorial experiment where we vary isovalue and cell density, with the following hypothesis: Structural modification of the gyroid will yield a non-trivial optimum in energy absorption when undergoing crushing. (i.e. one that is not only proportional to "amount of material") Our analysis indeed confirmed a non-trivial optimum in energy absorption, as detailed in the full report and summary slides. 
-
 **My primary contributions to this project involved scripting (STL generation, plotting, and data analysis) and designing the experimental framework. I strategically chose the design variables and hypothesis testing to guide our outcome analysis.**
+
+![Gyroid Hero Shot](assets/gyroid/gyroid_hero.png)
 
 ## Outcomes
 - Successfully tested 27 gyroid specimens across nine geometric configurations with controlled FDM printing and Instron compression.
