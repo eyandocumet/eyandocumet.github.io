@@ -31,7 +31,7 @@ navigation:
     link: ./index.html
     sublist:
     - name: PyroBot
-      link: ./pryo.html
+      link: ./pryobot.html
     - name: Gyroid Experiment
       link: ./gyroid.html
     - name: Inchworm Robot
