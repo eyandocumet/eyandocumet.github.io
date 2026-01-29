@@ -6,7 +6,6 @@ Below is a list some relevant projects I've worked on in the past.
 
 # Portfolio Projects
 ## PyroBot Fire Prevention Robot
-_**Mechatronics • CAD • Arduino**_
 <table>
 <tr>
 <td><img src="/assets/img/pyrobot.jpg" width="150"></td>
@@ -15,9 +14,9 @@ Pyrobot is an autonomous fire suppression system engineered for operation in haz
 </td>
 </tr>
 </table>
+_**Mechatronics • CAD • Arduino**_
 
 ## Gyroid Measurement Experiment
-_**Metrology • Data Analysis • Scripting**_
 <table>
 <tr>
 <td><img src="/assets/img/gyroid.png" width="150"></td>
@@ -26,9 +25,9 @@ This project explores the optimization of 3D-printed gyroid structures for enhan
 </td>
 </tr>
 </table>
+_**Metrology • Data Analysis • Scripting**_
 
 ## Inchworm Robot Climber
-_**Robotics • Simulation • Validation**_
 <table>
 <tr>
 <td><img src="/assets/img/inchworm.png" width="150"></td>
@@ -37,3 +36,4 @@ The Inchworm Climber is a design project focused on the engineering, validation,
 </td>
 </tr>
 </table>
+_**Robotics • Simulation • Validation**_
