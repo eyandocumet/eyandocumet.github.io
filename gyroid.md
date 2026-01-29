@@ -20,7 +20,7 @@ This project explores the optimization of 3D-printed gyroid structures for enhan
 - **Scientific Communication.** Designed useful and visually compelling figures that effectively communicate data insights and highlight key trends. Technical writing is also included in the presentation.
 - **Additive Manufacturing.** Generated and 3D-printed precise gyroid geometries using MATLAB and FDM slicing software, demonstrating expertise in fabrication techniques.
 
-
+## Summary
 The Triply-Periodic Minimal Surface (aka a gyroid) is a solid whose surface is defined by the following equation: 
 
 <div style="text-align:center">
