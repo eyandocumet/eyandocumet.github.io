@@ -6,7 +6,7 @@ layout: default
 
 The Inchworm Climber is a design project focused on the engineering, validation, and simulation of a 2-link robotic climber, aiming to create all plans necessary for plug-and-play assembly using a mixture of COTS and custom components. A naive motion-planning algorithm was created for an arbitrary path.
 
-![Gyroid Hero Shot](assets/inchworm/inchworm_hero.png)
+![Gyroid Hero Shot](assets/inchworm/inchworm_hero.gif)
 
 Designs were completed in Autodesk Fusion, and validation sims were created and performed in MATLAB.
 
