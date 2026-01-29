@@ -6,6 +6,8 @@ layout: default
 
 PyroBot is an autonomous fire suppression system engineered for operation in hazardous or remote environments. It consists of a 2.5-DoF robotic turret, capable of detecting flames and autonomous delivery of fire retardant (water in our case).
 
+![PyroBot Demo Video](assets/pyrobot/pyro_demo.mp4)
+
 <video width="640">
     <source src="https://raw.githubusercontent.com/eyandocumet/eyandocumet.github.io/refs/heads/main/assets/pyrobot/pyro_demo.mp4" />
 </video>
