@@ -6,7 +6,7 @@ layout: default
 
 This project explores the optimization of 3D-printed gyroid structures for enhanced energy absorption through a full-factorial experimental design. We systematically varied two key variables within the design space to predict energy absorption. Utilizing FDM 3D printing, Instron compression testing, and MATLAB analysis, we generated force-displacement data and fit a quadratic regression model to quantify energy absorption.
 
-<img src="{{ '/assets/gyroid/gyroid_hero.png' | relative_url }}" width="640" />
+![Gyroid Hero Shot](assets/gyroid/gyroid_hero.png)
 
 The Triply-Periodic Minimal Surface (aka a gyroid) is a solid whose surface is defined by the following equation: 
 
