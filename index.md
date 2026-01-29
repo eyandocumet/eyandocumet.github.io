@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # 🤖 Eyan Documet
 **👋 Hi, my name's Eyan**
 
