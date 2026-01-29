@@ -29,10 +29,10 @@ platforms:
 navigation:
   - name: Home
     link: ./index.html
-    navigation:
-  - name: PyroBot
-    link: ./pryo.html
-  - name: Gyroid Experiment
-    link: ./gyroid.html
-  - name: Inchworm Robot
-    link: ./inchworm.html
+    sublist:
+    - name: PyroBot
+      link: ./pryo.html
+    - name: Gyroid Experiment
+      link: ./gyroid.html
+    - name: Inchworm Robot
+      link: ./inchworm.html
