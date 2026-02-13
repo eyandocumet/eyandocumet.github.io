@@ -36,5 +36,5 @@ navigation:
       link: ./gyroid.html
     - name: Inchworm Robot
       link: ./inchworm.html
-  - name: Resume
+  - name: Resume (PDF)
     link: assets/Eyan_Documet_Resume.pdf
