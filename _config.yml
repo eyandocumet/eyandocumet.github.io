@@ -25,7 +25,7 @@ platforms:
     icon: <i class="fa-solid fa-phone"></i>
     link: tel:+13194805366
 
-# Navigation
+# Navigation - Updated 2/17/26
 navigation:
   - name: Portfolio
     link: ./index.html
