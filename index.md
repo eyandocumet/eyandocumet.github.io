@@ -4,7 +4,7 @@ layout: default
 
 **👋 Hi, my name's Eyan**
 
-I’m a Mechanical Engineer (UC Berkeley ’25) with experience across applied research, simulation, and product development. I'm passionate about local manufacturing and solving complex problems. I’m focused on research-adjacent and/or highly-technical engineering roles.
+I’m a Mechanical Engineer (UC Berkeley ’25) with experience across applied research, simulation, and product development. I'm passionate about local manufacturing and solving complex problems.
 
 **I'm looking for work! Recruiter or hiring manager? [Contact me!](mailto:eyan.documet@protonmail.com)**
 
