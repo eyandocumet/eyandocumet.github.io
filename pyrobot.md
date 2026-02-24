@@ -24,15 +24,13 @@ Designed to minimize human risk in hazardous environments, PyroBot is a 2.5-DoF 
 - **Embedded Systems & Finite-State Machines.** Implemented event-driven architecture on an ESP32 microcontroller. Integrated sensor input and actuator control for autonomous operation.
 - **Reverse Engineering.** Disassembled and integrated an off-the-shelf device and created a "virtual twin" in CAD. Designed new subsystems around existing components saving time and cost.
 
-## Highlights
-
-# Control Logic and Strategy
+## Control Logic and Strategy
 
 The system architecture follows a prioritized control logic managed by an ESP32-based Finite State Machine (FSM). This allowed the robot to transition seamlessly between passive patrolling and active suppression. The three modes were: "automatic" (autonomous detection and extinguishing), "manual" (user controlled via a remote), and "preventative" (spraying in a prescribed pattern).
 
 ![Finite State Machine](assets/pyrobot/state_transition_diagram.png)
 
-# Autonomous Heat Tracking & Suppression
+## Autonomous Heat Tracking & Suppression
 
 To ensure reliability in remote areas, all processing is performed locally on the microcontroller. I co-developed a Low-Level Thermal CV pipeline to localize heat signatures without high-level external processing.
 
