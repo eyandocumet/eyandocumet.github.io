@@ -23,3 +23,11 @@ PyroBot is an autonomous fire suppression system engineered for operation in haz
 - **Mechanical Design for Manufacturing and Assembly (DFMA).** Optimized design for manufacturing on an FDM 3D printer. Minimized part count. Use of standardized ASME fasteners.
 - **Embedded Systems & Finite-State Machines.** Implemented event-driven architecture on an ESP32 microcontroller. Integrated sensor input and actuator control for autonomous operation.
 - **Reverse Engineering.** Disassembled and integrated an off-the-shelf device and created a "virtual twin" in CAD. Designed new subsystems around existing components saving time and cost.
+
+![Final Assembly](assets/pyrobot/final_design.png)
+
+![Platform Design](assets/pyrobot/platform_drawing.png)
+
+![Base Design](assets/pyrobot/base_drawing.png)
+
+![Arm Design](assets/pyrobot/arm_drawing.png)
