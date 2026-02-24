@@ -34,10 +34,6 @@ The system architecture follows a prioritized control logic managed by an ESP32-
 
 To ensure reliability in remote areas, all processing is performed locally on the microcontroller. I co-developed a Low-Level Thermal CV pipeline to localize heat signatures without high-level external processing.
 
-- **Centroid Localization:** The turret calculates the spatial average of all pixels exceeding a calibrated threshold (T>Tthreshold​), allowing it to naturally center the nozzle on the hottest point of a flame.
-
-- **Suppression Logic:** To prevent false positives from ambient heat, the system requires a minimum temperature across the entire vision array
-
 ![Computer Vision](assets/pyrobot/thermal.gif)
 
 ## CAD & Layout Drawings
