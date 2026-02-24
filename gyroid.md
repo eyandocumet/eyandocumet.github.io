@@ -29,11 +29,7 @@ We mapped a 2D design space by varying isovalue (t) and unit-cell density. This 
 
 ## DAQ, Calibration, and Regression
 
-Energy absorption (W) was calculated as the area under the force-displacement curve:
-
-$$W = \int_{x_0}^{x_1} F(x) \, dx$$
-
-Samples were compressed using an Instron Universal Testing Machine. The resulting data was processed through a quadratic regression model to visualize the performance "topography" of the gyroids.
+Energy absorption (W) was calculated as the area under the force-displacement curve. Samples were compressed using an Instron Universal Testing Machine. The resulting data was processed through a quadratic regression model to visualize the performance "topography" of the gyroids.
 
 # Calibration Results
 ![Calibration](assets/gyroid/cal1.png)
