@@ -6,8 +6,7 @@ layout: default
 
 Designed to minimize human risk in hazardous environments, PyroBot is a 2.5-DoF robotic turret that utilizes low-level computer vision to detect and extinguish thermal signatures.
 
-**I owned the mechatronic design and co-developed the embedded vision pipeline for autonomous operation.
-**
+**I owned the mechatronic design and co-developed the embedded vision pipeline for autonomous operation.**
 
 <video style="width: 100%; max-width: 640px;" controls>
     <source src="https://raw.githubusercontent.com/eyandocumet/eyandocumet.github.io/refs/heads/main/assets/pyrobot/pyro_demo.mp4" type="video/mp4">
