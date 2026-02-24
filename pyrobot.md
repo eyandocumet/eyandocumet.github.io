@@ -4,9 +4,10 @@ layout: default
 
 # PyroBot Fire Suppression
 
-Developed for local and autonomous firefighting in remote areas, PyroBot is an autonomous fire suppression system engineered for operation in hazardous or remote environments. It consists of a 2.5-DoF robotic turret, capable of detecting flames and autonomous delivery of fire retardant (water in our case).
+Designed to minimize human risk in hazardous environments, PyroBot is a 2.5-DoF robotic turret that utilizes low-level computer vision to detect and extinguish thermal signatures.
 
-**I owned all mechatronic systems on the robot, and worked closely with the electronics lead to create the low-level computer vision required for the autonomous operation.**
+**I owned the mechatronic design and co-developed the embedded vision pipeline for autonomous operation.
+**
 
 <video style="width: 100%; max-width: 640px;" controls>
     <source src="https://raw.githubusercontent.com/eyandocumet/eyandocumet.github.io/refs/heads/main/assets/pyrobot/pyro_demo.mp4" type="video/mp4">
@@ -14,9 +15,9 @@ Developed for local and autonomous firefighting in remote areas, PyroBot is an a
 <br>
 
 ## Outcomes
-- Completion of a fully integrated, semi-autonomous fire suppression prototype with both manual and autonomous control modes.
-- Successful thermal detection and event-driven suppression response tested under controlled conditions.
-- Published a comprehensive [final report (PDF)](assets/pyrobot/PyroBot_Final_Report.pdf).
+- Delivered a fully functional system featuring Autonomous, Manual (RC), and Preventative spray modes.
+- Integrated 50+ custom and COTS components using standardized ASME hardware and FDM-optimized geometries.
+- Released a 15-page [Technical Report and Operations Manual (PDF)](assets/pyrobot/PyroBot_Final_Report.pdf) designed to allow re-production of our work.
 
 ## Skills Demonstrated
 - **Computer Aided Design (CAD).** Created stylish and functional 3D design using Autodesk Fusion. Integrated top-down and bottom-up assembly.
@@ -26,21 +27,15 @@ Developed for local and autonomous firefighting in remote areas, PyroBot is an a
 
 ## Highlights
 
-# General Strategy
+# Control Logic and Strategy
 
-Our robot obeyed the following high-level strategy:
+The system architecture follows a prioritized control logic managed by an ESP32-based Finite State Machine (FSM). This allowed the robot to transition seamlessly between passive patrolling and active suppression. The three modes were: "automatic" (autonomous detection and extinguishing), "manual" (user controlled via a remote), and "preventative" (spraying in a prescribed pattern).
 
-1. Turret on passive patrol regimen, sweeping back and forth w/ IR camera
-2. IR camera (attached to ESP32) detects large thermal signature and determines trajectory
-3. Turrect actuates fire retardant measures until heat signature is below threshold.
-4. Fire is extinguished, return to Step #1.
-
-This was implemented in the following finite-state design:
 ![Finite State Machine](assets/pyrobot/state_transition_diagram.png)
 
 # Autonomous Heat Tracking & Suppression
 
-Running the entire system locally was important; our group did not want to do any processing outside of the microcontroller on-board since our system is intended to work in inaccessible enviornments. To achieve reliable targeting without high-level processing overhead, I co-developed a low-level Thermal CV pipeline. Using raw data from the thermal array, the system implements a "weighted center of mass" algorithm to localize heat signatures in real-time.
+To ensure reliability in remote areas, all processing is performed locally on the microcontroller. I co-developed a Low-Level Thermal CV pipeline to localize heat signatures without high-level external processing.
 
 - **Centroid Localization:** The turret calculates the spatial average of all pixels exceeding a calibrated threshold (T>Tthreshold​), allowing it to naturally center the nozzle on the hottest point of a flame.
 
@@ -50,7 +45,7 @@ Running the entire system locally was important; our group did not want to do an
 
 ## CAD & Layout Drawings
 
-All components were engineered in Autodesk Fusion using a hybrid top-down assembly approach to ensure fit between the 3D-printed chassis and the reverse-engineered internal hardware. In this prototyping stage, manufacturing considerations were given to FDM 3D printing (e.g. no support material, mindfulness of print orientation)
+All components were engineered in Autodesk Fusion using a hybrid top-down assembly approach. Designs were specifically optimized for FDM 3D printing, minimizing support material and prioritizing print orientation for structural integrity.
 
 ![Platform Design](assets/pyrobot/platform_drawing.png)
 
