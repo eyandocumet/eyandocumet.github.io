@@ -7,7 +7,7 @@ plugins:
 show_downloads: false
 title: "Eyan's Digital Portfolio"
 description: "Mechanical Engineer, former Intern @ LBNL"
-color-scheme: auto
+color-scheme: light
 logo: /assets/img/mugshot.png
 favicon: true
 hide_project_page: true
