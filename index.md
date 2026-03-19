@@ -19,7 +19,9 @@ The more complex a problem is, the more excited I am to solve it. I'm especially
 <img src="/assets/img/pyrobot.jpg" width="300">
 </td>
 <td valign="top" style="padding-left:15px;">
-An autonomous turret for fire detection and water-based suppression in hazardous environments. <a href="./pyrobot.html">Learn more!</a>
+An autonomous turret for fire detection and water-based suppression in hazardous environments.
+  
+  <a href="./pyrobot.html">Learn more!</a>
 <br><br>
 <strong>Embedded Systems &bull; DFMA &bull; CAD</strong>
 </td>
@@ -33,7 +35,9 @@ An autonomous turret for fire detection and water-based suppression in hazardous
 <img src="/assets/img/gyroid.png" width="300">
 </td>
 <td valign="top" style="padding-left:15px;">
-An experiment testing 3D-printed structures engineered for maximum energy absorption via experimental design. <a href="./gyroid.html">Learn more!</a>
+An experiment testing 3D-printed structures engineered for maximum energy absorption via experimental design.
+  
+  <a href="./gyroid.html">Learn more!</a>
 <br><br>
 <strong>Design of Experiments &bull; Statistical Modeling &bull; FDM</strong>
 </td>
@@ -47,7 +51,9 @@ An experiment testing 3D-printed structures engineered for maximum energy absorp
 <img src="/assets/img/inchworm.png" width="300">
 </td>
 <td valign="top" style="padding-left:15px;">
-Design project for a two-link robotic climber with plug-and-play assembly and MATLAB motion planning. <a href="./inchworm.html">Learn more!</a>
+Design project for a two-link robotic climber with plug-and-play assembly and MATLAB motion planning.
+  
+  <a href="./inchworm.html">Learn more!</a>
 <br><br>
 <strong>Motion Planning &bull; Simulation &bull; Mechatronics</strong>
 </td>
