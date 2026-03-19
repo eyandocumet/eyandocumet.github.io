@@ -15,11 +15,13 @@ The more complex a problem is, the more excited I am to solve it. I'm especially
 ## PyroBot Fire Prevention Robot
 <table>
 <tr>
-<td><img src="/assets/img/pyrobot.jpg" style="width:250px; height:250px; object-fit:cover;"></td>
-<td valign="top">
+<td style="width:250px;">
+<img src="/assets/img/pyrobot.jpg" style="width:250px; height:250px; object-fit:cover; display:block;">
+</td>
+<td valign="top" style="padding-left:15px;">
 An autonomous turret for fire detection and water-based suppression in hazardous environments. <a href="./pyrobot.html">Learn more!</a>
 <br><br>
-**Embedded Systems • DFMA • CAD**
+<strong>Embedded Systems &bull; DFMA &bull; CAD</strong>
 </td>
 </tr>
 </table>
@@ -27,11 +29,13 @@ An autonomous turret for fire detection and water-based suppression in hazardous
 ## Gyroid Measurement Experiment
 <table>
 <tr>
-<td><img src="/assets/img/gyroid.png" style="width:250px; height:250px; object-fit:cover;"></td>
-<td valign="top">
+<td style="width:250px;">
+<img src="/assets/img/gyroid.png" style="width:250px; height:250px; object-fit:cover; display:block;">
+</td>
+<td valign="top" style="padding-left:15px;">
 An experiment testing 3D-printed structures engineered for maximum energy absorption via experimental design. <a href="./gyroid.html">Learn more!</a>
 <br><br>
-**Design of Experiments • Statistical Modeling • FDM**
+<strong>Design of Experiments &bull; Statistical Modeling &bull; FDM</strong>
 </td>
 </tr>
 </table>
@@ -39,11 +43,13 @@ An experiment testing 3D-printed structures engineered for maximum energy absorp
 ## Inchworm Robot Climber
 <table>
 <tr>
-<td><img src="/assets/img/inchworm.png" style="width:250px; height:250px; object-fit:cover;"></td>
-<td valign="top">
+<td style="width:250px;">
+<img src="/assets/img/inchworm.png" style="width:250px; height:250px; object-fit:cover; display:block;">
+</td>
+<td valign="top" style="padding-left:15px;">
 Design project for a two-link robotic climber with plug-and-play assembly and MATLAB motion planning. <a href="./inchworm.html">Learn more!</a>
 <br><br>
-**Motion Planning • Simulation • Mechatronics**
+<strong>Motion Planning &bull; Simulation &bull; Mechatronics</strong>
 </td>
 </tr>
 </table>
