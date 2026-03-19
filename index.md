@@ -2,9 +2,11 @@
 layout: default
 ---
 
-**👋 Hi, my name's Eyan**
+# 👋 Hi, my name's Eyan
 
-I’m a Mechanical Engineer (UC Berkeley ’25) with experience across applied research, simulation, and product development. I'm passionate about local manufacturing and solving complex problems.
+Hello, I'm Eyan! I'm a recent Berkeley BSME with experience in manufacturing, robotics, and research. I've worked on many projects, from firefighting robots to next-gen particle accelerators. Project ownership is important to me, so I enjoy involvement in as many parts of the process as possible. My ideal workday balances time designing and analyzing with time on the shop floor. I work well with others and have led many projects during my time at UC Berkeley and the Lab. I pride myself on my ability to make engineering decisions under pressure.
+
+The more complex a problem is, the more excited I am to solve it. I'm especially interested in anything high-tech: robotics, aerospace, advanced manufacturing, green energy. If you agree with my philosophy, let's connect!
 
 **I'm looking for work! Recruiter or hiring manager? [Contact me!](mailto:eyan.documet@protonmail.com)**
 
