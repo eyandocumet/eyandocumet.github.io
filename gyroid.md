@@ -19,7 +19,7 @@ This project explores the optimization of 3D-printed gyroids for enhanced energy
 
 We mapped a 2D design space by varying isovalue (t) and unit-cell density. This 3×3 factorial design ensured we captured the full spectrum of the lattice's mechanical response.
 
-| Runs | Isovalue ($t$) | Unit Cell Density |
+| Runs | Isovalue (t) | Unit Cell Density |
 | :---: | :---: | :---: |
 | 1–9 | 0.25 | 1, 2, 3 Units |
 | 10–18 | 0.50 | 1, 2, 3 Units |
