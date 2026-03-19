@@ -15,11 +15,11 @@ The more complex a problem is, the more excited I am to solve it. I'm especially
 ## PyroBot Fire Prevention Robot
 <table>
 <tr>
-<td><img src="/assets/img/pyrobot.jpg" width="300"></td>
+<td><img src="/assets/img/pyrobot.jpg" style="width:250px; height:250px; object-fit:cover;"></td>
 <td valign="top">
-An autonomous turret for fire detection and water-based suppression in hazardous environments.
+An autonomous turret for fire detection and water-based suppression in hazardous environments. <a href="./pyrobot.html">Learn more!</a>
 <br><br>
-<a href="./pyrobot.html">Learn more!</a>
+**Embedded Systems • DFMA • CAD**
 </td>
 </tr>
 </table>
@@ -27,11 +27,11 @@ An autonomous turret for fire detection and water-based suppression in hazardous
 ## Gyroid Measurement Experiment
 <table>
 <tr>
-<td><img src="/assets/img/gyroid.png" width="300"></td>
+<td><img src="/assets/img/gyroid.png" style="width:250px; height:250px; object-fit:cover;"></td>
 <td valign="top">
-An experiment testing 3D-printed structures engineered for maximum energy absorption via experimental design.
+An experiment testing 3D-printed structures engineered for maximum energy absorption via experimental design. <a href="./gyroid.html">Learn more!</a>
 <br><br>
-<a href="./gyroid.html">Learn more!</a>
+**Design of Experiments • Statistical Modeling • FDM**
 </td>
 </tr>
 </table>
@@ -39,11 +39,11 @@ An experiment testing 3D-printed structures engineered for maximum energy absorp
 ## Inchworm Robot Climber
 <table>
 <tr>
-<td><img src="/assets/img/inchworm.png" width="300"></td>
+<td><img src="/assets/img/inchworm.png" style="width:250px; height:250px; object-fit:cover;"></td>
 <td valign="top">
-Design project for a two-link robotic climber with plug-and-play assembly and MATLAB motion planning.
+Design project for a two-link robotic climber with plug-and-play assembly and MATLAB motion planning. <a href="./inchworm.html">Learn more!</a>
 <br><br>
-<a href="./inchworm.html">Learn more!</a>
+**Motion Planning • Simulation • Mechatronics**
 </td>
 </tr>
 </table>
