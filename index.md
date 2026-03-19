@@ -8,7 +8,6 @@ I’m a Mechanical Engineer (UC Berkeley ’25) with experience across applied r
 
 **I'm looking for work! Recruiter or hiring manager? [Contact me!](mailto:eyan.documet@protonmail.com)**
 
-# Selected Portfolio Projects
 ## PyroBot Fire Prevention Robot
 <table>
 <tr>
