@@ -10,6 +10,8 @@ The more complex a problem is, the more excited I am to solve it. I'm especially
 
 **I'm looking for work! Recruiter or hiring manager? [Contact me!](mailto:eyan.documet@protonmail.com)**
 
+# Portfolio Projects
+
 ## PyroBot Fire Prevention Robot
 <table>
 <tr>
