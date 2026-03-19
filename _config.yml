@@ -25,16 +25,16 @@ platforms:
     icon: <i class="fa-solid fa-phone"></i>
     link: tel:+13194805366
 
-# Navigation - Updated 2/17/26
+# Navigation - Updated 3/19/26
 navigation:
   - name: Home
     link: ./index.html
     sublist:
     - name: PyroBot
-      link: ./pyrobot.html
+      link: .projects/pyrobot.html
     - name: Gyroid Experiment
-      link: ./gyroid.html
+      link: .projects/gyroid.html
     - name: Inchworm Robot
-      link: ./inchworm.html
+      link: .projects/inchworm.html
   - name: Resume (PDF)
     link: assets/Eyan_Documet.pdf
