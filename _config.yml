@@ -27,7 +27,7 @@ platforms:
 
 navigation:
   - name: Home
-    link: https://eyandocumet.xyz/index.html
+    link: https://eyandocumet.xyz/
     sublist:
       - name: PyroBot
         link: https://eyandocumet.xyz/projects/pyrobot.html
