@@ -27,11 +27,11 @@ platforms:
 
 navigation:
   - name: Home
-    link: ./index.html
+    link: https://eyandocumet.xyz/index.html
     sublist:
       - name: PyroBot
-        link: ./projects/pyrobot.html
+        link: https://eyandocumet.xyz/projects/pyrobot.html
       - name: Inchworm
-        link: ./projects/inchworm.html
+        link: https://eyandocumet.xyz/projects/inchworm.html
       - name: Gyroid Experiment
-        link: ./projects/gyroid.html
+        link: https://eyandocumet.xyz/projects/gyroid.html
