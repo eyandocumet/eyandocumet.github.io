@@ -24,3 +24,14 @@ platforms:
   - name: Phone
     icon: <i class="fa-solid fa-phone"></i>
     link: tel:+13194805366
+
+navigation:
+  - name: Home
+    link: ./index.html
+    sublist:
+      - name: PyroBot
+        link: ./projects/pyrobot.html
+      - name: Inchworm
+        link: ./projects/inchworm.html
+      - name: Gyroid Experiment
+        link: ./projects/gyroid.html
