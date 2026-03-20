@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# PyroBot Fire Suppression
+# PyroBot Fire Suppression System
 
 Designed to minimize human risk in hazardous environments, PyroBot is a 2.5-DoF robotic turret that utilizes low-level computer vision to detect and extinguish thermal signatures.
 

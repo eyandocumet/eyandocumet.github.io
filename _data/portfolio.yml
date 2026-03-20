@@ -5,7 +5,7 @@ experience:
     tags: ["Mechatronic Systems", "PLM Management", "R&D"]
 
 projects:
-  - title: "PyroBot: Autonomous Fire Suppression"
+  - title: "PyroBot Fire Suppression System"
     description: "An autonomous turret for fire detection and water-based suppression in hazardous environments using embedded systems and DFMA principles."
     image: "/assets/img/pyrobot.jpg"
     url: "/projects/pyrobot.html"
@@ -17,7 +17,7 @@ projects:
     url: "/projects/gyroid.html"
     tags: ["Design of Experiments", "Statistical Modeling", "FDM"]
 
-  - title: "Inchworm Climber: Kinematic Simulation"
+  - title: "Inchworm-Inspired Quasi-Static Robot Feasibility Study"
     description: "Design project for a two-link robotic climber with plug-and-play assembly and MATLAB-based motion planning for complex environments."
     image: "/assets/img/inchworm.png"
     url: "/projects/inchworm.html"

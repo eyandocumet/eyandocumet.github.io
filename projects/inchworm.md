@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# 2-Link Kinematic Synthesis & Quasi-Static Feasibility Study
+# Inchworm-Inspired Quasi-Static Robot Feasibility Study
 
 This project is a theoretical and computational deep-dive into the locomotion of a two-link serial-chain climber. The goal was to mathematically determine the feasibility of quasi-static movement. We focused on ensuring that at every point in the gait, the robot maintains equilibrium and sufficient torque margins to counteract gravity without relying on dynamic momentum.
 
