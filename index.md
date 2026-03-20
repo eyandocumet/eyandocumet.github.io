@@ -8,15 +8,15 @@ I'm a Berkeley grad specialized in mechatronics and R&D.  From integrating next-
 
 **I'm looking for work! Recruiter or hiring manager? [Contact me!](mailto:eyan.documet@protonmail.com)**
 
+Below, you'll find examples of my previous work. Click the cards to view more!
+
 ## 🏢 Professional Experience
-Organizations I have contributed to.
 
 {% for item in site.data.portfolio.experience %}
   {% include card.html title=item.title description=item.description image=item.image url=item.url tags=item.tags %}
 {% endfor %}
 
 ## 🛠️ Portfolio Projects
-Selected projects demonstrating engineering capability. Click a card to view details.
 
 {% for item in site.data.portfolio.projects %}
   {% include card.html title=item.title description=item.description image=item.image url=item.url tags=item.tags %}
