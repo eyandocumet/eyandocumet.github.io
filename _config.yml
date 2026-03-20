@@ -5,7 +5,7 @@ plugins:
 
 # Configuration / Settings
 show_downloads: false
-title: "Eyan's Digital Portfolio"
+title: "Eyan Documet"
 description: "Mechanical Engineer, former Intern @ LBNL"
 color-scheme: auto
 logo: /assets/img/mugshot.png
@@ -24,17 +24,3 @@ platforms:
   - name: Phone
     icon: <i class="fa-solid fa-phone"></i>
     link: tel:+13194805366
-
-# Navigation - Updated 3/19/26
-navigation:
-  - name: Home
-    link: ./index.html
-    sublist:
-    - name: PyroBot
-      link: .projects/pyrobot.html
-    - name: Gyroid Experiment
-      link: .projects/gyroid.html
-    - name: Inchworm Robot
-      link: .projects/inchworm.html
-  - name: Resume (PDF)
-    link: assets/Eyan_Documet.pdf

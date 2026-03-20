@@ -1,0 +1,33 @@
+<div class="card" style="margin-bottom: 30px; border-bottom: 1px solid rgba(128,128,128,0.1); padding-bottom: 20px;">
+<h3 style="margin: 0 0 15px 0; font-weight: 700;">
+    {{ include.title }}
+  </h3>
+
+  <div style="display: flex; gap: 20px; align-items: flex-start;">
+    {% if include.image %}
+    <div style="flex: 0 0 110px;">
+      <img src="{{ include.image }}" style="width: 110px; height: 110px; object-fit: cover; border-radius: 3px;">
+    </div>
+    {% endif %}
+
+    <div style="flex: 1;">
+      <p style="margin: 0; line-height: 1.6; font-size: 0.95rem;">
+        {{ include.description }}
+      </p>
+
+      {% if include.tags %}
+      <p style="margin-top: 12px; font-size: 0.85rem; margin-bottom: 0;">
+        <b>
+          {% for tag in include.tags %}
+            {{ tag }}{% unless forloop.last %} &bull; {% endunless %}
+          {% endfor %}
+        </b>
+      </p>
+      {% endif %}
+    </div>
+  </div>
+
+  {% if include.url %}
+    <a href="{{ include.url }}"><span class="card-link-spanner"></span></a>
+  {% endif %}
+</div>
