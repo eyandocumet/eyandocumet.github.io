@@ -1,2 +1,2 @@
 # Eyan's Website and Digital Portfolio
-Personal website / landing page and digital portfolio.
+Personal website/landing page and digital portfolio.
