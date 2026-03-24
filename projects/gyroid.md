@@ -45,7 +45,7 @@ Energy absorption (W) was calculated as the area under the force-displacement cu
 
 ## Mechanical Observations & Variability
 
-While the quadratic model provided a high global fit ($R^2=0.94$), local deviations were observed in low-isovalue samples. 
+While the quadratic model provided a high global fit (R² = 0.94), local deviations were observed in low-isovalue samples. 
 
 * **Manufacturing-Induced Anisotropy.** At lower isovalues, the FDM layer-height became significant relative to the strut's cross-sectional area. This increased the "grain" effect of the print.
 * **Failure Mode Shift.** While high-density samples failed through predictable plastic deformation, low-isovalue samples transitioned to brittle delamination. This suggests that as the feature size approaches the manufacturing resolution, the material's inter-laminar bond strength becomes the dominant failure bottleneck rather than the lattice geometry itself.
