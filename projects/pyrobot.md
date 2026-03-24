@@ -36,7 +36,7 @@ To ensure reliability in remote areas, all processing is performed locally on th
 ![Computer Vision](../assets/pyrobot/thermal.gif)
 
 ### Reverse Engineering & Integration
-To achieve high-velocity suppression within prototype constraints, we performed a full teardown of a COTS electric fluid delivery system. By extracting and characterizing the internal DC diaphragm pump, I was able to establish a **Digital Twin** in CAD. This allowed for the design of a custom mounting interface that balanced the pump's mass on the 2.5-DoF arm, reducing actuator moment of inertia and improving tracking stability.
+To achieve high-velocity suppression within prototype constraints, we performed a full teardown of a COTS electric fluid delivery system. By extracting and characterizing the internal DC diaphragm pump, I was able to establish a Digital Twin in CAD. This allowed for the design of a custom mounting interface that balanced the pump's mass on the 2.5-DoF arm, reducing actuator moment of inertia and improving tracking stability.
 
 ## CAD & Layout Drawings
 
