@@ -10,19 +10,19 @@ I'm a Berkeley grad specialized in mechatronics and R&D. From integrating next-g
 
 Below, you'll find examples of my previous work. Click the cards to view more!
 
-## 🏢 Professional Experience
+## 🏢 Experience
 
 {% for item in site.data.portfolio.experience %}
   {% include card.html title=item.title description=item.description image=item.image url=item.url tags=item.tags %}
 {% endfor %}
 
-## 🛠️ Portfolio Projects
+## 🛠️ Projects
 
 {% for item in site.data.portfolio.projects %}
   {% include card.html title=item.title description=item.description image=item.image url=item.url tags=item.tags %}
 {% endfor %}
 
-## 📰 In the news
+## 📰 News
 
 {% for item in site.data.portfolio.news %}
   {% include card.html title=item.title description=item.description image=item.image url=item.url tags=item.tags %}
