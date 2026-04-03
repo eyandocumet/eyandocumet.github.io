@@ -13,23 +13,28 @@ Below, you'll find examples of my previous work. Click the cards to view more!
 **I'm looking for work! Recruiter or hiring manager? [Contact me!](mailto:eyan.documet@protonmail.com)**
 
 ## 🏢 Work Experience
+Hands-on engineering roles and teaching experiences demonstrating technical proficiency and leadership.
 
 {% for item in site.data.portfolio.experience %}
   {% include card.html title=item.title description=item.description image=item.image url=item.url tags=item.tags %}
 {% endfor %}
 
 ## 🛠️ Engineering Projects
+Select engineering projects showcasing design, experimentation, and system-level problem solving.
 
 {% for item in site.data.portfolio.projects %}
   {% include card.html title=item.title description=item.description image=item.image url=item.url tags=item.tags %}
 {% endfor %}
 
 ## ⛳ Clubs & Organizations
+Extracurricular leadership and team-based engineering experiences
+
 {% for item in site.data.portfolio.clubs %}
   {% include card.html title=item.title description=item.description image=item.image url=item.url tags=item.tags %}
 {% endfor %}
 
 ## 📰 In the News
+Notable public outreach and leadership highlights.
 
 {% for item in site.data.portfolio.news %}
   {% include card.html title=item.title description=item.description image=item.image url=item.url tags=item.tags %}
