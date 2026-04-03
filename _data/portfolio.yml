@@ -32,10 +32,14 @@ clubs:
     description: "Participated in rear-suspension subteam design process for Gen 11 solar-powered racecar"
     url: "https://calsol.berkeley.edu/"
     tags: ["Engineering", "Design", "Dynamics"]
-  -title: "Co-President, College of the Canyons Chemistry Club"
+  - title: "Co-President, College of the Canyons Chemistry Club"
     description: "Led club activities, including Design of Experiments, designing safety protocols, and public-facing outreach events."
     url: "https://www.canyons.edu/academics/chemistry/club.php"
     tags: ["Leadership", "Chemistry"]
+  - title: "Member, Tutor, College of the Canyons MESA"
+    description: "Participated in MESA Journal Club and led tutoring sessions for over 50 students per semester."
+    url: "https://www.canyons.edu/academics/mesa/"
+    tags: ["Leadership", "Engineering"]
     
 news:
   - title: "Star Party 2023"
