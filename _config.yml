@@ -6,7 +6,7 @@ plugins:
 # Configuration / Settings
 show_downloads: false
 title: "Eyan Documet"
-description: "Mechanical Engineer, former Intern @ LBNL"
+description: "Mechanical Engineering graduate (BSME '25) specializing in mechatronics and R&D."
 color-scheme: auto
 logo: /assets/img/mugshot.png
 favicon: true
