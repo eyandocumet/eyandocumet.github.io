@@ -12,19 +12,24 @@ Below, you'll find examples of my previous work. Click the cards to view more!
 
 **I'm looking for work! Recruiter or hiring manager? [Contact me!](mailto:eyan.documet@protonmail.com)**
 
-## 🏢 Experience
+## 🏢 Work Experience
 
 {% for item in site.data.portfolio.experience %}
   {% include card.html title=item.title description=item.description image=item.image url=item.url tags=item.tags %}
 {% endfor %}
 
-## 🛠️ Projects
+## 🛠️ Engineering Projects
 
 {% for item in site.data.portfolio.projects %}
   {% include card.html title=item.title description=item.description image=item.image url=item.url tags=item.tags %}
 {% endfor %}
 
-## 📰 News
+## ⛳ Clubs & Organizations
+{% for item in site.data.portfolio.clubs %}
+  {% include card.html title=item.title description=item.description image=item.image url=item.url tags=item.tags %}
+{% endfor %}
+
+## 📰 In the News
 
 {% for item in site.data.portfolio.news %}
   {% include card.html title=item.title description=item.description image=item.image url=item.url tags=item.tags %}
