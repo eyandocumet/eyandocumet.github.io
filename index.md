@@ -4,7 +4,7 @@ layout: default
 
 # Hi, I'm Eyan 👋
 
-I'm a recent Berkeley BSME with experience in manufacturing, robotics, and research. I've worked on many projects, from firefighting robots to next-gen particle accelerators. Project ownership is important to me, so I enjoy involvement in as many parts of the process as possible. My ideal workday balances time designing and analyzing with time on the shop floor. I work well with others and have led many projects during my time at UC Berkeley and the Lab. I pride myself on my ability to make engineering decisions under pressure.
+I'm a recent Berkeley BSME with experience in manufacturing, robotics, and research. I've worked on many projects, from firefighting robots to next-gen particle accelerators. My engineering approach centers on a first-principles, analytical framework to modularize complex systems. I have a proven track record of managing full-cycle project ownership—from leading the R&D and PLM release of 100+ part assemblies for particle accelerator magnets at LBNL to developing underactuated robotic systems and autonomous fire suppression hardware.
 
 The more complex a problem is, the more excited I am to solve it. I'm especially interested in anything high-tech: robotics, aerospace, advanced manufacturing, green energy. If you agree with my philosophy, let's connect!
 
