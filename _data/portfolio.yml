@@ -3,6 +3,10 @@ experience:
     description: "Led R&D for a novel particle accelerator magnet assembly, transitioning the project to a completed prototype. Independently managed the release of 100+ electromechanical parts into PLM and performed advanced materials characterization."
     url: "https://www.lbl.gov/"
     tags: ["Mechatronic Systems", "PLM Management", "R&D"]
+  - title: "Reader, ME154/254: Thermophysics for Applications"
+    description: "Graded assignments and proctored exams for 30+ graduate and undergraduate students, providing feedback to support learning outcomes."
+    url: "https://undergraduate.catalog.berkeley.edu/courses/1155941"
+    tags: ["Leadership", "Thermophysics"]
 
 projects:
   - title: "PyroBot Fire Suppression System"
@@ -23,9 +27,19 @@ projects:
     url: "/projects/inchworm.html"
     tags: ["Motion Planning", "Simulation", "Mechatronics"]
 
+clubs:
+  - title: "Member, UC Berkeley Solar Vehicle Team (CalSol)"
+    description: "Participated in rear-suspension subteam design process for Gen 11 solar-powered racecar"
+    url: "https://calsol.berkeley.edu/"
+    tags: ["Engineering", "Design", "Dynamics"]
+  -title: "Co-President, College of the Canyons Chemistry Club"
+    description: "Led club activities, including Design of Experiments, designing safety protocols, and public-facing outreach events."
+    url: "https://www.canyons.edu/academics/chemistry/club.php"
+    tags: ["Leadership", "Chemistry"]
+    
 news:
   - title: "Star Party 2023"
-    description: "As Co-President of the Chemistry Club, I led scientific demonstrations for the public at College of the Canyons."
+    description: "As Co-President of the Chemistry Club, led scientific demonstrations for the public at College of the Canyons."
     url: "https://signalscv.com/2023/05/star-party-continues-to-shine-at-coc-canyon-count/"
     image: "/assets/img/star_party.jpg"
     tags: ["Leadership", "Chemistry"]
