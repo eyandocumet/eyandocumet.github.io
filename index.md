@@ -6,14 +6,11 @@ layout: default
 
 I'm a recent Berkeley BSME with experience in manufacturing, robotics, and research. I've worked on many projects, from firefighting robots to next-gen particle accelerators. My engineering approach centers on a first-principles, analytical framework to modularize complex systems. I have a proven track record of managing full-cycle project ownership; from leading the R&D and PLM release of 100+ part assemblies for particle accelerator magnets at LBNL to developing underactuated robotic systems and autonomous fire suppression hardware.
 
-The more complex a problem is, the more excited I am to solve it. I'm especially interested in anything high-tech: robotics, aerospace, advanced manufacturing, green energy. If you agree with my philosophy, let's connect!
-
 Below, you'll find examples of my previous work. Click the cards to view more!
 
 **I'm looking for work! Recruiter or hiring manager? [Contact me!](mailto:eyan.documet@protonmail.com)**
 
 ## 🏢 Work Experience
-Hands-on engineering roles and teaching experiences demonstrating technical proficiency and leadership.
 
 {% for item in site.data.portfolio.experience %}
   {% include card.html title=item.title description=item.description image=item.image url=item.url tags=item.tags %}
@@ -27,14 +24,12 @@ Select engineering projects showcasing design, experimentation, and system-level
 {% endfor %}
 
 ## ⛳ Clubs & Organizations
-Extracurricular leadership and team-based engineering experiences
 
 {% for item in site.data.portfolio.clubs %}
   {% include card.html title=item.title description=item.description image=item.image url=item.url tags=item.tags %}
 {% endfor %}
 
 ## 📰 In the News
-Notable public outreach and leadership highlights.
 
 {% for item in site.data.portfolio.news %}
   {% include card.html title=item.title description=item.description image=item.image url=item.url tags=item.tags %}
