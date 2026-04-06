@@ -28,9 +28,3 @@ Select engineering projects showcasing design, experimentation, and system-level
 {% for item in site.data.portfolio.clubs %}
   {% include card.html title=item.title description=item.description image=item.image url=item.url tags=item.tags %}
 {% endfor %}
-
-## 📰 In the News
-
-{% for item in site.data.portfolio.news %}
-  {% include card.html title=item.title description=item.description image=item.image url=item.url tags=item.tags %}
-{% endfor %}
