@@ -1,50 +1,42 @@
 experience:
   - title: "Intern - Lawrence Berkeley National Laboratory"
-    description: "Led R&D for a novel particle accelerator magnet assembly, transitioning the project to a completed prototype. Independently managed the release of 100+ electromechanical parts into PLM and performed advanced materials characterization."
+    description: "Led R&D for a novel particle accelerator magnet assembly, transitioning the project to a completed prototype. Independently managed the release of 100+ electromechanical parts into PLM (Creo Parametric/Windchill) and performed advanced materials characterization using MATLAB and Python scripting."
     url: "https://www.lbl.gov/"
-    tags: ["Mechatronic Systems", "PLM Management", "R&D"]
+    tags: ["Electromechanical Systems", "PLM Management", "R&D"]
   - title: "Reader - ME154/254: Thermophysics for Applications"
-    description: "Graded assignments and proctored exams for 30+ graduate and undergraduate students, providing feedback to support learning outcomes."
+    description: "Graded assignments and proctored exams for 30+ graduate and undergraduate students, providing technical feedback on thermodynamics to support learning outcomes."
     url: "https://undergraduate.catalog.berkeley.edu/courses/1155941"
     tags: ["Leadership", "Thermophysics"]
 
 projects:
   - title: "PyroBot Fire Suppression System"
-    description: "An autonomous turret for fire detection and water-based suppression in hazardous environments using embedded systems and DFMA principles."
+    description: "An autonomous turret for fire detection and water-based suppression in hazardous environments using embedded systems (C++), Arduino, and DFMA principles."
     image: "/assets/img/pyrobot.jpg"
     url: "/projects/pyrobot.html"
     tags: ["Embedded Systems", "DFMA", "CAD"]
 
   - title: "Gyroid Measurement Experiment"
-    description: "An experiment testing 3D-printed structures engineered for maximum energy absorption. Utilized experimental design and statistical modeling to validate performance."
+    description: "An experiment testing 3D-printed structures engineered for maximum energy absorption. Utilized experimental design (DOE) and statistical modeling in MATLAB to validate performance."
     image: "/assets/img/gyroid.png"
     url: "/projects/gyroid.html"
     tags: ["Design of Experiments", "Statistical Modeling", "FDM"]
 
   - title: "Inchworm-Inspired Quasi-Static Robot Feasibility Study"
-    description: "Design project for a two-link robotic climber with plug-and-play assembly and MATLAB-based motion planning for complex environments."
+    description: "Design project for a two-link robotic climber with plug-and-play assembly and MATLAB-based motion planning and kinematics for complex environments."
     image: "/assets/img/inchworm.png"
     url: "/projects/inchworm.html"
     tags: ["Motion Planning", "Simulation", "Mechatronics"]
 
 clubs:
   - title: "Member - UC Berkeley Solar Vehicle Team (CalSol)"
-    description: "Participated in rear-suspension subteam design process for Gen 11 solar-powered racecar"
+    description: "Participated in rear-suspension subteam design in Solidworks for Gen 11 solar-powered racecar."
     url: "https://calsol.berkeley.edu/"
     tags: ["Engineering", "Design", "Dynamics"]
   - title: "Co-President - College of the Canyons Chemistry Club"
-    description: "Led club activities, including Design of Experiments, designing safety protocols, and public-facing outreach events."
+    description: "Led club activities, including Design of Experiments (DOE), designing safety protocols, and public-facing outreach events."
     url: "https://www.canyons.edu/academics/chemistry/club.php"
     tags: ["Leadership", "Chemistry"]
   - title: "Member/Tutor - College of the Canyons MESA"
-    description: "Participated in MESA Journal Club and led tutoring sessions for over 50 students per semester."
+    description: "Participated in MESA Journal Club and led STEM tutoring sessions for over 50 students per semester."
     url: "https://www.canyons.edu/academics/mesa/"
     tags: ["Leadership", "Engineering"]
-    
-news:
-  - title: "Star Party 2023"
-    description: "As Co-President of the Chemistry Club, led scientific demonstrations for the public at College of the Canyons."
-    url: "https://signalscv.com/2023/05/star-party-continues-to-shine-at-coc-canyon-count/"
-  - title: "SCVBA Speech Competition"
-    description: "Featured for delivering a speech on historic U.S. legislation at a local competition."
-    url: "https://signalscv.com/2021/05/speech-competition-examines-historic-u-s-legislation/"
