@@ -126,12 +126,16 @@
       <h1 id="computational-mechanics-finite-element-analysis">Computational Mechanics: Finite Element Analysis</h1>
 
 <p><img src="/assets/myfem/adaptive_mesh.png" alt="adaptive_mesh.png" /></p>
+<blockquote>
+  <p><strong>Note:</strong> This project was developed as part of the UC Berkeley MEC180 curriculum. Source code is withheld to comply with academic integrity policies.</p>
 
-<h2 id="outcomes">Outcomes</h2>
+  <h2 id="outcomes">Outcomes</h2>
+  <ul>
+    <li>Adaptive h-refinement met error tolerances with 50% fewer elements (75 vs. 152) than uniform meshing.</li>
+  </ul>
+</blockquote>
+
 <ul>
-  <li>
-    <p>Adaptive h-refinement met error tolerances with 50% fewer elements (75 vs. 152) than uniform meshing.</p>
-  </li>
   <li>
     <p>Verified that Conjugate Gradient (CG) iterations scale linearly with system size, though direct solvers remained faster for systems under 10k elements.</p>
   </li>
@@ -148,7 +152,7 @@
 </ul>
 
 <h2 id="adaptive-h-refinement-vs-p-refinement">Adaptive h-refinement vs. p-refinement</h2>
-<p>While <strong>p-refinement</strong> increases the polynomial order of the basis functions to capture high-frequency oscillations, this project focused on <strong>h-refinement</strong> to maintain simplicity in element formulation. By surgically refining the mesh size ($h$) only in regions of high curvature, the adaptive strategy achieved a uniform error profile across the domain. This avoided the “over-solving” typical of uniform refinement, where computational resources are wasted on linear segments of the solution.</p>
+<p>While <strong>p-refinement</strong> increases the polynomial order of the basis functions to capture high-frequency oscillations, this project focused on <strong>h-refinement</strong> to maintain simplicity in element formulation. By surgically refining the mesh size (h) only in regions of high curvature, the adaptive strategy achieved a uniform error profile across the domain. This avoided the “over-solving” typical of uniform refinement, where computational resources are wasted on linear segments of the solution.</p>
 
 <p><img src="/assets/myfem/adaptive_mesh.png" alt="adaptive_mesh.png" />
 <img src="/assets/myfem/uniform_mesh.png" alt="uniform_mesh.png" />
@@ -160,8 +164,6 @@
 <p>By incorporating PMPE, the workflow improves significantly. Since the true solution is the unique minimizer of potential energy, monitoring the energy functional of the FEM solution provides a rigorous metric for accuracy. This enables intelligent error estimation, replacing “guess-and-check” refinement with a targeted strategy for determining the optimal h or p levels required for convergence.</p>
 
 <p><img src="/assets/myfem/pe_ne.png" alt="pe_ne.png" /></p>
-
-<p><em>*Note: This project was developed as part of the UC Berkeley MEC180 curriculum. Source code is withheld to comply with academic integrity policies.</em></p>
 
       </section>
       <footer><small style="line-height: 1.2; margin: 0;">
