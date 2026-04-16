@@ -15,7 +15,7 @@ projects:
     url: "/projects/gyroid.html"
     tags: ["Design of Experiments", "Statistical Modeling", "FDM"]
 
-  - title: "Inchworm-Inspired Quasi-Static Robot Feasibility Study"
+  - title: "Inchworm-Inspired Robot Feasibility Study"
     description: "Design project for a two-link robotic climber with plug-and-play assembly and MATLAB-based motion planning and kinematics for complex environments."
     image: "/assets/img/inchworm.png"
     url: "/projects/inchworm.html"
