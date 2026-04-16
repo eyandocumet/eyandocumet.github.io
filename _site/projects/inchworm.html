@@ -129,28 +129,59 @@
 
 <p><strong>I owned the kinematic derivation, MATLAB simulation environment, and mechanical synthesis.</strong></p>
 
-<p><img src="/assets/inchworm/worm_hero.gif" alt="Kinematic Simulation" /></p>
+<p><img src="../assets/inchworm/inchworm_CAD.png" alt="inchworm_CAD.png" /></p>
 
-<h2 id="outcomes">Outcomes</h2>
-<ul>
-  <li><strong>Mathematical Validation.</strong> Proved feasibility of vertical locomotion by mapping joint torque requirements against COTS actuator performance curves.</li>
-  <li><strong>IK Solver Development.</strong> Derived and implemented a 2D Inverse Kinematics (IK) solver in MATLAB to generate deterministic trajectories for arbitrary path profiles.</li>
-  <li><strong>Technical Documentation.</strong> Published a <a href="https://docs.google.com/presentation/d/1YYxPU4BLg0zNh9PkcbEtMXNPjHYpkNcNU45CamPC_mA/">Motion Analysis &amp; Design Report (Google Slides)</a>.</li>
-</ul>
+<blockquote>
+  <p>[!note] Note:
+This page is a <strong>summary</strong>. For full documentation, see <a href="https://docs.google.com/presentation/d/1YYxPU4BLg0zNh9PkcbEtMXNPjHYpkNcNU45CamPC_mA/">Motion Analysis &amp; Design Report (Google Slides)</a>.</p>
+</blockquote>
 
 <h2 id="skills-demonstrated">Skills Demonstrated</h2>
 <ul>
   <li><strong>Kinematic Synthesis and Dynamics.</strong> Derived closed-form geometric solutions for 2-DoF Inverse Kinematics and performed static force-balance equations to validate locomotion stability.</li>
-  <li><strong>Computational Engineering.</strong> Developed custom MATLAB scripts for trajectory visualization and automated torque-requirement plotting.</li>
-</ul>
-
-<h2 id="kinematic-modeling-and-workspace-analysis">Kinematic Modeling and Workspace Analysis</h2>
-
-<p>The study ensured the robot could transition between anchor points without entering singular or unreachable configurations.</p>
-
-<ul>
+  <li><strong>Component Validation.</strong> Successfully proved feasibility of quasi-static motion path with given motor selection.</li>
   <li><strong>Path Generation.</strong> I created a heuristic-based planner in MATLAB that computes joint angles for a smooth inchworm gait. This ensures the end-effector follows a prescribed path while staying within the verified torque-safe envelope.</li>
 </ul>
+
+<h2 id="high-level-strategy">High-Level Strategy</h2>
+<p>This study investigated the viability of two-link robotic climber designed for complex curved horizontal and vertical environments. By leveraging a sequential anchoring gait, the architecture prioritizes mechanical reliability and high torque-to-weight ratios over systemic complexity.</p>
+
+<p>The study prioritized a strategic reduction in system complexity to verify the platform’s core viability through two critical benchmarks:</p>
+<ul>
+  <li>Validated the gripper-interface load capacity, ensuring reactive forces remained within factor-of-safety limits during critical transition phases.</li>
+  <li>By targeting a quasi-static regime, we successfully minimized dynamic instability. Analytical modeling confirmed that inertial transients remained negligible, enabling high-fidelity trajectory tracking without the overhead of active-damping control systems.</li>
+</ul>
+
+<h2 id="gripper-mechanics-frictional-anchor-validation">Gripper Mechanics: Frictional Anchor Validation</h2>
+
+<p>To ensure secure vertical attachment, the gripper architecture utilizes a high-friction caliper system based on established braking principles (such as those found in bicycles). By integrating COTS elastomeric pads (rubber-on-steel contact), the design maximizes the static friction coefficient (μ) required for stable load bearing.</p>
+<ul>
+  <li>Based on a system mass of 1.67kg, the required torque to prevent slip was calculated at 1.62 Nm.</li>
+  <li>With a dual-motor configuration providing a combined 4.9 Nm of clamping torque, the design achieves a Factor of Safety (FoS) of 3.02.</li>
+</ul>
+
+<p><img src="../assets/inchworm/grip_VV.png" alt="grip_VV.png" /></p>
+
+<p>This 3x torque overhead ensures that the robot maintains a rigid anchor even under adverse conditions, such as surface contamination or dynamic load spikes during transitions.</p>
+<h2 id="lagrangian-based-quasi-static-assumption">Lagrangian Based Quasi-Static Assumption</h2>
+<p>A critical component of the feasibility study involved mapping the robot’s dynamic demands against the actuator’s winding-limited operating space. Analytical modeling of the torque-speed requirements confirmed that even at peak velocities, the demand curve remained substantially below the motor’s winding line, maintaining a minimum 100 N-cm torque buffer. This validates that the system operates entirely within the efficient, linear regime of the motor and that a quasi-static assumption for locomotion was valid.</p>
+
+<p><img src="../assets/inchworm/quasi-static-validation.png" alt="quasi-static-validation.png" /></p>
+<blockquote>
+  <p>Figure: Dynamic loading trajectories across various path angles (colored) plotted against the servo’s winding-limited operational boundaries (black).</p>
+  <h2 id="kinematic-modeling-and-workspace-analysis">Kinematic Modeling and Workspace Analysis</h2>
+  <p>To ensure seamless transitions between anchor points, I developed a kinematic simulation in MATLAB to identify and bypass singularities and unreachable configurations.</p>
+</blockquote>
+
+<p><img src="../assets/inchworm/worm_climb.gif" alt="worm_climb.gif" /></p>
+
+<p>The motion planning utilized a sinusoidal path-mapping algorithm, which projected desired end-effector trajectories onto the climb path. To maintain physical feasibility, I implemented a workspace envelope constraint-checker that dynamically shifted out-of-bounds coordinates into the reachable manifold. This ensured fluid, quasi-static stability throughout the entire locomotion cycle.</p>
+
+<h1 id="electromechanical-system-design">Electromechanical System Design</h1>
+
+<p>The proposed control architecture utilizes an ESP32 microcontroller communicating via I2C to a dedicated 16-channel PWM driver. This bus-based topology minimizes GPIO overhead and allows for synchronized control of the multi-actuator gait.</p>
+
+<p><img src="../assets/inchworm/circuit_diagram.png" alt="circuit_diagram.png" /></p>
 
       </section>
       <footer><small style="line-height: 1.2; margin: 0;">

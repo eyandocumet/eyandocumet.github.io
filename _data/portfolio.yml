@@ -15,6 +15,12 @@ projects:
     url: "/projects/gyroid.html"
     tags: ["Design of Experiments", "Statistical Modeling", "FDM"]
 
+  - title: "Inchworm-Inspired Quasi-Static Robot Feasibility Study"
+    description: "Design project for a two-link robotic climber with plug-and-play assembly and MATLAB-based motion planning and kinematics for complex environments."
+    image: "/assets/img/inchworm.png"
+    url: "/projects/inchworm.html"
+    tags: ["Motion Planning", "Simulation", "Mechatronics"]
+
   - title: "PyroBot Fire Suppression System"
     description: "An autonomous turret for fire detection and water-based suppression in hazardous environments using embedded systems (C++), Arduino, and DFMA principles."
     image: "/assets/img/pyrobot.jpg"
@@ -26,12 +32,6 @@ projects:
     image: "/assets/img/myfem.png"
     url: "/projects/myfem.html"
     tags: ["Finite Elements", "Digital Twinning", "MATLAB"]
-
-  - title: "Inchworm-Inspired Quasi-Static Robot Feasibility Study"
-    description: "Design project for a two-link robotic climber with plug-and-play assembly and MATLAB-based motion planning and kinematics for complex environments."
-    image: "/assets/img/inchworm.png"
-    url: "/projects/inchworm.html"
-    tags: ["Motion Planning", "Simulation", "Mechatronics"]
 
 clubs:
   - title: "Member - UC Berkeley Solar Vehicle Team (CalSol)"

@@ -10,10 +10,8 @@ Designed to minimize human risk in hazardous environments, PyroBot is a 2.5-DoF 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1t1cayGuPRw?si=kxGl0jnP1mP5C4o1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-## Outcomes
-- Delivered a fully functional system featuring Autonomous, Manual (RC), and Preventative spray modes.
-- Integrated 50+ custom and COTS components using standardized ASME hardware and FDM-optimized geometries.
-- Released a 15-page [Technical Report and Operations Manual (PDF)](../assets/pyrobot/PyroBot_Final_Report.pdf) documenting the full system architecture.
+> [!note] Note:
+> This page is a **summary**. For full documentation, see 15-page [Technical Report and Operations Manual (PDF)](../assets/pyrobot/PyroBot_Final_Report.pdf) documenting the full system architecture.
 
 ## Skills Demonstrated
 - **High-Density Mechatronic Integration.** Managed a 50+ part assembly, optimizing for volumetric efficiency and center-of-mass stability to ensure smooth 2.5-DoF motion.
