@@ -19,6 +19,11 @@
 ## Adaptive h-refinement vs. p-refinement
 While **p-refinement** increases the polynomial order of the basis functions to capture high-frequency oscillations, this project focused on **h-refinement** to maintain simplicity in element formulation. By surgically refining the mesh size ($h$) only in regions of high curvature, the adaptive strategy achieved a uniform error profile across the domain. This avoided the "over-solving" typical of uniform refinement, where computational resources are wasted on linear segments of the solution.
 
+## Principle of Minimum Potential Energy (PMPE)
+While FEM can be performed without considering the Principle of Minimum Potential Energy (PMPE), doing so provides zero insight into the error or quality of the solution curve. Without PMPE, one would have to solve the differential equations directly to compute the error, effectively bypassing the primary computational benefits of the Finite Element Method.
+
+By incorporating PMPE, the workflow improves significantly. Since the true solution is the unique minimizer of potential energy, monitoring the energy functional of the FEM solution provides a rigorous metric for accuracy. This enables intelligent error estimation, replacing "guess-and-check" refinement with a targeted strategy for determining the optimal h or p levels required for convergence.
+
 ![pe_ne.png](../assets/myfem/pe_ne.png)
 
 _*Note: This project was developed as part of the UC Berkeley MEC180 curriculum. Source code is withheld to comply with academic integrity policies._
