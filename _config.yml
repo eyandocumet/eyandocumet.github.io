@@ -26,12 +26,15 @@ platforms:
     link: tel:+13194805366
 
 navigation:
-  - name: Home
+  - name: Portfolio
     link: https://eyandocumet.xyz/
     sublist:
-      - name: PyroBot
-        link: https://eyandocumet.xyz/projects/pyrobot.html
-      - name: Inchworm
-        link: https://eyandocumet.xyz/projects/inchworm.html
       - name: Gyroid Experiment
         link: https://eyandocumet.xyz/projects/gyroid.html
+      - name: PyroBot
+        link: https://eyandocumet.xyz/projects/pyrobot.html
+      - name: Finite Elements
+        link: https://eyandocumet.xyz/projects/myfem.html
+      - name: Inchworm
+        link: https://eyandocumet.xyz/projects/inchworm.html
+
