@@ -4,50 +4,50 @@ layout: default
 
 # Inchworm-Inspired Quasi-Static Robot Feasibility Study
 
-This project is a theoretical and computational deep-dive into the locomotion of a two-link serial-chain climber. The goal was to mathematically determine the feasibility of quasi-static movement. We focused on ensuring that at every point in the gait, the robot maintains equilibrium and sufficient torque margins to counteract gravity without relying on dynamic momentum.
+This study validates the locomotion of a two-link serial-chain climber. The objective was to mathematically verify quasi-static movement, ensuring equilibrium and sufficient torque margins throughout the gait without relying on dynamic momentum.
 
 **I owned the kinematic derivation, MATLAB simulation environment, and mechanical synthesis.**
 
 ![inchworm_CAD.png](../assets/inchworm/inchworm_CAD.png)
 
-> [!note] Note:
-> This page is a **summary**. For full documentation, see [Motion Analysis & Design Report (Google Slides)](https://docs.google.com/presentation/d/1YYxPU4BLg0zNh9PkcbEtMXNPjHYpkNcNU45CamPC_mA/).
+>  **Note:** This page is a **summary**. Please see [Full Motion Analysis & Design Report (Google Slides)](https://docs.google.com/presentation/d/1YYxPU4BLg0zNh9PkcbEtMXNPjHYpkNcNU45CamPC_mA/) for more details.
 
 ## Skills Demonstrated
-- **Kinematic Synthesis and Dynamics.** Derived closed-form geometric solutions for 2-DoF Inverse Kinematics and performed static force-balance equations to validate locomotion stability.
-- **Component Validation.** Successfully proved feasibility of quasi-static motion path with given motor selection.
-- **Path Generation.** I created a heuristic-based planner in MATLAB that computes joint angles for a smooth inchworm gait. This ensures the end-effector follows a prescribed path while staying within the verified torque-safe envelope.
+- **Kinematics & Dynamics:** Derived closed-form 2-DoF IK and static force-balance equations to ensure stability.
+- **Component Validation:** Benchmarked motor torque-speed characteristics against predicted operational loads.
+- **Path Generation:** Developed a MATLAB heuristic planner to ensure end-effector trajectories remain within the verified torque-safe envelope.
 
 ## High-Level Strategy
-This study investigated the viability of two-link robotic climber designed for complex curved horizontal and vertical environments. By leveraging a sequential anchoring gait, the architecture prioritizes mechanical reliability and high torque-to-weight ratios over systemic complexity.
+The architecture utilizes a **sequential anchoring gait** to prioritize mechanical reliability. Complexity was reduced via two strategic benchmarks:
+- **Attachment Security:** Validated gripper-interface load capacity to maintain factor-of-safety limits during transitions.
+- **Stability:** Targeted a **quasi-static regime** to negate inertial transients, enabling high-fidelity trajectory tracking without the need for active-damping controllers.
 
-The study prioritized a strategic reduction in system complexity to verify the platform’s core viability through two critical benchmarks:
-- Validated the gripper-interface load capacity, ensuring reactive forces remained within factor-of-safety limits during critical transition phases.
-- By targeting a quasi-static regime, we successfully minimized dynamic instability. Analytical modeling confirmed that inertial transients remained negligible, enabling high-fidelity trajectory tracking without the overhead of active-damping control systems.
+![general_schematic.png](../assets/inchworm/general_schematic.png)
 
 ## Gripper Mechanics: Frictional Anchor Validation
-
-To ensure secure vertical attachment, the gripper architecture utilizes a high-friction caliper system based on established braking principles (such as those found in bicycles). By integrating COTS elastomeric pads (rubber-on-steel contact), the design maximizes the static friction coefficient (μ) required for stable load bearing.
-- Based on a system mass of 1.67kg, the required torque to prevent slip was calculated at 1.62 Nm.
-- With a dual-motor configuration providing a combined 4.9 Nm of clamping torque, the design achieves a Factor of Safety (FoS) of 3.02.
+The gripper utilizes a high-friction caliper system with **COTS elastomeric pads** (rubber-on-steel) to maximize the static friction coefficient ($\mu$).
+- **Torque Demand:** 1.62 Nm (calculated from 1.67kg system mass).
+- **Available Torque:** 4.9 Nm (Dual-actuator configuration).
+- **Result:** **3.02 Factor of Safety (FoS)**.
 
 ![grip_VV.png](../assets/inchworm/grip_VV.png)
 
-This 3x torque overhead ensures that the robot maintains a rigid anchor even under adverse conditions, such as surface contamination or dynamic load spikes during transitions.
-## Lagrangian Based Quasi-Static Assumption
-A critical component of the feasibility study involved mapping the robot’s dynamic demands against the actuator’s winding-limited operating space. Analytical modeling of the torque-speed requirements confirmed that even at peak velocities, the demand curve remained substantially below the motor’s winding line, maintaining a minimum 100 N-cm torque buffer. This validates that the system operates entirely within the efficient, linear regime of the motor and that a quasi-static assumption for locomotion was valid.
+This 3x overhead ensures a rigid anchor against surface variability and dynamic load spikes.
+
+## Lagrangian Quasi-Static Verification
+I mapped dynamic demands against the **actuator’s winding-limited operating space**. Modeling confirmed that even at peak velocities, requirements remained **100 N-cm below the winding line**. This validates that the system operates entirely within the motor's linear regime, confirming the quasi-static assumption.
 
 ![quasi-static-validation.png](../assets/inchworm/quasi-static-validation.png)
-> Figure: Dynamic loading trajectories across various path angles (colored) plotted against the servo’s winding-limited operational boundaries (black).
-## Kinematic Modeling and Workspace Analysis
-To ensure seamless transitions between anchor points, I developed a kinematic simulation in MATLAB to identify and bypass singularities and unreachable configurations.
+> **Figure:** Dynamic load trajectories (colored) vs. winding-limited operational boundaries (black).
+
+## Kinematic Modeling & Workspace Analysis
+I developed a MATLAB simulation to identify singularities and unreachable configurations within the workspace.
 
 ![worm_climb.gif](../assets/inchworm/worm_climb.gif)
 
-The motion planning utilized a sinusoidal path-mapping algorithm, which projected desired end-effector trajectories onto the climb path. To maintain physical feasibility, I implemented a workspace envelope constraint-checker that dynamically shifted out-of-bounds coordinates into the reachable manifold. This ensured fluid, quasi-static stability throughout the entire locomotion cycle.
+A **sinusoidal path-mapping algorithm** projected trajectories onto the climb path, while a workspace constraint-checker dynamically shifted out-of-bounds coordinates into the **reachable manifold** to maintain fluid stability.
 
-# Electromechanical System Design
-
-The proposed control architecture utilizes an ESP32 microcontroller communicating via I2C to a dedicated 16-channel PWM driver. This bus-based topology minimizes GPIO overhead and allows for synchronized control of the multi-actuator gait.
+## Electromechanical System Design
+The control architecture utilizes an **ESP32-C6** communicating via **I2C** to a 16-channel PWM driver. This topology minimizes GPIO overhead and ensures synchronized, low-latency control across the multi-actuator gait.
 
 ![circuit_diagram.png](../assets/inchworm/circuit_diagram.png)

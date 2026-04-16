@@ -10,8 +10,7 @@ This project explores the optimization of 3D-printed gyroids for enhanced energy
 
 ![Gyroid Hero Shot](../assets/gyroid/gyroid_hero.png)
 
-> [!note] Note:
-> This page is a **summary**. For full documentation, see [Comprehensive Final Report (PDF)](../assets/gyroid/Optimization_of_Gyroids.pdf) and [Summary Slides (Google Slides)](https://docs.google.com/presentation/d/1YsgTZT92xVAr_GbYvnbmOabK2q4YTHSgumDWQ4tdrUo/edit?usp=drive_link) explaining the results of our work.
+> **Note:** This page is a **summary**. For full documentation, see [Comprehensive Final Report (PDF)](../assets/gyroid/Optimization_of_Gyroids.pdf) and [Summary Slides (Google Slides)](https://docs.google.com/presentation/d/1YsgTZT92xVAr_GbYvnbmOabK2q4YTHSgumDWQ4tdrUo/edit?usp=drive_link) explaining the results of our work.
 
 ## Skills Demonstrated
 - **Experimental Design & Instrumentation.** Calibrated and executed Instron compression tests, ensuring accurate force and displacement measurements.
