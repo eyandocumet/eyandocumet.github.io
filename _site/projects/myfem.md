@@ -2,7 +2,7 @@
 
 ![adaptive_mesh.png](../assets/myfem/adaptive_mesh.png)
 > **Note:** This project was developed as part of the UC Berkeley MEC180 curriculum. Source code is withheld to comply with academic integrity policies.
-> 
+
 ## Outcomes
 - Adaptive h-refinement met error tolerances with 50% fewer elements (75 vs. 152) than uniform meshing.
 

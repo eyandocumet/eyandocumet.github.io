@@ -6,7 +6,7 @@ plugins:
 # Configuration / Settings
 show_downloads: false
 title: "Eyan Documet"
-description: "Mechanical Engineering graduate (BSME '25) specializing in mechatronics and R&D."
+description: "Electromechanical Engineer focused on Testing, Integration, and Data-Driven Design"
 color-scheme: auto
 logo: /assets/img/mugshot.png
 favicon: true
