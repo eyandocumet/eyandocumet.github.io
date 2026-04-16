@@ -1,6 +1,6 @@
 jobs:
   - title: "Intern - Lawrence Berkeley National Laboratory"
-    description: "Led R&D for a novel particle accelerator magnet assembly. Independently managed the release of 100+ electromechanical parts into PLM and did data-driven design using MATLAB and Python scripting."
+    description: "Led R&D for a novel particle accelerator magnet assembly. Independently managed the release of 100+ electromechanical parts."
     url: "https://www.lbl.gov/"
     tags: ["Electromechanical Systems", "PLM Management", "R&D"]
   - title: "Reader - ME154/254: Thermophysics for Applications"
