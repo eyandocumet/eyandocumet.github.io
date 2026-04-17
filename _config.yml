@@ -21,6 +21,9 @@ platforms:
   - name: Email
     icon: <i class="fa-solid fa-envelope"></i>
     link: mailto:eyan.documet@protonmail.com
+  - name: Github
+    icon: <i class="fa-solid fa-github"></i>
+    link: https://github.com/eyandocumet/
   - name: Phone
     icon: <i class="fa-solid fa-phone"></i>
     link: tel:+13194805366
