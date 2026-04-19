@@ -9,6 +9,12 @@ jobs:
     tags: ["Leadership", "Thermophysics"]
 
 projects:
+  - title: "PyroBot Fire Suppression System"
+    description: "An autonomous turret for fire detection and water-based suppression in hazardous environments using embedded systems (C++), Arduino, and DFMA principles."
+    image: "/assets/img/pyrobot.jpg"
+    url: "/projects/pyrobot.html"
+    tags: ["Embedded Systems", "DFMA", "CAD"]
+    
   - title: "Gyroid Measurement Experiment"
     description: "An experiment testing 3D-printed structures engineered for maximum energy absorption. Utilized experimental design (DOE) and statistical modeling in MATLAB to validate performance."
     image: "/assets/img/gyroid.png"
@@ -20,12 +26,6 @@ projects:
     image: "/assets/img/inchworm.png"
     url: "/projects/inchworm.html"
     tags: ["Motion Planning", "Simulation", "Mechatronics"]
-
-  - title: "PyroBot Fire Suppression System"
-    description: "An autonomous turret for fire detection and water-based suppression in hazardous environments using embedded systems (C++), Arduino, and DFMA principles."
-    image: "/assets/img/pyrobot.jpg"
-    url: "/projects/pyrobot.html"
-    tags: ["Embedded Systems", "DFMA", "CAD"]
 
   - title: "FEM Scaling and Optimization"
     description: "A series of coding projects implementing Finite-Element Methods in 1-and-2D mechanical systems."
