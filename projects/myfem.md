@@ -1,7 +1,6 @@
 # Computational Mechanics: Finite Element Analysis
 
 ![adaptive_mesh.png](../assets/myfem/adaptive_mesh.png)
-> **Note:** This project was developed as part of the UC Berkeley MEC180 curriculum. Source code is withheld to comply with academic integrity policies.
 
 ## Outcomes
 - Adaptive h-refinement met error tolerances with 50% fewer elements (75 vs. 152) than uniform meshing.
@@ -28,3 +27,5 @@ While FEM can be performed without considering the Principle of Minimum Potentia
 By incorporating PMPE, the workflow improves significantly. Since the true solution is the unique minimizer of potential energy, monitoring the energy functional of the FEM solution provides a rigorous metric for accuracy. This enables intelligent error estimation, replacing "guess-and-check" refinement with a targeted strategy for determining the optimal h or p levels required for convergence.
 
 ![pe_ne.png](../assets/myfem/pe_ne.png)
+
+> **Note:** This project was developed as part of the UC Berkeley MEC180 curriculum. Source code is withheld to comply with academic integrity policies.
