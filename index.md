@@ -8,6 +8,10 @@ I'm a **Mechanical Engineer** from **UC Berkeley** focused on **testing**, **sim
 
 **Recruiter or hiring manager? [Contact me!](mailto:eyan.documet@protonmail.com)**
 
+{% for item in site.data.portfolio.jobs %}
+  {% include card.html title=item.title description=item.description image=item.image url=item.url tags=item.tags %}
+{% endfor %}
+
 {% for item in site.data.portfolio.projects %}
   {% include card.html title=item.title description=item.description image=item.image url=item.url tags=item.tags %}
 {% endfor %}
