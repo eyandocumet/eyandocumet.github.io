@@ -3,10 +3,6 @@ jobs:
     description: "Led R&D for a novel particle accelerator magnet assembly. Independently managed the release of 100+ electromechanical parts."
     url: "https://www.lbl.gov/"
     tags: ["Electromechanical Systems", "PLM Management", "R&D"]
-  - title: "Reader - ME154/254: Thermophysics for Applications"
-    description: "Graded assignments and proctored exams for 30+ graduate and undergraduate students."
-    url: "https://undergraduate.catalog.berkeley.edu/courses/1155941"
-    tags: ["Leadership", "Thermophysics"]
 
 projects:
   - title: "PyroBot Fire Suppression System"
