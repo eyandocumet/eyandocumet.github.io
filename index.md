@@ -10,10 +10,6 @@ My background includes leading hardware R&D for a particle accelerator prototype
 
 Below are some examples of my previous independant or school-related work:
 
-{% for item in site.data.portfolio.jobs %}
-  {% include card.html title=item.title description=item.description image=item.image url=item.url tags=item.tags %}
-{% endfor %}
-
 {% for item in site.data.portfolio.projects %}
   {% include card.html title=item.title description=item.description image=item.image url=item.url tags=item.tags %}
 {% endfor %}
