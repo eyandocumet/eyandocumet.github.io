@@ -6,7 +6,7 @@ plugins:
 # Configuration / Settings
 show_downloads: false
 title: "Eyan Documet"
-description: "Electromechanical Engineer focused on Testing, Integration, and Data-Driven Design"
+description: "Mechanical Engineer obsessed with solving high-stakes, highly-technical problems."
 color-scheme: auto
 logo: /assets/img/mugshot.png
 favicon: true
