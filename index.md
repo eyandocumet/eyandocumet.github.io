@@ -10,7 +10,7 @@ Currently, I'm lending my skills to designing autoclaves and process systems at 
 
 ## Work Experience
 {% for item in site.data.portfolio.jobs %}
-  {% include card.html title=item.title description=item.description image=item.image url=item.url tags=item.tags %}
+  {% include card.html title=item.title description=item.description url=item.url tags=item.tags %}
 
 ## School Experience
 {% for item in site.data.portfolio.projects %}
