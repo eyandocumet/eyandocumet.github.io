@@ -4,9 +4,9 @@ layout: default
 
 # Hi, I'm Eyan 👋
 
-I'm a Mechanical Engineer obsessed with solving high-stakes, highly-technical problems. I'm specialized in advanced manufacturing, electromechanical systems, and designing around multi-physical constraints.
+I am a Mechanical Engineer driven by solving high-stakes, multi-physical engineering challenges. I specialize in advanced manufacturing, mechatronics, and designing hardware under tight thermal and structural constraints.
 
-Currently, I'm lending my skills to designing autoclaves and process systems at ASC. My background includes leading hardware R&D for a particle accelerator prototype at LBNL, mechatronics and simulation projects at UC Berkeley.
+Currently, I design and execute massive industrial autoclaves and complex process systems at ASC Process Systems, focusing on systems-level engineering and project management. Previously, I led mechanical hardware R&D for a particle accelerator prototype at Lawrence Berkeley National Laboratory and developed custom multiphysics simulation tools and robotics at UC Berkeley.
 
 ## Work Experience
 {% for item in site.data.portfolio.jobs %}
