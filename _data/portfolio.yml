@@ -1,8 +1,12 @@
 jobs:
+  - title: "Mechanical Engineer - Lawrence Berkeley National Laboratory"
+    description: "Driving the end-to-end systems-level design and project management of industrial autoclaves and other process systems."
+    url: "https://www.aschome.com/"
+    tags: ["Mechanical Design", "Design Codes", "Project Management"]
   - title: "Intern - Lawrence Berkeley National Laboratory"
     description: "Led R&D for a novel particle accelerator magnet assembly. Independently managed the release of 100+ electromechanical parts."
     url: "https://www.lbl.gov/"
-    tags: ["Electromechanical Systems", "PLM Management", "R&D"]
+    tags: ["Electromechanical Systems", "Project Lifecycle Management", "R&D"]
 
 projects:
   - title: "PyroBot Fire Suppression System"
