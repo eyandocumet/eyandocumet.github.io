@@ -10,7 +10,7 @@ Currently, I design and execute massive industrial autoclaves and complex proces
 
 ## Work Experience
 {% for item in site.data.portfolio.jobs %}
-  {% include card.html title=item.title description=item.description url=item.url tags=item.tags %}
+  {% include card.html title=item.title description=item.description image=item.image url=item.url tags=item.tags %}
 {% endfor %}
 
 ## School Experience
