@@ -1,13 +1,3 @@
-jobs:
-  - title: "Mechanical Engineer I - ASC Process Systems"
-    description: "Driving the end-to-end systems-level design and project management of industrial autoclaves and other process systems."
-    url: "https://www.aschome.com/"
-    tags: ["Mechanical Design", "Design Codes", "Project Management"]
-  - title: "Intern - Lawrence Berkeley National Laboratory"
-    description: "Led R&D for a novel particle accelerator magnet assembly. Independently managed the release of 100+ electromechanical parts."
-    url: "https://www.lbl.gov/"
-    tags: ["Electromechanical Systems", "Project Lifecycle Management", "R&D"]
-
 projects:
   - title: "PyroBot Fire Suppression System"
     description: "An autonomous turret for fire detection and water-based suppression in hazardous environments using embedded systems (C++), Arduino, and DFMA principles."
@@ -20,12 +10,6 @@ projects:
     image: "/assets/img/gyroid.png"
     url: "/projects/gyroid.html"
     tags: ["Design of Experiments", "Statistical Modeling", "FDM"]
-
-  - title: "Inchworm-Inspired Robot Feasibility Study"
-    description: "Design project for a two-link robotic climber with plug-and-play assembly and MATLAB-based motion planning and kinematics for complex environments."
-    image: "/assets/img/inchworm.png"
-    url: "/projects/inchworm.html"
-    tags: ["Motion Planning", "Simulation", "Mechatronics"]
 
   - title: "FEM Scaling and Optimization"
     description: "A series of coding projects implementing Finite-Element Methods in 1-and-2D mechanical systems."
