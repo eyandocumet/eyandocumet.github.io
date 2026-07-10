@@ -13,7 +13,7 @@ Currently, I design and execute massive industrial autoclaves and complex proces
   {% include card.html title=item.title description=item.description image=item.image url=item.url tags=item.tags %}
 {% endfor %}
 
-## School Experience
+## Projects
 {% for item in site.data.portfolio.projects %}
   {% include card.html title=item.title description=item.description image=item.image url=item.url tags=item.tags %}
 {% endfor %}
