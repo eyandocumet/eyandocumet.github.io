@@ -4,18 +4,6 @@ First-principles mechanical engineer driven by novel, complex electromechanical 
 
 ---
 
-## 🛠️ Skills
-### Engineering & Analysis:
-* Geometric Dimensioning and Tolerancing (GD&T), Tolerance Stack-Up Analysis, Computer-Aided Engineering (CAE), Finite Element Analysis (FEA), Design for Assembly/Testing/Manufacturing (DFx), Design of Experiments (DoE), Mechanisms, Manipulators
-
-### Mechatronics:
-* Motion/Trajectory Planning, Physics Simulation, Linear Circuit Design, Control Theory (PID, LQR), Motor Sizing, Microcontrollers (Arduino, Teensy, ESP32), Programmable Logic Controllers (PLCs)
-
-### **Software & Tools:** 
-* PTC Creo + Windchill PLM, Autodesk Inventor/Fusion, Python, MATLAB, C/C++, Linux, Git, ANSYS, Codeware COMPRESS, MuJoCo
-
----
-
 ## 🎓 Education
 ### **B.S. in Mechanical Engineering**, [University of California, Berkeley](https://me.berkeley.edu/) (Dec 2025)
 * **Selected Courses:** Robotic Locomotion, Finite Element Methods, Simulation for Advanced Manufacturing
@@ -36,3 +24,15 @@ First-principles mechanical engineer driven by novel, complex electromechanical 
 
 ### **Course Reader**, [University of California, Berkeley](https://me.berkeley.edu/) - Berkeley, CA (Aug 2025 – Dec 2025)
   * Evaluated technical assignments and provided feedback for a cross-listed cohort of graduate and undergraduate students in ME154/254: Thermophysics.
+
+---
+
+## 🛠️ Skills
+### Engineering & Analysis:
+* Geometric Dimensioning and Tolerancing (GD&T), Tolerance Stack-Up Analysis, Computer-Aided Engineering (CAE), Finite Element Analysis (FEA), Design for Assembly/Testing/Manufacturing (DFx), Design of Experiments (DoE), Mechanisms, Manipulators
+
+### Mechatronics:
+* Motion/Trajectory Planning, Physics Simulation, Linear Circuit Design, Control Theory (PID, LQR), Motor Sizing, Microcontrollers (Arduino, Teensy, ESP32), Programmable Logic Controllers (PLCs)
+
+### **Software & Tools:** 
+* PTC Creo + Windchill PLM, Autodesk Inventor/Fusion, Python, MATLAB, C/C++, Linux, Git, ANSYS, Codeware COMPRESS, MuJoCo
