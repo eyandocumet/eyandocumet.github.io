@@ -1,10 +1,9 @@
-# Eyan's Resume
----
-
+# Resume
 First-principles mechanical engineer driven by novel, complex electromechanical and multiphysical systems. Proven history executing high-level design goals across precision mechatronic positioners, custom simulation suites, and first-of-kind multiphysics assemblies.
 
-## 🛠️ Skills
 ---
+
+## 🛠️ Skills
 ### Engineering & Analysis:
 * Geometric Dimensioning and Tolerancing (GD&T)
 * Tolerance Stack-Up Analysis
@@ -34,13 +33,15 @@ First-principles mechanical engineer driven by novel, complex electromechanical 
 * ANSYS
 * Codeware COMPRESS
 
-## 🎓 Education
 ---
+
+## 🎓 Education
 ### **B.S. in Mechanical Engineering**, University of California, Berkeley (Dec 2025)
 * **Selected Courses:** Robotic Locomotion, Finite Element Methods, Simulation for Advanced Manufacturing
 
-## 💼 Experience
 ---
+
+## 💼 Experience
 ### **Mechanical Engineer I**, ASC Process Systems - Valencia, CA (May 2026 – Present)
   * Owned mechanical engineering and execution of two 500+ component industrial autoclave systems for aerospace clients, delivering CAD, BOMs, fabrication drawings, and release packages.
   * Designed custom assemblies (water-cooling jackets, rail systems, safety interlocks) while coordinating cross-functionally with manufacturing and purchasing.
