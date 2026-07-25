@@ -7,15 +7,15 @@ First-principles mechanical engineer driven by novel, complex electromechanical 
 * **Software & Tools:** PTC Creo, Windchill PLM, Autodesk Inventor/Fusion, Python, MATLAB, C/C++, Linux, Git, ANSYS, Codeware COMPRESS
 
 ## Education
-* **B.S. in Mechanical Engineering**, University of California, Berkeley — Dec 2025 (GPA: 3.47)
+* **B.S. in Mechanical Engineering**, University of California, Berkeley (Dec 2025)
   * *Selected Courses:* Robotic Locomotion, Finite Element Methods, Simulation for Advanced Manufacturing
 
 ## Experience
-* **Mechanical Engineer I**, ASC Process Systems (Valencia, CA) — May 2026 – Present
+* **Mechanical Engineer I**, ASC Process Systems - Valencia, CA (May 2026 – Present)
   * Owned mechanical engineering and execution of two 500+ component industrial autoclave systems for aerospace clients, delivering CAD, BOMs, fabrication drawings, and release packages.
   * Designed custom assemblies (water-cooling jackets, rail systems, safety interlocks) while coordinating cross-functionally with manufacturing and purchasing.
   * Led root-cause investigations into fabrication non-conformances, updating engineering standards to improve manufacturability and reduce shop-floor rework.
-* **R&D Engineering Intern**, Lawrence Berkeley National Laboratory (Berkeley, CA) — Jun 2025 – Dec 2025
+* **R&D Engineering Intern**, Lawrence Berkeley National Laboratory  - (Berkeley, CA (Jun 2025 – Dec 2025)
   * Developed a first-of-kind high-precision magnetic positioner assembly for synchrotrons, yielding an estimated ~10x reduction in mass/power requirements.
   * Programmed an automated 2D magnetics simulation suite in MATLAB, cutting design iteration time from hours to near-instantaneous via custom field simulations.
   * Resolved 50+ design conflicts in PTC Creo and Windchill PLM utilizing Tolerance Stack-up Analysis, releasing components for CNC and MJF printing.
