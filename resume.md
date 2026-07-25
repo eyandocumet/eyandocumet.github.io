@@ -6,7 +6,7 @@ First-principles mechanical engineer driven by novel, complex electromechanical 
 
 ## 🎓 Education
 ### **B.S. in Mechanical Engineering**, [University of California, Berkeley](https://me.berkeley.edu/) (Dec 2025)
-- **Selected Courses:** Robotic Locomotion, Finite Element Methods, Simulation for Advanced Manufacturing
+**Selected Courses:** Robotic Locomotion, Finite Element Methods, Simulation for Advanced Manufacturing
 
 ---
 
