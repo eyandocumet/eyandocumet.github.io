@@ -19,7 +19,7 @@ platforms:
     icon: <i class="fa fa-folder"></i>
     link: https://www.eyandocumet.xyz
   - name: Resume
-    icon: <i class="fa-solid fa-file-pdf"></i>
+    icon: <i class="fa-solid fa-file"></i>
     link: https://www.eyandocumet.xyz/resume
   - name: LinkedIn
     icon: <i class="fa-brands fa-linkedin"></i>
