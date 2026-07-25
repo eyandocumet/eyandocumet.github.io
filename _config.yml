@@ -15,9 +15,12 @@ favicon: true
 
 # Sidebar
 platforms:
-  - name: Website
+  - name: Personal Website
     icon: <i class="fa-solid fa-globe"></i>
     link: https://www.eyandocumet.xyz
+  - name: Resume
+    icon: <i class="fa-solid fa-file-pdf"></i>
+    link: https://www.eyandocumet.xyz/assets/Eyan_Documet___Resume.pdf
   - name: LinkedIn
     icon: <i class="fa-brands fa-linkedin"></i>
     link: https://www.linkedin.com/in/eyandocumet
