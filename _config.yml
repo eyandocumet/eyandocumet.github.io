@@ -6,7 +6,7 @@ plugins:
 # Configuration / Settings
 show_downloads: false
 title: "Eyan Documet"
-description: "Mechanical Engineer and Research Specialist"
+description: "Mechanical Engineer"
 color-scheme: auto
 logo: /assets/img/mugshot.png
 favicon: true
