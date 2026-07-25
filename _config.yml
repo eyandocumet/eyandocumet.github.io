@@ -15,10 +15,10 @@ favicon: true
 
 # Sidebar
 platforms:
-  - name: Portfolio
-    icon: <i class="fa-folder"></i>
+  - name: My Portfolio
+    icon: <i class="fa fa-folder"></i>
     link: https://www.eyandocumet.xyz
-  - name: Resume
+  - name: My Resume
     icon: <i class="fa-solid fa-file-pdf"></i>
     link: https://www.eyandocumet.xyz/resume
   - name: LinkedIn
