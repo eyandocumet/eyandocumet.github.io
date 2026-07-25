@@ -3,7 +3,9 @@ First-principles mechanical engineer driven by novel, complex electromechanical 
 
 ---
 
-## 🛠️ Skills
+<details>
+<summary><h2>🛠️ Skills</h2></summary>
+
 ### Engineering & Analysis:
 * Geometric Dimensioning and Tolerancing (GD&T)
 * Tolerance Stack-Up Analysis
@@ -33,15 +35,23 @@ First-principles mechanical engineer driven by novel, complex electromechanical 
 * ANSYS
 * Codeware COMPRESS
 
+</details>
+
 ---
 
-## 🎓 Education
+<details>
+<summary><h2>🎓 Education</h2></summary>
+
 ### **B.S. in Mechanical Engineering**, [University of California, Berkeley](https://me.berkeley.edu/) (Dec 2025)
 * **Selected Courses:** Robotic Locomotion, Finite Element Methods, Simulation for Advanced Manufacturing
 
+</details>
+
 ---
 
-## 💼 Experience
+<details>
+<summary><h2>💼 Experience</h2></summary>
+
 ### **Mechanical Engineer I**, [ASC Process Systems](https://aschome.com) - Valencia, CA (May 2026 – Present)
   * Owned mechanical engineering and execution of two 500+ component industrial autoclave systems for aerospace clients, delivering CAD, BOMs, fabrication drawings, and release packages.
   * Designed custom assemblies (water-cooling jackets, rail systems, safety interlocks) while coordinating cross-functionally with manufacturing and purchasing.
@@ -55,3 +65,5 @@ First-principles mechanical engineer driven by novel, complex electromechanical 
 
 ### **Course Reader**, [University of California, Berkeley](https://me.berkeley.edu/) - Berkeley, CA (Aug 2025 – Dec 2025)
   * Evaluated technical assignments and provided feedback for a cross-listed cohort of graduate and undergraduate students in ME154/254: Thermophysics.
+
+</details>
