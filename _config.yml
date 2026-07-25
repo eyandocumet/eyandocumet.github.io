@@ -15,7 +15,7 @@ favicon: true
 
 # Sidebar
 platforms:
-  - name: Engineering Portfolio
+  - name: Project Portfolio
     icon: <i class="fa fa-folder"></i>
     link: https://www.eyandocumet.xyz
   - name: Resume
