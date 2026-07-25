@@ -15,6 +15,9 @@ favicon: true
 
 # Sidebar
 platforms:
+  - name: Website
+    icon: <i class="fa-solid fa-globe"></i>
+    link: https://www.eyandocumet.xyz
   - name: LinkedIn
     icon: <i class="fa-brands fa-linkedin"></i>
     link: https://www.linkedin.com/in/eyandocumet
@@ -23,7 +26,7 @@ platforms:
     link: mailto:eyan.documet@protonmail.com
 
 navigation:
-  - name: Portfolio
+  - name: Home
     link: https://eyandocumet.xyz/
     sublist:
       - name: Gyroid Experiment
