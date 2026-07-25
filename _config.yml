@@ -15,29 +15,15 @@ favicon: true
 
 # Sidebar
 platforms:
-  - name: Personal Website
-    icon: <i class="fa-solid fa-globe"></i>
+  - name: Portfolio
+    icon: <i class="fa-folder"></i>
     link: https://www.eyandocumet.xyz
   - name: Resume
     icon: <i class="fa-solid fa-file-pdf"></i>
-    link: https://www.eyandocumet.xyz/assets/Eyan_Documet___Resume.pdf
+    link: https://www.eyandocumet.xyz/resume
   - name: LinkedIn
     icon: <i class="fa-brands fa-linkedin"></i>
     link: https://www.linkedin.com/in/eyandocumet
   - name: Email
     icon: <i class="fa-solid fa-envelope"></i>
     link: mailto:eyan.documet@protonmail.com
-
-navigation:
-  - name: Home
-    link: https://eyandocumet.xyz/
-    sublist:
-      - name: Gyroid Experiment
-        link: https://eyandocumet.xyz/projects/gyroid.html
-      - name: Inchworm
-        link: https://eyandocumet.xyz/projects/inchworm.html
-      - name: PyroBot
-        link: https://eyandocumet.xyz/projects/pyrobot.html
-      - name: Finite Elements
-        link: https://eyandocumet.xyz/projects/myfem.html
-
