@@ -4,8 +4,8 @@ layout: default
 
 # Hi, I'm Eyan 👋
 
-I'm a mechanical engineer who designs and builds novel multiphysics hardware systems — 
-from first-of-kind precision mechanisms to multi-million-dollar production equipment.
+I'm a mechanical engineer who designs and builds novel multiphysics hardware systems. 
+I have direct, proven expierence in first-of-kind precision mechanisms and multi-million-dollar production equipment.
 
 Previously, I contributed to research at [UC Berkeley](https://me.berkeley.edu/) and 
 [Lawrence Berkeley National Laboratory](https://www.lbl.gov/), developing precision 
