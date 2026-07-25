@@ -34,6 +34,7 @@ First-principles mechanical engineer driven by novel, complex electromechanical 
 
 ## Education
 ### **B.S. in Mechanical Engineering**, University of California, Berkeley (Dec 2025)
+* **Selected Courses:** Robotic Locomotion, Finite Element Methods, Simulation for Advanced Manufacturing
 
 ## Experience
 ### **Mechanical Engineer I**, ASC Process Systems - Valencia, CA (May 2026 – Present)
