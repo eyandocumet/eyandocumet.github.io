@@ -12,8 +12,6 @@ Previously, I contributed to research at [UC Berkeley](https://me.berkeley.edu/)
 mechanisms, simulation tools, and control systems. Today, I design and deliver 
 specialized industrial autoclaves at [ASC Process Systems](https://www.aschome.com).
 
-**Core areas:** Mechatronics · Precision · Multiphysics Simulation · Control Systems · DFx
-
 ## Personal Project Portfolio
 
 Artifacts and summaries of recent public-facing work.
