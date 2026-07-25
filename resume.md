@@ -3,8 +3,10 @@
 
 First-principles mechanical engineer driven by novel, complex electromechanical and multiphysical systems. Proven history executing high-level design goals across precision mechatronic positioners, custom simulation suites, and first-of-kind multiphysics assemblies.
 
-## 🛠️ Skills
----
+<details>
+<summary><h2>🛠️ Skills</h2></summary>
+<br>
+
 ### Engineering & Analysis:
 * Geometric Dimensioning and Tolerancing (GD&T)
 * Tolerance Stack-Up Analysis
@@ -34,13 +36,21 @@ First-principles mechanical engineer driven by novel, complex electromechanical 
 * ANSYS
 * Codeware COMPRESS
 
-## 🎓 Education
----
+</details>
+
+<details>
+<summary><h2>🎓 Education</h2></summary>
+<br>
+
 ### **B.S. in Mechanical Engineering**, University of California, Berkeley (Dec 2025)
 * **Selected Courses:** Robotic Locomotion, Finite Element Methods, Simulation for Advanced Manufacturing
 
-## 💼 Experience
----
+</details>
+
+<details>
+<summary><h2>💼 Experience</h2></summary>
+<br>
+
 ### **Mechanical Engineer I**, ASC Process Systems - Valencia, CA (May 2026 – Present)
   * Owned mechanical engineering and execution of two 500+ component industrial autoclave systems for aerospace clients, delivering CAD, BOMs, fabrication drawings, and release packages.
   * Designed custom assemblies (water-cooling jackets, rail systems, safety interlocks) while coordinating cross-functionally with manufacturing and purchasing.
@@ -54,3 +64,5 @@ First-principles mechanical engineer driven by novel, complex electromechanical 
 
 ### **Course Reader**, UC Berkeley - Berkeley, CA (Aug 2025 – Dec 2025)
   * Evaluated technical assignments and provided feedback for a cross-listed cohort of graduate and undergraduate students in ME154/254: Thermophysics.
+
+</details>
