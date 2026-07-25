@@ -1,4 +1,5 @@
-# Resume
+# Eyan's Resume
+
 First-principles mechanical engineer driven by novel, complex electromechanical and multiphysical systems. Proven history executing high-level design goals across precision mechatronic positioners, custom simulation suites, and first-of-kind multiphysics assemblies.
 
 ---
