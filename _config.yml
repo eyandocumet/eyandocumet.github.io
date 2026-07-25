@@ -15,10 +15,10 @@ favicon: true
 
 # Sidebar
 platforms:
-  - name: My Portfolio
+  - name: Engineering Portfolio
     icon: <i class="fa fa-folder"></i>
     link: https://www.eyandocumet.xyz
-  - name: My Resume
+  - name: Resume
     icon: <i class="fa-solid fa-file-pdf"></i>
     link: https://www.eyandocumet.xyz/resume
   - name: LinkedIn
