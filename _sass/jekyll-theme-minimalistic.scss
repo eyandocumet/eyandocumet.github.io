@@ -126,7 +126,7 @@ ul.link:last-child {
 }
 
 .wrapper {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -224,7 +224,7 @@ kbd {
 }
 
 .sidebar {
-  width: 210px;
+  width: 250px;
   float: left;
   position: fixed;
   -webkit-font-smoothing: subpixel-antialiased;
@@ -255,7 +255,7 @@ strong {
 }
 
 section {
-  width: calc(100% - 240px);
+  width: calc(100% - 280px);
   float: right;
   padding-bottom:30px;
 }
@@ -277,7 +277,7 @@ hr {
 }
 
 .sidebar-footer {
-  width: 210px;
+  width: 250px;
   float: left;
   -webkit-font-smoothing: subpixel-antialiased;
   flex-basis: content;
@@ -293,12 +293,12 @@ hr {
   }
 
   .sidebar {
-    width: 180px;
+    width: 200px;
     height: calc(100vh - 50px);  
   }
 
   section {
-    width: calc(100% - 205px);
+    width: calc(100% - 230px);
   }
 
   .sidebar-footer {
