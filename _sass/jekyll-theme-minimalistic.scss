@@ -8,7 +8,7 @@ html {
 
 body {
   background-color: var(--clr-bg);
-  padding: 0;
+  padding: 50px;
   font: 15px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: var(--clr-text);
   font-weight: 400;
@@ -45,7 +45,7 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size: 32px;
+  font-size: 26px;
 }
 
 h2 {
@@ -126,10 +126,8 @@ ul.link:last-child {
 }
 
 .wrapper {
-  width: 100%;
-  margin: 0;
-  padding: 0 20px;
-  box-sizing: border-box;
+  width: 92%;
+  margin: 0 auto;
 }
 
 blockquote {
@@ -226,13 +224,12 @@ kbd {
 }
 
 .sidebar {
-  width: 250px;
+  width: 230px;
   float: left;
   position: fixed;
   -webkit-font-smoothing: subpixel-antialiased;
   top: 0;
-  left: 0;
-  padding: 58px 20px 50px 20px;
+  padding: 58px 10px 50px 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -240,7 +237,6 @@ kbd {
   overflow-x: hidden;
   overflow-y: scroll;
   -ms-overflow-style: -ms-autohiding-scrollbar;
-  box-sizing: border-box;
 }
 
 @-moz-document url-prefix() {
@@ -259,11 +255,9 @@ strong {
 }
 
 section {
-  width: calc(100% - 280px);
+  width: calc(100% - 255px);
   float: right;
   padding-bottom: 30px;
-  padding-right: 20px;
-  box-sizing: border-box;
 }
 
 footer {
@@ -283,7 +277,7 @@ hr {
 }
 
 .sidebar-footer {
-  width: 250px;
+  width: 230px;
   float: left;
   -webkit-font-smoothing: subpixel-antialiased;
   flex-basis: content;
@@ -295,20 +289,16 @@ hr {
 
 @media print, screen and (max-width: 960px) {
   .wrapper {
-    width: 100%;
-    padding: 0 15px;
+    width: 92%;
   }
 
   .sidebar {
-    width: 200px;
+    width: 190px;
     height: calc(100vh - 50px);
-    padding-left: 15px;
-    padding-right: 15px;
   }
 
   section {
-    width: calc(100% - 200px);
-    padding-right: 15px;
+    width: calc(100% - 215px);
   }
 
   .sidebar-footer {
@@ -343,7 +333,7 @@ hr {
     float: none;
     position: static;
     width: auto;
-    padding: 20px 15px 0;
+    padding: initial;
     display: initial;
     height: initial;
     overflow: initial;
@@ -359,30 +349,26 @@ hr {
   }
 
   div.wrapper {
-    width: 100%;
+    width: auto;
     margin: 0;
-    padding: 0 15px;
   }
 
   header, section, .wrapper {
     float: none;
     position: static;
-    width: 100%;
+    width: auto;
     overflow-x: hidden;
-    padding-left: 15px;
-    padding-right: 15px;
-    box-sizing: border-box;
   }
 
   section {
     border: 1px solid var(--clr-splitter-blockquote-and-section);
     border-width: 1px 0;
-    padding: 20px 15px 0;
+    padding: 20px 0 0;
     margin: 0 0 20px;
   }
 
   .header-title-mobile section {
-    padding: 20px 15px;
+    padding: 20px 0;
   }
 
   .header-title {
@@ -421,12 +407,7 @@ hr {
 
 @media print, screen and (max-width: 480px) {
   body {
-    padding: 0;
-  }
-  
-  .wrapper, .sidebar, section, div.wrapper {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 15px;
   }
 }
 
