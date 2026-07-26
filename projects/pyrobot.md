@@ -8,9 +8,7 @@ Designed to minimize human risk in hazardous environments, PyroBot is a 2.5-DoF 
 
 **I owned the mechatronic design and co-developed the embedded vision pipeline for autonomous operation.**
 
-<div style="text-align: center;">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/1t1cayGuPRw?si=kxGl0jnP1mP5C4o1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width: 100%;"></iframe>
-</div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1t1cayGuPRw?si=kxGl0jnP1mP5C4o1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width: 100%;"></iframe>
 
 > **Note:** This page is a **summary**. For full documentation, see 15-page [Technical Report and Operations Manual (PDF)](../assets/pyrobot/PyroBot_Final_Report.pdf) documenting the full system architecture.
 
