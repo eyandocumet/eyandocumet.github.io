@@ -12,21 +12,26 @@ First-principles mechanical engineer driven by novel, complex electromechanical 
 
 ## 💼 Experience
 ### **Mechanical Engineer I**, [ASC Process Systems](https://aschome.com) - Valencia, CA (May 2026 – Present)
+
 - Owned mechanical engineering and execution of two 500+ component industrial autoclave systems for aerospace clients, delivering CAD designs, Bills of Material (BOMs), 2D fabrication drawings, and release packages.
 - Designed custom assemblies (water-cooling jackets, rail systems, safety interlocks) while coordinating cross-functionally with manufacturing and purchasing.
 - Led root-cause investigations into fabrication non-conformances, updating engineering standards to improve manufacturability and reduce shop-floor rework.
 
 ### **R&D Engineering Intern**, [Lawrence Berkeley National Laboratory](lbl.gov) - Berkeley, CA (Jun 2025 – Dec 2025)
+
 - Developed a first-of-kind high-precision magnetic positioner assembly for synchrotrons, yielding an estimated ~10x reduction in mass/power requirements.
 - Programmed an automated 2D magnetics simulation suite in MATLAB, cutting design iteration time from hours to near-instantaneous via custom field simulations.
 - Resolved 50+ design conflicts in PTC Creo and Windchill PLM utilizing Tolerance Stack-up Analysis, releasing components for CNC and MJF printing.
 - Deployed a custom PID-based brushed motor controller with sub-degree precision using Arduino microcontrollers and Hall-effect encoders.
 
 ### **Course Reader**, [University of California, Berkeley](https://me.berkeley.edu/) - Berkeley, CA (Aug 2025 – Dec 2025)
+
 - Evaluated technical assignments and provided feedback for a cross-listed cohort of graduate and undergraduate students in ME154/254: Thermophysics.
 
 ### **College Assistant**, [College of the Canyons](https://www.canyons.edu/academics/mesa/) - Valencia, CA (Feb 2022 – May 2023)
+
 - Delivered peer-level academic tutoring for the MESA program, supporting lower-division mathematics and physics coursework.
+
 ---
 
 ## 🛠️ Skills
