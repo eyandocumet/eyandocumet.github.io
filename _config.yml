@@ -18,9 +18,6 @@ platforms:
   - name: Project Portfolio
     icon: <i class="fa fa-folder"></i>
     link: https://www.eyandocumet.xyz
-  - name: Resume
-    icon: <i class="fa-solid fa-file"></i>
-    link: https://www.eyandocumet.xyz/resume
   - name: LinkedIn
     icon: <i class="fa-brands fa-linkedin"></i>
     link: "javascript:if(confirm('Warning: You are leaving this site. Continue?'))window.location.href='https://www.linkedin.com/in/eyandocumet';"
